@@ -162,7 +162,9 @@
                                     alt="Email Icon">
                                 &nbsp;lalit@stgeorgeshospital.in &nbsp;
                             </a>
-                            <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon" onclick="copyToClipboard('lalit@stgeorgeshospital.in')" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy to clipboard">
+                            <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
+                                onclick="copyToClipboard('lalit@stgeorgeshospital.in')" data-bs-toggle="tooltip"
+                                data-bs-placement="top" title="Copy to clipboard">
                             <br>
                             <strong>Phone:</strong> 22620242<br>
                             <strong>Website:</strong> <a href="http://stgeorgeshospital.in/" target="_blank"
@@ -177,10 +179,10 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script>
-         function copyToClipboard(text) {
-            navigator.clipboard.writeText(text).then(function() {
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function () {
                 showTooltip("Copied to clipboard: " + text);
-            }, function(err) {
+            }, function (err) {
                 console.error('Could not copy text: ', err);
             });
         }
@@ -193,7 +195,7 @@
             tooltip.innerHTML = '<div class="tooltip-inner">' + message + '</div>';
             document.body.appendChild(tooltip);
 
-            setTimeout(function() {
+            setTimeout(function () {
                 tooltip.remove();
             }, 2000);
         }
