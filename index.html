@@ -160,10 +160,9 @@
                             <a href="mailto:lalit@stgeorgeshospital.in" target="_blank" class="text-decoration-none">
                                 <img src="https://img.icons8.com/?size=20&id=60688&format=png&color=000000"
                                     alt="Email Icon">
-                                &nbsp;lalit@stgeorgeshospital.in
+                                &nbsp;lalit@stgeorgeshospital.in &nbsp;
                             </a>
-                            <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
-                                onclick="copyToClipboard('lalit@stgeorgeshospital.in')"><br>
+                            <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon" onclick="copyToClipboard('lalit@stgeorgeshospital.in')" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy to clipboard">
                             <br>
                             <strong>Phone:</strong> 22620242<br>
                             <strong>Website:</strong> <a href="http://stgeorgeshospital.in/" target="_blank"
@@ -178,13 +177,31 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script>
-        function copyToClipboard(text) {
-            navigator.clipboard.writeText(text).then(function () {
-                alert('Copied to clipboard: ' + text);
-            }, function (err) {
+         function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function() {
+                showTooltip("Copied to clipboard: " + text);
+            }, function(err) {
                 console.error('Could not copy text: ', err);
             });
         }
+
+        function showTooltip(message) {
+            var tooltip = document.createElement("div");
+            tooltip.className = "tooltip bs-tooltip-top";
+            tooltip.style.position = "fixed";
+            tooltip.style.zIndex = "9999";
+            tooltip.innerHTML = '<div class="tooltip-inner">' + message + '</div>';
+            document.body.appendChild(tooltip);
+
+            setTimeout(function() {
+                tooltip.remove();
+            }, 2000);
+        }
+
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
     </script>
 </body>
 
