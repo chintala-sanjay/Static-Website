@@ -32,7 +32,7 @@
         <h1 class="text-center mb-4">Hospitals</h1>
         <div class="row g-4">
             <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm">
+                <div class="card h-100 gthospital shadow-sm">
                     <img src="https://www.kem.edu/images/gallery/web-gal-img-8.jpg" class="card-img-top"
                         alt="K E M Hospital">
                     <div class="card-body">
@@ -54,7 +54,7 @@
                                     alt="Email Icon">
                                 &nbsp;info@gthospital.in</a>
                                 <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon"
-                                    class="copy-icon" onclick="copyToClipboard('gtEmailId')" data-bs-toggle="tooltip"
+                                    class="copy-icon" onclick="copyToClipboard('gtEmailId', this)" data-bs-toggle="tooltip"
                                     data-bs-placement="top" title="Copy to clipboard">
                             <br>
                             <strong>Phone:</strong> 22621465<br>
@@ -105,7 +105,7 @@
                                 <img src="https://img.icons8.com/?size=20&id=60688&format=png&color=000000"
                                     alt="Email Icon">&nbsp;kemwebsite@kem.edu</a>
                             <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
-                                onclick="copyToClipboard('kemEmailId')" data-bs-toggle="tooltip" data-bs-placement="top"
+                                onclick="copyToClipboard('kemEmailId', this)" data-bs-toggle="tooltip" data-bs-placement="top"
                                 title="Copy to clipboard">
                             <br>
                             <strong>Phone:</strong> 24107000<br>
@@ -180,7 +180,7 @@
                             </a>
 
                             <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
-                                onclick="copyToClipboard('lalitEmailId')" data-bs-toggle="tooltip"
+                                onclick="copyToClipboard('lalitEmailId', this)" data-bs-toggle="tooltip"
                                 data-bs-placement="top" title="Copy to clipboard">
                             <br>
                             <strong>Phone:</strong> 22620242<br>
@@ -196,11 +196,10 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script>
-        function copyToClipboard(elementId) {
+         function copyToClipboard(elementId, triggerEl) {
             const text = document.getElementById(elementId).innerText;
             navigator.clipboard.writeText(text).then(function () {
-                const tooltipTriggerEl = document.querySelector('[data-bs-toggle="tooltip"]');
-                const tooltip = bootstrap.Tooltip.getInstance(tooltipTriggerEl);
+                const tooltip = bootstrap.Tooltip.getInstance(triggerEl);
                 tooltip.setContent({ '.tooltip-inner': 'Copied!' });
                 tooltip.show();
 
@@ -217,7 +216,6 @@
         const tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl)
         })
-
     </script>
 </body>
 
