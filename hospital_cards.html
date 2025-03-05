@@ -24,7 +24,7 @@
 
         .card-img-top {
             width: 100%;
-            height: 150px; /* Adjust height as needed */
+            height: 150px;
             object-fit: cover;
         }
 
@@ -35,9 +35,7 @@
 
         .tooltip-inner {
             max-width: 200px;
-            /* Max width of the tooltip */
             width: auto;
-            /* Adjust to content */
         }
 
         a {
@@ -53,203 +51,105 @@
 <body class="bg-light">
     <div class="container my-4">
         <h1 class="text-center mb-4">Hospitals</h1>
-        <div class="row g-4">
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 gthospital shadow-sm">
-                    <img src="https://lh5.googleusercontent.com/p/AF1QipPoGdJYv3Acc2uyweE6C1tflMbk_nux-pf_x1iq=w426-h240-k-no" class="card-img-top"
-                        alt="G. T. Hospital">
-                    <div class="card-body">
-                        <h5 class="card-title">G. T. Hospital</h5>
-                        <p class="card-text">
-                            <a href="https://www.google.com/maps/search/?api=1&amp;query=Near+Police+Commissioners+Office%2C+Lokmanya+Tilak+Marg%2C+Fort%2C+G.+P.+O%2C+Mumbai%2C+Maharashtra+400001"
-                                target="_blank" class="text-decoration-none">
-                                <span> <img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png"
-                                        alt="Map Icon"> </span>
-                                &nbsp;Near Police Commissioners Office, Lokmanya Tilak Marg, Fort, G. P. O, Mumbai,
-                                Maharashtra 400001
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <!-- <strong>Email:</strong> -->
-                            <a href="mailto:info@gthospital.in" target="_blank" class="text-decoration-none"
-                                id="gtEmailId"> <img
-                                    src="https://img.icons8.com/?size=20&id=60688&format=png&color=000000"
-                                    alt="Email Icon">
-                                &nbsp;info@gthospital.in</a>
-                            <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
-                                onclick="copyToClipboard('gtEmailId', this)" data-bs-toggle="tooltip"
-                                data-bs-placement="top" title="Copy to clipboard">
-                            <br>
-                            <!-- <strong>Phone:</strong> 22621465<br> -->
-                            <a href="tel:22621465" target="_blank" class="text-decoration-none">
-                                <img src="https://img.icons8.com/ios-filled/16/000000/phone.png" alt="Phone Icon">
-                                &nbsp;22621465&nbsp; </a><br>
-                            <!-- <strong>Website:</strong>  -->
-                            <a href="http://gthospital.in/" target="_blank"
-                                class="text-decoration-none">
-                                <img src="https://img.icons8.com/ios-filled/16/000000/domain.png" alt="Website Icon">
-                                &nbsp;G. T. Hospital&nbsp;</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm">
-                    <img src="https://lh5.googleusercontent.com/p/AF1QipPcE7ADUFiKsBkSKxOWlYYfgGTwuP3s7asN8L4Y=w408-h306-k-no" class="card-img-top"
-                        alt="J J Hospital">
-                    <div class="card-body">
-                        <h5 class="card-title">J J Hospital</h5>
-                        <p class="card-text">
-                            <a href="https://www.google.com/maps/search/?api=1&amp;query=J+J+Marg%2C+Nagpada-Mumbai+Central%2C+Off+Jijabhoy+Road%2C+Mumbai%2C+Maharashtra+400008"
-                                target="_blank" class="text-decoration-none">
-                                <span> <img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png"
-                                        alt="Map Icon"> </span>
-                                &nbsp;J J Marg, Nagpada-Mumbai Central, Off Jijabhoy Road, Mumbai, Maharashtra 400008
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <!-- <strong>Phone:</strong> 23735555 -->
-                            <a href="tel:23735555" target="_blank" class="text-decoration-none">
-                                <img src="https://img.icons8.com/ios-filled/16/000000/phone.png" alt="Phone Icon">
-                                &nbsp;23735555&nbsp; </a><br>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="card shadow-sm">
-                    <img src="https://www.kem.edu/images/gallery/web-gal-img-8.jpg" class="card-img-top"
-                        alt="K E M Hospital">
-                    <div class="card-body">
-                        <h5 class="card-title">K E M Hospital</h5>
-                        <p class="card-text">
-                            <a href="https://www.google.com/maps/search/?api=1&amp;query=Acharya+Donde+Marg%2C+Parel%2C+Mumbai%2C+Maharashtra+400012"
-                                target="_blank" class="text-decoration-none">
-                                <span> <img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png"
-                                        alt="Map Icon"> </span>
-                                &nbsp;Acharya Donde Marg, Parel, Mumbai, Maharashtra 400012
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <!-- <strong>Email:</strong> -->
-                            <a href="mailto:kemwebsite@kem.edu" target="_blank" class="text-decoration-none"
-                                id="kemEmailId">
-                                <img src="https://img.icons8.com/?size=20&id=60688&format=png&color=000000"
-                                    alt="Email Icon">&nbsp;kemwebsite@kem.edu&nbsp;</a>
-                            <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
-                                onclick="copyToClipboard('kemEmailId', this)" data-bs-toggle="tooltip"
-                                data-bs-placement="top" title="Copy to clipboard">
-                            <br>
-                            <!-- <strong>Phone:</strong> 24107000<br> -->
-                            <a href="tel:24107000" target="_blank" class="text-decoration-none">
-                                <img src="https://img.icons8.com/ios-filled/16/000000/phone.png" alt="Phone Icon">
-                                &nbsp;24107000&nbsp; </a><br>
-                            <!-- <strong>Website:</strong>  -->
-                            <a href="http://www.kem.edu" target="_blank"
-                                class="text-decoration-none">
-                                <img src="https://img.icons8.com/ios-filled/16/000000/domain.png" alt="Website Icon">
-                                &nbsp;K E M Hospital&nbsp;</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm">
-                    <img src="https://lh5.googleusercontent.com/p/AF1QipP20G_dfvkNumYGJ7KK_GBACrZbEtt12b0xvTPr=w408-h258-k-no" class="card-img-top"
-                        alt="Municipal Hospital">
-                    <div class="card-body">
-                        <h5 class="card-title">Municipal Hospital</h5>
-                        <p class="card-text">
-                            <a href="https://www.google.com/maps/search/?api=1&amp;query=197%2F1-13%2C+MS+Ali+Road%2C+Chor+Bazaar%2C+Kamathipura%2C+Mumbai%2C+Maharashtra+400008"
-                                target="_blank" class="text-decoration-none">
-                                <span> <img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png"
-                                        alt="Map Icon"> </span>
-                                &nbsp;197/1-13, MS Ali Road, Chor Bazaar, Kamathipura, Mumbai, Maharashtra 400008
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <!-- <strong>Phone:</strong> 23096361 -->
-                            <a href="tel:23096361" target="_blank" class="text-decoration-none">
-                                <img src="https://img.icons8.com/ios-filled/16/000000/phone.png" alt="Phone Icon">
-                                &nbsp;23096361&nbsp; </a><br>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm">
-                    <img src="https://www.saifeehospital.com/img/slides/slide1.jpg" class="card-img-top"
-                        alt="Saifee Hospital">
-                    <div class="card-body">
-                        <h5 class="card-title">Saifee Hospital</h5>
-                        <p class="card-text">
-                            <a href="https://www.google.com/maps/search/?api=1&amp;query=15%2F17%2C+Maharshi+Karve+Marg%2C+Opera+House%2C+Girgaon%2C+Mumbai%2C+Maharashtra+400004"
-                                target="_blank" class="text-decoration-none">
-                                <span> <img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png"
-                                        alt="Map Icon"> </span>
-                                &nbsp;15/17, Maharshi Karve Marg, Opera House, Girgaon, Mumbai, Maharashtra 400004</a>
-                        </p>
-                        <p class="card-text">
-                            <!-- <strong>Phone:</strong> 67570111<br> -->
-                            <a href="tel:67570111" target="_blank" class="text-decoration-none">
-                                <img src="https://img.icons8.com/ios-filled/16/000000/phone.png" alt="Phone Icon">
-                                &nbsp;67570111&nbsp;</a><br>
-                            <!-- <strong>Website:</strong>  -->
-                            <a href="http://www.saifeehospital.com" target="_blank"
-                                class="text-decoration-none">
-                                <img src="https://img.icons8.com/ios-filled/16/000000/domain.png" alt="Website Icon">
-                                &nbsp;Saifee Hospital&nbsp;</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm">
-                    <img src="https://lh5.googleusercontent.com/p/AF1QipM9WBM1r3juar7CZjzVd_CXuBvK4UaXXVM7P1PY=w408-h725-k-no" class="card-img-top"
-                        alt="St George Hospital">
-                    <div class="card-body">
-                        <h5 class="card-title">St George Hospital</h5>
-                        <p class="card-text">
-                            <a href="https://www.google.com/maps/search/?api=1&amp;query=Near+Chhatrapati+Shivaji+Maharaj+Terminus%2C+Fort%2C+Mumbai%2C+Maharashtra+400001"
-                                target="_blank" class="text-decoration-none">
-                                <span> <img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png"
-                                        alt="Map Icon"> </span>
-                                &nbsp;Near Chhatrapati Shivaji Maharaj Terminus, Fort, Mumbai, Maharashtra 400001
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <!-- <strong>Email:</strong> -->
-                            <a href="mailto:lalit@stgeorgeshospital.in" target="_blank" class="text-decoration-none"
-                                id="lalitEmailId">
-                                <img src="https://img.icons8.com/?size=20&id=60688&format=png&color=000000"
-                                    alt="Email Icon">
-                                &nbsp;lalit@stgeorgeshospital.in&nbsp;
-                            </a>
-
-                            <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
-                                onclick="copyToClipboard('lalitEmailId', this)" data-bs-toggle="tooltip"
-                                data-bs-placement="top" title="Copy to clipboard">
-                            <br>
-                            <!-- <strong>Phone:</strong> 22620242<br> -->
-                            <a href="tel:22620242" target="_blank" class="text-decoration-none">
-                                <img src="https://img.icons8.com/ios-filled/16/000000/phone.png" alt="Phone Icon">
-                                &nbsp;22620242&nbsp; </a>
-                            <br>
-                            <!-- <strong>Website:</strong> -->
-                            <a href="http://stgeorgeshospital.in/" target="_blank"
-                                class="text-decoration-none">
-                                <img src="https://img.icons8.com/ios-filled/16/000000/domain.png" alt="Website Icon">
-                                &nbsp;St George Hospital&nbsp;</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <div class="row g-4" id="hospital-list">
+            <!-- Cards will be dynamically generated here -->
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script>
+        const hospitals = [
+            {
+                name: "G. T. Hospital",
+                image: "https://lh5.googleusercontent.com/p/AF1QipPoGdJYv3Acc2uyweE6C1tflMbk_nux-pf_x1iq=w426-h240-k-no",
+                address: "Near Police Commissioners Office, Lokmanya Tilak Marg, Fort, G. P. O, Mumbai, Maharashtra 400001",
+                map: "https://www.google.com/maps/search/?api=1&query=Near+Police+Commissioners+Office,+Lokmanya+Tilak+Marg,+Fort,+G.+P.+O,+Mumbai,+Maharashtra+400001",
+                email: "info@gthospital.in",
+                phone: "22621465",
+                website: "http://gthospital.in/"
+            },
+            {
+                name: "J J Hospital",
+                image: "https://lh5.googleusercontent.com/p/AF1QipPcE7ADUFiKsBkSKxOWlYYfgGTwuP3s7asN8L4Y=w408-h306-k-no",
+                address: "J J Marg, Nagpada-Mumbai Central, Off Jijabhoy Road, Mumbai, Maharashtra 400008",
+                map: "https://www.google.com/maps/search/?api=1&query=J+J+Marg,+Nagpada-Mumbai+Central,+Off+Jijabhoy+Road,+Mumbai,+Maharashtra+400008",
+                phone: "23735555"
+            },
+            {
+                name: "K E M Hospital",
+                image: "https://www.kem.edu/images/gallery/web-gal-img-8.jpg",
+                address: "Acharya Donde Marg, Parel, Mumbai, Maharashtra 400012",
+                map: "https://www.google.com/maps/search/?api=1&query=Acharya+Donde+Marg,+Parel,+Mumbai,+Maharashtra+400012",
+                email: "kemwebsite@kem.edu",
+                phone: "24107000",
+                website: "http://www.kem.edu"
+            },
+            {
+                name: "Municipal Hospital",
+                image: "https://lh5.googleusercontent.com/p/AF1QipP20G_dfvkNumYGJ7KK_GBACrZbEtt12b0xvTPr=w408-h258-k-no",
+                address: "197/1-13, MS Ali Road, Chor Bazaar, Kamathipura, Mumbai, Maharashtra 400008",
+                map: "https://www.google.com/maps/search/?api=1&query=197/1-13,+MS+Ali+Road,+Chor+Bazaar,+Kamathipura,+Mumbai,+Maharashtra+400008",
+                phone: "23096361"
+            },
+            {
+                name: "Saifee Hospital",
+                image: "https://www.saifeehospital.com/img/slides/slide1.jpg",
+                address: "15/17, Maharshi Karve Marg, Opera House, Girgaon, Mumbai, Maharashtra 400004",
+                map: "https://www.google.com/maps/search/?api=1&query=15/17,+Maharshi+Karve+Marg,+Opera+House,+Girgaon,+Mumbai,+Maharashtra+400004",
+                phone: "67570111",
+                website: "http://www.saifeehospital.com"
+            },
+            {
+                name: "St George Hospital",
+                image: "https://lh5.googleusercontent.com/p/AF1QipM9WBM1r3juar7CZjzVd_CXuBvK4UaXXVM7P1PY=w408-h725-k-no",
+                address: "Near Chhatrapati Shivaji Maharaj Terminus, Fort, Mumbai, Maharashtra 400001",
+                map: "https://www.google.com/maps/search/?api=1&query=Near+Chhatrapati+Shivaji+Maharaj+Terminus,+Fort,+Mumbai,+Maharashtra+400001",
+                email: "lalit@stgeorgeshospital.in",
+                phone: "22620242",
+                website: "http://stgeorgeshospital.in/"
+            }
+        ];
+
+        const hospitalList = document.getElementById('hospital-list');
+
+        hospitals.forEach(hospital => {
+            const card = document.createElement('div');
+            card.className = 'col-md-6 col-lg-4';
+            card.innerHTML = `
+                <div class="card h-100 shadow-sm">
+                    <img src="${hospital.image}" class="card-img-top" alt="${hospital.name}">
+                    <div class="card-body">
+                        <h5 class="card-title">${hospital.name}</h5>
+                        <p class="card-text">
+                            <a href="${hospital.map}" target="_blank" class="text-decoration-none">
+                                <span><img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png" alt="Map Icon"></span>
+                                &nbsp;${hospital.address}
+                            </a>
+                        </p>
+                        <p class="card-text">
+                            ${hospital.email ? `<a href="mailto:${hospital.email}" target="_blank" class="text-decoration-none" id="${hospital.name.replace(/\s+/g, '')}Email">
+                                <img src="https://img.icons8.com/?size=20&id=60688&format=png&color=000000" alt="Email Icon">
+                                &nbsp;${hospital.email}
+                            </a>
+                            <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
+                                onclick="copyToClipboard('${hospital.name.replace(/\s+/g, '')}Email', this)" data-bs-toggle="tooltip"
+                                data-bs-placement="top" title="Copy to clipboard">
+                            <br>` : ''}
+                            <a href="tel:${hospital.phone}" target="_blank" class="text-decoration-none">
+                                <img src="https://img.icons8.com/ios-filled/16/000000/phone.png" alt="Phone Icon">
+                                &nbsp;${hospital.phone}
+                            </a><br>
+                            ${hospital.website ? `<a href="${hospital.website}" target="_blank" class="text-decoration-none">
+                                <img src="https://img.icons8.com/ios-filled/16/000000/domain.png" alt="Website Icon">
+                                &nbsp;${hospital.name}
+                            </a>` : ''}
+                        </p>
+                    </div>
+                </div>`;
+            hospitalList.appendChild(card);
+        });
+
         function copyToClipboard(elementId, triggerEl) {
             const text = document.getElementById(elementId).innerText;
             navigator.clipboard.writeText(text).then(function () {
@@ -269,7 +169,7 @@
         const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
         const tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl)
-        })
+        });
     </script>
 </body>
 
