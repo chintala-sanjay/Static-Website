@@ -12,6 +12,11 @@
             background-size: cover;
             background-position: center;
         }
+
+        .copy-icon {
+            cursor: pointer;
+            margin-left: 5px;
+        }
     </style>
 </head>
 
@@ -30,7 +35,7 @@
                                 target="_blank" class="text-decoration-none">
                                 <span> <img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png"
                                         alt="Map Icon"> </span>
-                                        &nbsp;Near Police Commissioners Office, Lokmanya Tilak Marg, Fort, G. P. O, Mumbai,
+                                &nbsp;Near Police Commissioners Office, Lokmanya Tilak Marg, Fort, G. P. O, Mumbai,
                                 Maharashtra 400001
                             </a>
                         </p>
@@ -39,7 +44,7 @@
                             <a href="mailto:info@gthospital.in" target="_blank" class="text-decoration-none"> <img
                                     src="https://img.icons8.com/?size=20&id=60688&format=png&color=000000"
                                     alt="Email Icon">
-                                    &nbsp;info@gthospital.in</a>
+                                &nbsp;info@gthospital.in</a>
                             <br>
                             <strong>Phone:</strong> 22621465<br>
                             <strong>Website:</strong> <a href="http://gthospital.in/" target="_blank"
@@ -59,7 +64,7 @@
                                 target="_blank" class="text-decoration-none">
                                 <span> <img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png"
                                         alt="Map Icon"> </span>
-                                        &nbsp;J J Marg, Nagpada-Mumbai Central, Off Jijabhoy Road, Mumbai, Maharashtra 400008
+                                &nbsp;J J Marg, Nagpada-Mumbai Central, Off Jijabhoy Road, Mumbai, Maharashtra 400008
                             </a>
                         </p>
                         <p class="card-text">
@@ -79,7 +84,7 @@
                                 target="_blank" class="text-decoration-none">
                                 <span> <img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png"
                                         alt="Map Icon"> </span>
-                                        &nbsp;Acharya Donde Marg, Parel, Mumbai, Maharashtra 400012
+                                &nbsp;Acharya Donde Marg, Parel, Mumbai, Maharashtra 400012
                             </a>
                         </p>
                         <p class="card-text">
@@ -106,7 +111,7 @@
                                 target="_blank" class="text-decoration-none">
                                 <span> <img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png"
                                         alt="Map Icon"> </span>
-                                        &nbsp;197/1-13, MS Ali Road, Chor Bazaar, Kamathipura, Mumbai, Maharashtra 400008
+                                &nbsp;197/1-13, MS Ali Road, Chor Bazaar, Kamathipura, Mumbai, Maharashtra 400008
                             </a>
                         </p>
                         <p class="card-text">
@@ -126,7 +131,7 @@
                                 target="_blank" class="text-decoration-none">
                                 <span> <img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png"
                                         alt="Map Icon"> </span>
-                                        &nbsp;15/17, Maharshi Karve Marg, Opera House, Girgaon, Mumbai, Maharashtra 400004</a>
+                                &nbsp;15/17, Maharshi Karve Marg, Opera House, Girgaon, Mumbai, Maharashtra 400004</a>
                         </p>
                         <p class="card-text">
                             <strong>Phone:</strong> 67570111<br>
@@ -147,7 +152,7 @@
                                 target="_blank" class="text-decoration-none">
                                 <span> <img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png"
                                         alt="Map Icon"> </span>
-                                        &nbsp;Near Chhatrapati Shivaji Maharaj Terminus, Fort, Mumbai, Maharashtra 400001
+                                &nbsp;Near Chhatrapati Shivaji Maharaj Terminus, Fort, Mumbai, Maharashtra 400001
                             </a>
                         </p>
                         <p class="card-text">
@@ -155,8 +160,10 @@
                             <a href="mailto:lalit@stgeorgeshospital.in" target="_blank" class="text-decoration-none">
                                 <img src="https://img.icons8.com/?size=20&id=60688&format=png&color=000000"
                                     alt="Email Icon">
-                                    &nbsp;lalit@stgeorgeshospital.in
+                                &nbsp;lalit@stgeorgeshospital.in
                             </a>
+                            <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
+                                onclick="copyToClipboard('lalit@stgeorgeshospital.in')"><br>
                             <br>
                             <strong>Phone:</strong> 22620242<br>
                             <strong>Website:</strong> <a href="http://stgeorgeshospital.in/" target="_blank"
@@ -170,6 +177,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function () {
+                alert('Copied to clipboard: ' + text);
+            }, function (err) {
+                console.error('Could not copy text: ', err);
+            });
+        }
+    </script>
 </body>
 
 </html>
