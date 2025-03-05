@@ -5,83 +5,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hospital List</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 20px;
-        }
-
-        .card {
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            margin: 10px;
-            padding: 20px;
-            width: 300px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.638);
-            transition: transform 0.2s;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-        }
-
-        .card h2 {
-            margin-top: 0;
-            color: #333;
-        }
-
-        .card p {
-            color: #666;
-        }
-
-        @media (max-width: 600px) {
-            .card {
-                width: 100%;
-            }
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body>
-    <div class="container">
-        <h1>Hospitals</h1>
-        <br />
-        <div class="card">
-            <h2>City Hospital</h2>
-            <p>Address: 123 Main St, Springfield</p>
-            <p>Phone: (123) 456-7890</p>
-        </div>
-        <div class="card">
-            <h2>HealthCare Clinic</h2>
-            <p>Address: 456 Elm St, Shelbyville</p>
-            <p>Phone: (987) 654-3210</p>
-        </div>
-        <div class="card">
-            <h2>General Hospital</h2>
-            <p>Address: 789 Oak St, Capital City</p>
-            <p>Phone: (555) 123-4567</p>
-        </div>
-        <div class="card">
-            <h2>G. T. Hospital</h2>
-            <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Near+Police+Commissioners+Office%2C+Lokmanya+Tilak+Marg%2C+Fort%2C+G.+P.+O%2C+Mumbai%2C+Maharashtra+400001"
-                    target="_blank"
-                    onclick="return confirm('You are being redirected to an external website. Please note that Mumbai City cannot be held responsible for external websites content &amp; privacy policies.');"
-                    aria-label="Near Police Commissioners Office, Lokmanya Tilak Marg, Fort, G. P. O, Mumbai, Maharashtra 400001 - External site that opens in a new window"
-                    title="Near Police Commissioners Office, Lokmanya Tilak Marg, Fort, G. P. O, Mumbai, Maharashtra 400001 - External site that opens in a new window"
-                    rel="noopener noreferrer">Near Police Commissioners Office, Lokmanya Tilak Marg, Fort, G. P. O, Mumbai, Maharashtra 400001
-                </a>
-            </p>
-
+<body class="bg-gray-100">
+    <div class="container mx-auto p-4">
+        <h1 class="text-3xl font-bold mb-4 text-center">Hospitals</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
+                <h2 class="text-2xl font-bold mb-2">G. T. Hospital</h2>
+                <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Near+Police+Commissioners+Office%2C+Lokmanya+Tilak+Marg%2C+Fort%2C+G.+P.+O%2C+Mumbai%2C+Maharashtra+400001"
+                        target="_blank"
+                        onclick="return confirm('You are being redirected to an external website. Please note that Mumbai City cannot be held responsible for external websites content &amp; privacy policies.');"
+                        class="text-blue-500 hover:underline">Near Police Commissioners Office, Lokmanya Tilak Marg,
+                        Fort,
+                        G. P. O, Mumbai, Maharashtra 400001</a></p>
+                <p><strong>Email :</strong> <span class="break-all">info[at]gthospital[dot]in</span><br>
+                    <strong>Phone :</strong> 22621465<br>
+                    <strong>Website Link :</strong> <a class="break-all text-blue-500 hover:underline"
+                        href="http://gthospital.in/"
+                        onclick="return confirm('You are being redirected to an external website. Please note that Mumbai City cannot be held responsible for external websites content &amp; privacy policies.');"
+                        target="_blank">http://gthospital.in/</a><br>
+                </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
+                <h2 class="text-2xl font-bold mb-2">J J Hospital</h2>
+                <p><a href="https://www.google.com/maps/search/?api=1&amp;query=J+J+Marg%2C+Nagpada-Mumbai+Central%2C+Off+Jijabhoy+Road%2C+Mumbai%2C+Maharashtra+400008"
+                        target="_blank"
+                        onclick="return confirm('You are being redirected to an external website. Please note that Mumbai City cannot be held responsible for external websites content &amp; privacy policies.');"
+                        class="text-blue-500 hover:underline">J J Marg, Nagpada-Mumbai Central, Off Jijabhoy Road,
+                        Mumbai,
+                        Maharashtra 400008</a></p>
+                <p>
+                    <strong>Phone :</strong> 23735555<br>
+                </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
+                <h2 class="text-2xl font-bold mb-2">K E M Hospital</h2>
+                <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Acharya+Donde+Marg%2C+Parel%2C+Mumbai%2C+Maharashtra+400012"
+                        target="_blank"
+                        onclick="return confirm('You are being redirected to an external website. Please note that Mumbai City cannot be held responsible for external websites content &amp; privacy policies.');"
+                        class="text-blue-500 hover:underline">Acharya Donde Marg, Parel, Mumbai, Maharashtra 400012</a>
+                </p>
+                <p>
+                    <strong>Email :</strong> <span class="break-all">kemwebsite[at]kem[dot]edu</span><br>
+                    <strong>Phone :</strong> 24107000<br>
+                    <strong>Website Link :</strong> <a class="break-all text-blue-500 hover:underline"
+                        href="http://www.kem.edu"
+                        onclick="return confirm('You are being redirected to an external website. Please note that Mumbai City cannot be held responsible for external websites content &amp; privacy policies.');"
+                        target="_blank">http://www.kem.edu</a><br>
+                </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
+                <h2 class="text-2xl font-bold mb-2">Municipal Hospital</h2>
+                <p><a href="https://www.google.com/maps/search/?api=1&amp;query=197%2F1-13%2C+MS+Ali+Road%2C+Chor+Bazaar%2C+Kamathipura%2C+Mumbai%2C+Maharashtra+400008"
+                        target="_blank"
+                        onclick="return confirm('You are being redirected to an external website. Please note that Mumbai City cannot be held responsible for external websites content &amp; privacy policies.');"
+                        class="text-blue-500 hover:underline">197/1-13, MS Ali Road, Chor Bazaar, Kamathipura, Mumbai,
+                        Maharashtra 400008</a></p>
+                <p>
+                    <strong>Phone :</strong> 23096361<br>
+                </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
+                <h2 class="text-2xl font-bold mb-2">Saifee hospital</h2>
+                <p><a href="https://www.google.com/maps/search/?api=1&amp;query=15%2F17%2C+Maharshi+Karve+Marg%2C+Opera+House%2C+Girgaon%2C+Mumbai%2C+Maharashtra+400004"
+                        target="_blank"
+                        onclick="return confirm('You are being redirected to an external website. Please note that Mumbai City cannot be held responsible for external websites content &amp; privacy policies.');"
+                        class="text-blue-500 hover:underline">15/17, Maharshi Karve Marg, Opera House, Girgaon, Mumbai,
+                        Maharashtra 400004</a></p>
+                <p>
+                    <strong>Phone :</strong> 67570111<br>
+                    <strong>Website Link :</strong> <a class="break-all text-blue-500 hover:underline"
+                        href="http://www.saifeehospital.com"
+                        onclick="return confirm('You are being redirected to an external website. Please note that Mumbai City cannot be held responsible for external websites content &amp; privacy policies.');"
+                        target="_blank">http://www.saifeehospital.com</a><br>
+                </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
+                <h2 class="text-2xl font-bold mb-2">St George Hospital</h2>
+                <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Near+Chhatrapati+Shivaji+Maharaj+Terminus%2C+Fort%2C+Mumbai%2C+Maharashtra+400001"
+                        target="_blank"
+                        onclick="return confirm('You are being redirected to an external website. Please note that Mumbai City cannot be held responsible for external websites content &amp; privacy policies.');"
+                        class="text-blue-500 hover:underline">Near Chhatrapati Shivaji Maharaj Terminus, Fort, Mumbai,
+                        Maharashtra 400001</a></p>
+                <p>
+                    <strong>Email :</strong> <span class="break-all">lalit[at]stgeorgeshospital[dot]in</span><br>
+                    <strong>Phone :</strong> 22620242<br>
+                    <strong>Website Link :</strong> <a class="break-all text-blue-500 hover:underline"
+                        href="http://stgeorgeshospital.in/"
+                        onclick="return confirm('You are being redirected to an external website. Please note that Mumbai City cannot be held responsible for external websites content &amp; privacy policies.');"
+                        target="_blank">http://stgeorgeshospital.in/</a><br>
+                </p>
+            </div>
         </div>
     </div>
 </body>
