@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            background: linear-gradient(to right, #1e88e5, #64b5f6);
+            color: white;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Cards */
+        .card {
+            background-color: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            /* Ensures consistent card height */
+            border: none;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-img-top {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-bottom: 1px solid #eee;
+        }
+
+        .card-body {
+            color: #333;
+            padding: 20px;
+            flex-grow: 1;
+            /* Card body will take up remaining height */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .card-text {
+            margin-bottom: 15px;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .card-text a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s;
+            display: flex;
+            align-items: center;
+        }
+
+        .card-text a:hover {
+            color: #2980b9;
+        }
+
+        .card-text a img {
+            margin-right: 8px;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+        }
+
+        /* Copy Icon */
+        .copy-icon {
+            cursor: pointer;
+            margin-left: 8px;
+            opacity: 0.7;
+            transition: opacity 0.3s;
+        }
+
+        .copy-icon:hover {
+            opacity: 1;
+        }
+
+        .tooltip-inner {
+            max-width: 200px;
+            width: auto;
+            background-color: #3498db;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 6px;
+        }
+
+        /* Scroll To Top */
+        #back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: none;
+            padding: 15px;
+            font-size: 18px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            z-index: 1000;
+        }
+
+        #back-to-top:hover {
+            background-color: #2980b9;
+            transform: scale(1.1);
+        }
+
+        #back-to-top.stuck {
+            display: block;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            border-top: 3px solid #3498db;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        footer ul li {
+            margin: 0 20px;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+            opacity: 0.8;
+            transition: opacity 0.3s;
+        }
+
+        footer ul li a:hover {
+            opacity: 1;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .col-md-6 {
+                width: 100%;
+            }
+
+            .col-lg-4 {
+                width: 100%;
+            }
+
+            footer ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            footer ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <div class="container my-4">
+        <h1 class="text-center mb-4">Banks</h1>
+        <div class="row g-4" id="bank-list">
+            <!-- Cards will be dynamically generated here -->
+        </div>
+        <button id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; Banks</p>
+            <ul>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script>
+        //Display Cards 
+        const banks = [
+            {
+                name: "Canara Bank",
+                image: "https://via.placeholder.com/400x300/3498db/fff?text=Bank+1",
+                address: "Located on Bandham Street, Parvathipuram Town, Pincode: 535501",
+                map: "https://maps.app.goo.gl/U9Ae1ao7QtgponZf7",
+                email: "hocss1@canarabank.com",
+                phone: "08963-221091 ",
+                website: "https://canarabank.com/"
+            },
+            {
+                name: "Area Bank - Seethampeta",
+                image: "https://via.placeholder.com/400x300/e67e22/fff?text=Bank+2",
+                address: "Seethampeta, Andhra Pradesh 532443",
+                map: "https://maps.app.goo.gl/ZawCQngc63NGebzy7",
+                phone: "xxxx-xxxxxxx",
+                website: "https://www.examplebank2.com"
+            },
+            {
+                name: "Area Bank- SALURU",
+                image: "https://via.placeholder.com/400x300/2ecc71/fff?text=Bank+3",
+                address: "An Empanelled Bank in Parvathipuram Manyam district",
+                map: "https://maps.app.goo.gl/NW92N4wydpLPSc6M6",
+                email: "kemwebsite@kem.edu",
+                phone: "xx-xxxxxxxxxx",
+                website: "https://www.examplebank3.com"
+            },
+            {
+                name: "AREA Bank - PALAKONDA",
+                image: "https://via.placeholder.com/400x300/9b59b6/fff?text=Bank+4",
+                address: "Palakonda, Andhra Pradesh 532440",
+                map: "https://maps.app.goo.gl/J1QT64tPP9E5TCnk7",
+                phone: "xx-xxxxxxx",
+                website: "https://www.examplebank4.com"
+            },
+            {
+                name: "Community Bank KURUPAM",
+                image: "https://via.placeholder.com/400x300/34495e/fff?text=Bank+5",
+                address: "An Empanelled Bank in Parvathipuram Manyam district",
+                map: "https://maps.app.goo.gl/e5VGXZZ2qYkbyoJP8",
+                phone: "xx-xxxxxxxxxx",
+                website: "https://www.examplebank5.com"
+            }
+        ];
+
+        const bankList = document.getElementById('bank-list');
+
+        banks.forEach(bank => {
+            const card = document.createElement('div');
+            card.className = 'col-md-6 col-lg-4';
+            card.innerHTML = `
+                    <div class="card h-100 shadow-sm">
+                        <img src="${bank.image}" class="card-img-top" alt="${bank.name}">
+                        <div class="card-body">
+                            <h5 class="card-title">${bank.name}</h5>
+                            <p class="card-text">
+                                <a href="${bank.map}" target="_blank">
+                                    <img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png" alt="Map Icon">
+                                    &nbsp;${bank.address}
+                                </a>
+                            </p>
+                            <p class="card-text">
+                                ${bank.email ? `<a href="mailto:${bank.email}" target="_blank" id="${bank.name.replace(/\s+/g, '')}Email">
+                                    <img src="https://img.icons8.com/?size=20&id=60688&format=png&color=000000" alt="Email Icon">
+                                    &nbsp;${bank.email}
+                                </a>
+                                <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
+                                    onclick="copyToClipboard('${bank.name.replace(/\s+/g, '')}Email', this)" data-bs-toggle="tooltip"
+                                    data-bs-placement="top" title="Copy to clipboard">
+                                <br>` : ''}
+
+                                ${bank.phone ? `<a href="tel:${bank.phone}" target="_blank" id="${bank.phone.replace(/\s+/g, '')}PhoneNo">
+                                <img src="https://img.icons8.com/ios-filled/16/000000/phone.png" alt="Phone Icon">
+                                &nbsp;${bank.phone}
+                                </a>
+                                <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
+                                    onclick="copyToClipboard('${bank.phone.replace(/\s+/g, '')}PhoneNo', this)" data-bs-toggle="tooltip"
+                                    data-bs-placement="top" title="Copy to clipboard">
+                                <br>` : ''}
+
+                                ${bank.website ? `<a href="${bank.website}" target="_blank">
+                                    <img src="https://img.icons8.com/ios-filled/16/000000/domain.png" alt="Website Icon">
+                                    &nbsp;${bank.name}
+                                </a>` : ''}
+                            </p>
+                        </div>
+                    </div>`;
+            bankList.appendChild(card);
+        });
+    </script>
+
+    <script>
+        //Copy Functionality
+        function copyToClipboard(elementId, triggerEl) {
+            const text = document.getElementById(elementId).innerText;
+            navigator.clipboard.writeText(text).then(function () {
+                const tooltip = bootstrap.Tooltip.getInstance(triggerEl);
+                tooltip.setContent({ '.tooltip-inner': 'Copied!' });
+                tooltip.show();
+
+                setTimeout(function () {
+                    tooltip.hide();
+                    tooltip.setContent({ '.tooltip-inner': 'Copy to clipboard' });
+                }, 2000);
+            }, function (err) {
+                console.error('Could not copy text: ', err);
+            });
+        }
+
+        const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        const tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        });
+    </script>
+
+    <script>
+        //Scroll to Top
+        const scrollToTopButton = document.getElementById('back-to-top');
+
+        const scrollFunc = () => {
+            let y = window.scrollY;
+
+            if (y > 500) {
+                scrollToTopButton.className = "stuck";
+            } else {
+                scrollToTopButton.className = "";
+            }
+        };
+
+        window.addEventListener("scroll", scrollFunc);
+
+        const scrollToTop = () => {
+            const c = document.documentElement.scrollTop || document.body.scrollTop;
+
+            if (c > 0) {
+                window.requestAnimationFrame(scrollToTop);
+                window.scrollTo(0, c - c / 3);
+            }
+        };
+
+        scrollToTopButton.addEventListener("click", scrollToTop);
+    </script>
+</body>
+
+</html>
