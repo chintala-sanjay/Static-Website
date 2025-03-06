@@ -197,6 +197,17 @@
                 margin: 10px 0;
             }
         }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .contact-item a {
+            display: inline-flex;
+            align-items: center;
+        }
     </style>
 </head>
 
@@ -285,30 +296,32 @@
                                     &nbsp;${bank.address}
                                 </a>
                             </p>
-                            <p class="card-text">
+                            <div class="contact-item">
                                 ${bank.email ? `<a href="mailto:${bank.email}" target="_blank" id="${bank.name.replace(/\s+/g, '')}Email">
                                     <img src="https://img.icons8.com/?size=20&id=60688&format=png&color=000000" alt="Email Icon">
-                                    &nbsp;${bank.email}&nbsp;
+                                    &nbsp;${bank.email}
                                 </a>
                                 <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
                                     onclick="copyToClipboard('${bank.name.replace(/\s+/g, '')}Email', this)" data-bs-toggle="tooltip"
                                     data-bs-placement="top" title="Copy to clipboard">
                                 ` : ''}
-
+                            </div>
+                            <div class="contact-item">
                                 ${bank.phone ? `<a href="tel:${bank.phone}" target="_blank" id="${bank.phone.replace(/\s+/g, '')}PhoneNo">
                                 <img src="https://img.icons8.com/ios-filled/16/000000/phone.png" alt="Phone Icon">
-                                <br>&nbsp;${bank.phone}&nbsp;
+                                &nbsp;${bank.phone}
                                 </a>
                                 <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
                                     onclick="copyToClipboard('${bank.phone.replace(/\s+/g, '')}PhoneNo', this)" data-bs-toggle="tooltip"
                                     data-bs-placement="top" title="Copy to clipboard">
                                 ` : ''}
-
+                            </div>
+                            <div class="contact-item">
                                 ${bank.website ? `<a href="${bank.website}" target="_blank">
                                     <img src="https://img.icons8.com/ios-filled/16/000000/domain.png" alt="Website Icon">
-                                    <br>&nbsp;${bank.name}
+                                    &nbsp;${bank.name}
                                 </a>` : ''}
-                            </p>
+                            </div>
                         </div>
                     </div>`;
             bankList.appendChild(card);
