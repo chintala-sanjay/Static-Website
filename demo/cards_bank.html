@@ -303,6 +303,20 @@
         const bankList = document.getElementById('bank-list');
 
         banks.forEach(bank => {
+            let emailSection = '';
+            if (bank.email) {
+                emailSection = `
+                    <div class="contact-item">
+                        <a href="mailto:${bank.email}" target="_blank" id="${bank.name.replace(/\s+/g, '')}Email">
+                            <img src="https://img.icons8.com/?size=20&id=60688&format=png&color=000000" alt="Email Icon">
+                            &nbsp;${bank.email}
+                        </a>
+                        <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
+                            onclick="copyToClipboard('${bank.name.replace(/\s+/g, '')}Email', this)" data-bs-toggle="tooltip"
+                            data-bs-placement="top" title="Copy to clipboard">
+                    </div>`;
+            }
+
             const card = document.createElement('div');
             card.className = 'col-md-6 col-lg-4';
             card.innerHTML = `
@@ -316,16 +330,7 @@
                                     &nbsp;${bank.address}
                                 </a>
                             </div>
-                            <div class="contact-item">
-                                ${bank.email ? `<a href="mailto:${bank.email}" target="_blank" id="${bank.name.replace(/\s+/g, '')}Email">
-                                    <img src="https://img.icons8.com/?size=20&id=60688&format=png&color=000000" alt="Email Icon">
-                                    &nbsp;${bank.email}
-                                </a>
-                                <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
-                                    onclick="copyToClipboard('${bank.name.replace(/\s+/g, '')}Email', this)" data-bs-toggle="tooltip"
-                                    data-bs-placement="top" title="Copy to clipboard">
-                                ` : ''}
-                            </div>
+                            ${emailSection}
                             <div class="contact-item">
                                 ${bank.phone ? `<a href="tel:${bank.phone}" target="_blank" id="${bank.phone.replace(/\s+/g, '')}PhoneNo">
                                 <img src="https://img.icons8.com/ios-filled/16/000000/phone.png" alt="Phone Icon">
