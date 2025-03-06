@@ -60,7 +60,13 @@
             font-size: 1rem;
             text-align: center;
             margin-bottom: 0.5rem;
+            transition: opacity 0.3s; /* Added transition for smooth effect */
         }
+
+        .card:hover .card-text {
+            opacity: 0; /* Hide designation on hover */
+        }
+
 
         .card-role {
             display: none;
@@ -217,7 +223,7 @@
                             <img src="${contact.image}" class="card-img-left" alt="${contact.name}">
                             <div class="card-body">
                                 <h5 class="card-title">${contact.name}</h5>
-                                <p class="card-text card-designation">Designation: ${contact.designation}</p>
+                                <p class="card-text card-designation"><strong>Designation:</strong> ${contact.designation}</p>
                             </div>
                             <div class="card-role">${contact.role}</div>
                         </div>
@@ -287,5 +293,5 @@
         scrollToTopButton.addEventListener("click", scrollToTop);
     </script>
 </body>
-  
+
 </html>
