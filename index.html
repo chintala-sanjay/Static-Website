@@ -11,8 +11,11 @@
         body {
             background: linear-gradient(to right, #e96443, #904e95);
             color: white;
+            margin: 0;
+            padding: 0;
         }
 
+        /* Cards */
         .card {
             background-size: cover;
             background-position: center;
@@ -28,6 +31,7 @@
             object-fit: cover;
         }
 
+        /* Copy Icon */
         .copy-icon {
             cursor: pointer;
             margin-left: 5px;
@@ -46,18 +50,21 @@
             color: #555;
         }
 
+        /* Scroll To Top */
         #back-to-top {
             position: fixed;
-            bottom: 20px;
-            right: 20px;
+            bottom: 30px;
+            right: 30px;
             display: none;
-            padding: 10px 15px;
-            font-size: 16px;
+            padding: 15px;
+            font-size: 18px;
             background-color: #007BFF;
             color: white;
             border: none;
-            border-radius: 5px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
             z-index: 1000;
         }
 
@@ -84,6 +91,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script>
+        //Display Cards 
         const hospitals = [
             {
                 name: "G. T. Hospital",
@@ -175,6 +183,7 @@
             hospitalList.appendChild(card);
         });
 
+        //Copy Functionality
         function copyToClipboard(elementId, triggerEl) {
             const text = document.getElementById(elementId).innerText;
             navigator.clipboard.writeText(text).then(function () {
@@ -196,7 +205,7 @@
             return new bootstrap.Tooltip(tooltipTriggerEl)
         });
 
-
+        //Scroll to Top
         // Set a variable for our button element.
         const scrollToTopButton = document.getElementById('back-to-top');
 
@@ -225,8 +234,8 @@
             if (c > 0) {
                 window.requestAnimationFrame(scrollToTop);
                 // ScrollTo takes an x and a y coordinate.
-                // Increase the '10' value to get a smoother/slower scroll!
-                window.scrollTo(0, c - c / 5);
+                // Increase the '50' value to get a faster scroll!
+                window.scrollTo(0, c - c / 8);
             }
         };
 
