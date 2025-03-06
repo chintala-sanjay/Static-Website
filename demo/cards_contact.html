@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            background: linear-gradient(to right, #216ae8, #4e5593);
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            /* Make card a positioning context */
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-body {
+            color: #333;
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .card-img-left {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 2px solid #007BFF;
+            margin: 20px auto;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-role {
+            display: none;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            font-size: 0.9rem;
+            transition: opacity 0.3s;
+            opacity: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            z-index: 1;
+            box-sizing: border-box;
+        }
+
+        .card:hover .card-role {
+            display: block;
+            opacity: 1;
+        }
+
+        .copy-icon {
+            cursor: pointer;
+            margin-left: 5px;
+        }
+
+        .tooltip-inner {
+            max-width: 200px;
+            width: auto;
+        }
+
+        a {
+            color: #007BFF;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+
+        /* Scroll To Top */
+        #back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: none;
+            padding: 15px;
+            font-size: 18px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            z-index: 1000;
+        }
+
+        #back-to-top:hover {
+            background-color: #0056b3;
+            transform: scale(1.1);
+        }
+
+        #back-to-top.stuck {
+            display: block;
+        }
+
+        /* Banner */
+        footer {
+            background-color: #004B87;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        footer ul li {
+            margin: 0 10px;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <div class="container my-4">
+        <h1 class="text-center mb-4">Contact</h1>
+        <div class="row g-4" id="contact-list">
+            <!-- Cards will be dynamically generated here -->
+        </div>
+        <button id="back-to-top">↑</button>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; PARVATHIPURAM</p>
+            <ul>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Commissioner of the Police</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        // Display Cards
+        const contacts = [
+            {
+                name: "A. Shyam Prasad",
+                role: "Head of the district administration, responsible for governance, revenue, and law & order.",
+                designation: "District Collector & Magistrate (IAS Officer)",
+                image: "./assets/contact/A.SHYAM.PRASAD_IAS.jpg"
+            },
+            {
+                name: "S.S.Shobhika",
+                role: "Assists the District Collector in revenue matters, law & order, and implementation of government schemes.",
+                designation: "Joint Collector & Additional District Magistrate (ADM)",
+                image: "./assets/contact/S.S.SHOBIKA_JOINT_COLLECTOR.jpg"
+            },
+            {
+                name: "Ashuthosh Shrivastava",
+                role: "Heads a revenue division, supervises tahsildars, and ensures smooth administration at the subdivision level.",
+                designation: "Sub-Collector / Revenue Divisional Officer (RDO)",
+                image: "./assets/contact/ASHUTHOSH_SHRIVASTAVA_SUB_COLLECTOR.jpg"
+            },
+            {
+                name: "S V Madhav  Reddy",
+                role: "The SP (IPS officer) is responsible for maintaining law & order in the district and works alongside the Collector.",
+                designation: "Superintendent of Police (SP)",
+                image: "./assets/contact/S.V.MADHAV.REDDY_IPS.jpg"
+            }
+        ];
+
+        const contactList = document.getElementById('contact-list');
+
+        contacts.forEach(contact => {
+            const card = document.createElement('div');
+            card.className = 'col-md-6 col-lg-4 position-relative';
+            card.innerHTML = `
+                <div class="card h-100 shadow-sm">
+                    <div class="row g-0">
+                        <div class="col-12 d-flex flex-column align-items-center">
+                            <img src="${contact.image}" class="card-img-left" alt="${contact.name}">
+                            <div class="card-body">
+                                <h5 class="card-title">${contact.name}</h5>
+                                <p class="card-text card-designation">Designation: ${contact.designation}</p>
+                            </div>
+                            <div class="card-role">${contact.role}</div>
+                        </div>
+                    </div>
+                </div>`;
+            contactList.appendChild(card);
+        });
+    </script>
+    <script>
+        // Copy Functionality
+        function copyToClipboard(elementId, triggerEl) {
+            const text = document.getElementById(elementId).innerText;
+            navigator.clipboard.writeText(text).then(function () {
+                const tooltip = bootstrap.Tooltip.getInstance(triggerEl);
+                tooltip.setContent({ '.tooltip-inner': 'Copied!' });
+                tooltip.show();
+
+                setTimeout(function () {
+                    tooltip.hide();
+                    tooltip.setContent({ '.tooltip-inner': 'Copy to clipboard' });
+                }, 2000);
+            }, function (err) {
+                console.error('Could not copy text: ', err);
+            });
+        }
+
+        const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        const tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        });
+    </script>
+    <script>
+        // Scroll to Top
+        // Set a variable for our button element.
+        const scrollToTopButton = document.getElementById('back-to-top');
+
+        // Let's set up a function that shows our scroll-to-top button if we scroll beyond the height of the initial window.
+        const scrollFunc = () => {
+            // Get the current scroll value
+            let y = window.scrollY;
+
+            // If the scroll value is greater than the window height, let's add a class to the scroll-to-top button to show it!
+            if (y > 500) {
+                scrollToTopButton.className = "stuck";
+            } else {
+                scrollToTopButton.className = "";
+            }
+        };
+
+        window.addEventListener("scroll", scrollFunc);
+
+        const scrollToTop = () => {
+            // Let's set a variable for the number of pixels we are from the top of the document.
+            const c = document.documentElement.scrollTop || document.body.scrollTop;
+
+            // If that number is greater than 0, we'll scroll back to 0, or the top of the document.
+            // We'll also animate that scroll with requestAnimationFrame:
+            // https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
+            if (c > 0) {
+                window.requestAnimationFrame(scrollToTop);
+                // ScrollTo takes an x and a y coordinate.
+                // Increase the '50' value to get a faster scroll!
+                window.scrollTo(0, c - c / 3);
+            }
+        };
+
+        scrollToTopButton.addEventListener("click", scrollToTop);
+    </script>
+</body>
+  
+</html>
