@@ -66,6 +66,9 @@
             position: absolute;
             top: 100%;
             left: 50%;
+            font-size: 0.9rem;
+            transition: opacity 0.3s;
+            opacity: 0;
             transform: translate(-50%, 10px);
             background-color: rgba(0, 0, 0, 0.7);
             color: white;
@@ -77,7 +80,8 @@
         }
 
         .card:hover .card-role {
-            display: block;
+            /* display: block; */
+            opacity: 1;
         }
 
         .copy-icon {
