@@ -60,7 +60,13 @@
             font-size: 1rem;
             text-align: center;
             margin-bottom: 0.5rem;
+            transition: opacity 0.3s; /* Added transition for smooth effect */
         }
+
+        .card:hover .card-text {
+            opacity: 0; /* Hide designation on hover */
+        }
+
 
         .card-role {
             display: none;
@@ -202,6 +208,30 @@
                 role: "The SP (IPS officer) is responsible for maintaining law & order in the district and works alongside the Collector.",
                 designation: "Superintendent of Police (SP)",
                 image: "./assets/contact/S.V.MADHAV.REDDY_IPS.jpg"
+            },
+            {   
+                name: "D.Narasinga Rao",
+                role: "Manages urban administration, sanitation, public health, and infrastructure in Parvathipuram Municipality.",
+                designation: "Municipal Commissioner",
+                image:"https://img.icons8.com/?size=100&id=12438&format=png&color=000000"
+            },
+            {   
+                name: "K Hemalatha",
+                role: "Supervises revenue administration, supports the Collector, and handles land-related matters.",
+                designation: "District Revenue Officer (DRO)",
+                image:"https://img.icons8.com/?size=100&id=12438&format=png&color=000000"
+            },
+            {   
+                name: "P Verra Raju",
+                role: "Responsible for planning and development programs across the district.",
+                designation: "Chief Planning Officer (CPO)",
+                image:"https://img.icons8.com/?size=100&id=12438&format=png&color=000000"
+            },
+            {   
+                name: "Kondala Rao",
+                role: "Manages panchayat (rural local government) administration and rural development schemes.",
+                designation: "District Panchayat Officer (DPO)",
+                image:"https://img.icons8.com/?size=100&id=12438&format=png&color=000000"
             }
         ];
 
@@ -217,7 +247,7 @@
                             <img src="${contact.image}" class="card-img-left" alt="${contact.name}">
                             <div class="card-body">
                                 <h5 class="card-title">${contact.name}</h5>
-                                <p class="card-text card-designation">Designation: ${contact.designation}</p>
+                                <p class="card-text card-designation"><strong>Designation:</strong> ${contact.designation}</p>
                             </div>
                             <div class="card-role">${contact.role}</div>
                         </div>
@@ -287,5 +317,5 @@
         scrollToTopButton.addEventListener("click", scrollToTop);
     </script>
 </body>
-  
+
 </html>

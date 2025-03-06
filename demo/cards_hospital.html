@@ -9,7 +9,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
         body {
-            background: linear-gradient(to right, #216ae8, #4e5593);
+            background: linear-gradient(to right, #216ae838, #3846c2a6);
             color: white;
             margin: 0;
             padding: 0;
@@ -142,41 +142,38 @@
                 name: "Area Hospital Parvathipuram",
                 image: "./assets/hospitals/photo_1.jpg",
                 address: "Located in Parvathipuram with a pincode of 535501",
-                map: "https://www.google.com/maps/search/?api=1&query=Near+Police+Commissioners+Office,+Lokmanya+Tilak+Marg,+Fort,+G.+P.+O,+Mumbai,+Maharashtra+400001",
+                map: "https://maps.app.goo.gl/ywA6yT1qsBp6wUY99",
                 email: "info@gthospital.in",
-                phone: "22621465",
-                website: "http://gthospital.in/"
+                phone: "xx-xxxxxxxxxx"
             },
             {
                 name: "Area Hospital - Seethampeta",
                 image: "./assets/hospitals/photo_2.jpg",
-                address: "An EHS State Empanelled Hospital in Parvathipuram Manyam district ",
-                map: "https://www.google.com/maps/search/?api=1&query=J+J+Marg,+Nagpada-Mumbai+Central,+Off+Jijabhoy+Road,+Mumbai,+Maharashtra+400008",
-                phone: "23735555"
+                address: "Seethampeta, Andhra Pradesh 532443",
+                map: "https://maps.app.goo.gl/ZawCQngc63NGebzy7",
+                phone: "xxxx-xxxxxxx"
             },
             {
                 name: "Area Hospital- SALURU",
                 image: "./assets/hospitals/photo_3.jpg",
                 address: "An EHS State Empanelled Hospital in Parvathipuram Manyam district",
-                map: "https://www.google.com/maps/search/?api=1&query=Acharya+Donde+Marg,+Parel,+Mumbai,+Maharashtra+400012",
+                map: "https://maps.app.goo.gl/NW92N4wydpLPSc6M6",
                 email: "kemwebsite@kem.edu",
-                phone: "24107000",
-                website: "http://www.kem.edu"
+                phone: "xx-xxxxxxxxxx"
             },
             {
                 name: "AREA HOSPITAL - PALAKONDA",
                 image: "./assets/hospitals/photo_4.jpg",
-                address: "An EHS State Empanelled Hospital in Parvathipuram Manyam district",
-                map: "https://www.google.com/maps/search/?api=1&query=197/1-13,+MS+Ali+Road,+Chor+Bazaar,+Kamathipura,+Mumbai,+Maharashtra+400008",
-                phone: "23096361"
+                address: "Palakonda, Andhra Pradesh 532440",
+                map: "https://maps.app.goo.gl/J1QT64tPP9E5TCnk7",
+                phone: "xx-xxxxxxx"
             },
             {
                 name: "CHC KURUPAM HOSPITAL",
                 image: "./assets/hospitals/photo_5.jpg",
                 address: "An EHS State Empanelled Hospital in Parvathipuram Manyam district",
-                map: "https://www.google.com/maps/search/?api=1&query=15/17,+Maharshi+Karve+Marg,+Opera+House,+Girgaon,+Mumbai,+Maharashtra+400004",
-                phone: "67570111",
-                website: "http://www.saifeehospital.com"
+                map: "https://maps.app.goo.gl/e5VGXZZ2qYkbyoJP8",
+                phone: "xx-xxxxxxxxxx"
             }
         ];
 
@@ -192,13 +189,13 @@
                             <h5 class="card-title">${hospital.name}</h5>
                             <p class="card-text">
                                 <a href="${hospital.map}" target="_blank" class="text-decoration-none">
-                                    <span><img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png" alt="Map Icon"></span>
+                                    <span><img src="https://img.icons8.com/?size=20&id=UZdcMdspEOov&format=png&color=000000" alt="Map Icon"></span>
                                     &nbsp;${hospital.address}
                                 </a>
                             </p>
                             <p class="card-text">
                                 ${hospital.email ? `<a href="mailto:${hospital.email}" target="_blank" class="text-decoration-none" id="${hospital.name.replace(/\s+/g, '')}Email">
-                                    <img src="https://img.icons8.com/?size=20&id=60688&format=png&color=000000" alt="Email Icon">
+                                    <img src="https://img.icons8.com/?size=20&id=yb9uLNmOthyQ&format=png&color=000000" alt="Email Icon">
                                     &nbsp;${hospital.email}
                                 </a>
                                 <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
@@ -207,7 +204,7 @@
                                 <br>` : ''}
 
                                 ${hospital.phone ? `<a href="tel:${hospital.phone}" target="_blank" class="text-decoration-none" id="${hospital.phone.replace(/\s+/g, '')}PhoneNo">
-                                <img src="https://img.icons8.com/ios-filled/16/000000/phone.png" alt="Phone Icon">
+                                <img src="https://img.icons8.com/?size=20&id=45829&format=png&color=000000" alt="Phone Icon">
                                 &nbsp;${hospital.phone}
                                 </a>
                                 <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
@@ -222,7 +219,7 @@
                                  </a><br>
                                  -->
                                 ${hospital.website ? `<a href="${hospital.website}" target="_blank" class="text-decoration-none">
-                                    <img src="https://img.icons8.com/ios-filled/16/000000/domain.png" alt="Website Icon">
+                                    <img src="https://img.icons8.com/?size=20&id=oZUjyJ1vU9d7&format=png&color=000000" alt="Website Icon">
                                     &nbsp;${hospital.name}
                                 </a>` : ''}
                             </p>
