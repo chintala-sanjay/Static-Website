@@ -23,6 +23,7 @@
             transition: transform 0.3s, box-shadow 0.3s;
             display: flex;
             flex-direction: column;
+            position: relative;
         }
 
         .card:hover {
@@ -34,35 +35,48 @@
             color: #333;
             flex: 1;
             padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
         .card-img-left {
             width: 150px;
-            height: auto;
+            height: 150px;
             object-fit: cover;
-            flex-shrink: 0;
-            margin: auto 0;
+            border-radius: 50%;
+            border: 2px solid #007BFF;
+            margin: 20px auto;
         }
 
         .card-title {
             font-size: 1.5rem;
             font-weight: bold;
+            text-align: center;
         }
 
         .card-text {
             font-size: 1rem;
+            text-align: center;
             margin-bottom: 0.5rem;
         }
 
         .card-role {
-            font-size: 0.9rem;
-            color: #666;
-            transition: opacity 0.3s;
-            opacity: 0;
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+            z-index: 1;
         }
 
         .card:hover .card-role {
-            opacity: 1;
+            display: block;
         }
 
         .copy-icon {
@@ -194,15 +208,13 @@
             card.innerHTML = `
                 <div class="card h-100 shadow-sm">
                     <div class="row g-0">
-                        <div class="col-md-4 d-flex align-items-center">
+                        <div class="col-12 d-flex flex-column align-items-center">
                             <img src="${contact.image}" class="card-img-left" alt="${contact.name}">
-                        </div>
-                        <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">${contact.name}</h5>
-                                <p class="card-text card-role">${contact.role}</p>
-                                <p class="card-text">Designation: ${contact.designation}</p>
+                                <p class="card-text card-designation">Designation: ${contact.designation}</p>
                             </div>
+                            <div class="card-role">${contact.role}</div>
                         </div>
                     </div>
                 </div>`;
