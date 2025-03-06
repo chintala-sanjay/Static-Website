@@ -205,9 +205,9 @@
 
         contacts.forEach(contact => {
             const card = document.createElement('div');
-            card.className = 'col-md-6 col-lg-4';
+            card.className = 'col-md-6 col-lg-4 position-relative';
             card.innerHTML = `
-                <div class="card h-100 shadow-sm position-relative">
+                <div class="card h-100 shadow-sm">
                     <div class="row g-0">
                         <div class="col-12 d-flex flex-column align-items-center">
                             <img src="${contact.image}" class="card-img-left" alt="${contact.name}">
