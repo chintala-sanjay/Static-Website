@@ -43,6 +43,16 @@
             flex-shrink: 0;
         }
 
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
         .copy-icon {
             cursor: pointer;
             margin-left: 5px;
@@ -140,29 +150,21 @@
         const contacts = [
             {
                 name: "A. Shyam Prasad",
-                image: "./assets/contact/A.SHYAM.PRASAD_IAS.jpg",
-                map: "https://www.google.com/maps/search/?api=1&query=1234+Elm+Street,+Springfield,+IL+62701",
-                email: "john.doe@example.com",
-                phone: "555-1234",
-                website: "http://johndoe.com"
+                role: "IAS",
+                designation: "District Collector",
+                image: "./assets/contact/A.SHYAM.PRASAD_IAS.jpg"
             },
             {
                 name: "Jane Smith",
-                image: "https://via.placeholder.com/150",
-                address: "5678 Oak Street, Springfield, IL 62702",
-                map: "https://www.google.com/maps/search/?api=1&query=5678+Oak+Street,+Springfield,+IL+62702",
-                email: "jane.smith@example.com",
-                phone: "555-5678",
-                website: "http://janesmith.com"
+                role: "IPS",
+                designation: "Superintendent of Police",
+                image: "https://via.placeholder.com/150"
             },
             {
                 name: "Mike Johnson",
-                image: "https://via.placeholder.com/150",
-                address: "9101 Pine Street, Springfield, IL 62703",
-                map: "https://www.google.com/maps/search/?api=1&query=9101+Pine+Street,+Springfield,+IL+62703",
-                email: "mike.johnson@example.com",
-                phone: "555-9101",
-                website: "http://mikejohnson.com"
+                role: "IRS",
+                designation: "Assistant Commissioner",
+                image: "https://via.placeholder.com/150"
             }
         ];
 
@@ -180,30 +182,8 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">${contact.name}</h5>
-                                <p class="card-text">
-                                    <a href="${contact.map}" target="_blank" class="text-decoration-none">
-                                        <span><img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png" alt="Map Icon"></span>
-                                        &nbsp;${contact.address}
-                                    </a>
-                                </p>
-                                <p class="card-text">
-                                    <a href="mailto:${contact.email}" target="_blank" class="text-decoration-none" id="${contact.name.replace(/\s+/g, '')}Email">
-                                        <img src="https://img.icons8.com/?size=20&id=60688&format=png&color=000000" alt="Email Icon">
-                                        &nbsp;${contact.email}
-                                    </a>
-                                    <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
-                                        onclick="copyToClipboard('${contact.name.replace(/\s+/g, '')}Email', this)" data-bs-toggle="tooltip"
-                                        data-bs-placement="top" title="Copy to clipboard">
-                                    <br>
-                                    <a href="tel:${contact.phone}" target="_blank" class="text-decoration-none">
-                                        <img src="https://img.icons8.com/ios-filled/16/000000/phone.png" alt="Phone Icon">
-                                        &nbsp;${contact.phone}
-                                    </a><br>
-                                    <a href="${contact.website}" target="_blank" class="text-decoration-none">
-                                        <img src="https://img.icons8.com/ios-filled/16/000000/domain.png" alt="Website Icon">
-                                        &nbsp;${contact.name}
-                                    </a>
-                                </p>
+                                <p class="card-text">Role: ${contact.role}</p>
+                                <p class="card-text">Designation: ${contact.designation}</p>
                             </div>
                         </div>
                     </div>
