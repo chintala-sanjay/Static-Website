@@ -24,6 +24,7 @@
             display: flex;
             flex-direction: column;
             position: relative;
+            /* Make card a positioning context */
         }
 
         .card:hover {
@@ -64,23 +65,22 @@
         .card-role {
             display: none;
             position: absolute;
-            top: 100%;
-            left: 50%;
+            bottom: 0;
+            left: 0;
+            width: 100%;
             font-size: 0.9rem;
             transition: opacity 0.3s;
             opacity: 0;
-            transform: translate(-50%, 10px);
             background-color: rgba(0, 0, 0, 0.7);
             color: white;
             padding: 10px 20px;
-            border-radius: 5px;
             text-align: center;
-            white-space: nowrap;
             z-index: 1;
+            box-sizing: border-box;
         }
 
         .card:hover .card-role {
-            /* display: block; */
+            display: block;
             opacity: 1;
         }
 
