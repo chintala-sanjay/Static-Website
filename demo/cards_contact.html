@@ -43,16 +43,6 @@
             flex-shrink: 0;
         }
 
-        /* @media (min-width: 768px) {
-            .card {
-                flex-direction: row;
-            }
-
-            .card-body {
-                padding-left: 20px;
-            }
-        } */
-
         .copy-icon {
             cursor: pointer;
             margin-left: 5px;
@@ -98,8 +88,8 @@
             display: block;
         }
 
-         /* Banner */
-         footer {
+        /* Banner */
+        footer {
             background-color: #004B87;
             color: white;
             padding: 20px 0;
@@ -125,7 +115,7 @@
     </style>
 </head>
 
-<body class=""bg-light>
+<body class="bg-light">
     <div class="container my-4">
         <h1 class="text-center mb-4">Contact</h1>
         <div class="row g-4" id="contact-list">
@@ -138,7 +128,7 @@
             <p>&copy; PARVATHIPURAM</p>
             <ul>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Commisioner of the Police</a></li>
+                <li><a href="#">Commissioner of the Police</a></li>
             </ul>
         </div>
     </footer>
@@ -147,101 +137,79 @@
         crossorigin="anonymous"></script>
     <script>
         // Display Cards
-        const hospitals = [
+        const contacts = [
             {
-                name: "G. T. Hospital",
-                image: "https://lh5.googleusercontent.com/p/AF1QipPoGdJYv3Acc2uyweE6C1tflMbk_nux-pf_x1iq=w426-h240-k-no",
-                address: "Near Police Commissioners Office, Lokmanya Tilak Marg, Fort, G. P. O, Mumbai, Maharashtra 400001",
-                map: "https://www.google.com/maps/search/?api=1&query=Near+Police+Commissioners+Office,+Lokmanya+Tilak+Marg,+Fort,+G.+P.+O,+Mumbai,+Maharashtra+400001",
-                email: "info@gthospital.in",
-                phone: "22621465",
-                website: "http://gthospital.in/"
+                name: "John Doe",
+                image: "https://via.placeholder.com/150",
+                address: "1234 Elm Street, Springfield, IL 62701",
+                map: "https://www.google.com/maps/search/?api=1&query=1234+Elm+Street,+Springfield,+IL+62701",
+                email: "john.doe@example.com",
+                phone: "555-1234",
+                website: "http://johndoe.com"
             },
             {
-                name: "J J Hospital",
-                image: "https://lh5.googleusercontent.com/p/AF1QipPcE7ADUFiKsBkSKxOWlYYfgGTwuP3s7asN8L4Y=w408-h306-k-no",
-                address: "J J Marg, Nagpada-Mumbai Central, Off Jijabhoy Road, Mumbai, Maharashtra 400008",
-                map: "https://www.google.com/maps/search/?api=1&query=J+J+Marg,+Nagpada-Mumbai+Central,+Off+Jijabhoy+Road,+Mumbai,+Maharashtra+400008",
-                phone: "23735555"
+                name: "Jane Smith",
+                image: "https://via.placeholder.com/150",
+                address: "5678 Oak Street, Springfield, IL 62702",
+                map: "https://www.google.com/maps/search/?api=1&query=5678+Oak+Street,+Springfield,+IL+62702",
+                email: "jane.smith@example.com",
+                phone: "555-5678",
+                website: "http://janesmith.com"
             },
             {
-                name: "K E M Hospital",
-                image: "https://www.kem.edu/images/gallery/web-gal-img-8.jpg",
-                address: "Acharya Donde Marg, Parel, Mumbai, Maharashtra 400012",
-                map: "https://www.google.com/maps/search/?api=1&query=Acharya+Donde+Marg,+Parel,+Mumbai,+Maharashtra+400012",
-                email: "kemwebsite@kem.edu",
-                phone: "24107000",
-                website: "http://www.kem.edu"
-            },
-            {
-                name: "Municipal Hospital",
-                image: "https://lh5.googleusercontent.com/p/AF1QipP20G_dfvkNumYGJ7KK_GBACrZbEtt12b0xvTPr=w408-h258-k-no",
-                address: "197/1-13, MS Ali Road, Chor Bazaar, Kamathipura, Mumbai, Maharashtra 400008",
-                map: "https://www.google.com/maps/search/?api=1&query=197/1-13,+MS+Ali+Road,+Chor+Bazaar,+Kamathipura,+Mumbai,+Maharashtra+400008",
-                phone: "23096361"
-            },
-            {
-                name: "Saifee Hospital",
-                image: "https://www.saifeehospital.com/img/slides/slide1.jpg",
-                address: "15/17, Maharshi Karve Marg, Opera House, Girgaon, Mumbai, Maharashtra 400004",
-                map: "https://www.google.com/maps/search/?api=1&query=15/17,+Maharshi+Karve+Marg,+Opera+House,+Girgaon,+Mumbai,+Maharashtra+400004",
-                phone: "67570111",
-                website: "http://www.saifeehospital.com"
-            },
-            {
-                name: "St George Hospital",
-                image: "https://lh5.googleusercontent.com/p/AF1QipM9WBM1r3juar7CZjzVd_CXuBvK4UaXXVM7P1PY=w408-h725-k-no",
-                address: "Near Chhatrapati Shivaji Maharaj Terminus, Fort, Mumbai, Maharashtra 400001",
-                map: "https://www.google.com/maps/search/?api=1&query=Near+Chhatrapati+Shivaji+Maharaj+Terminus,+Fort,+Mumbai,+Maharashtra+400001",
-                email: "lalit@stgeorgeshospital.in",
-                phone: "22620242",
-                website: "http://stgeorgeshospital.in/"
+                name: "Mike Johnson",
+                image: "https://via.placeholder.com/150",
+                address: "9101 Pine Street, Springfield, IL 62703",
+                map: "https://www.google.com/maps/search/?api=1&query=9101+Pine+Street,+Springfield,+IL+62703",
+                email: "mike.johnson@example.com",
+                phone: "555-9101",
+                website: "http://mikejohnson.com"
             }
         ];
 
-        const hospitalList = document.getElementById('contact-list');
+        const contactList = document.getElementById('contact-list');
 
-        hospitals.forEach(hospital => {
+        contacts.forEach(contact => {
             const card = document.createElement('div');
             card.className = 'col-md-6 col-lg-4';
             card.innerHTML = `
                 <div class="card h-100 shadow-sm">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="${hospital.image}" class="card-img-left" alt="${hospital.name}">
+                            <img src="${contact.image}" class="card-img-left" alt="${contact.name}">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">${hospital.name}</h5>
+                                <h5 class="card-title">${contact.name}</h5>
                                 <p class="card-text">
-                                    <a href="${hospital.map}" target="_blank" class="text-decoration-none">
+                                    <a href="${contact.map}" target="_blank" class="text-decoration-none">
                                         <span><img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png" alt="Map Icon"></span>
-                                        &nbsp;${hospital.address}
+                                        &nbsp;${contact.address}
                                     </a>
                                 </p>
                                 <p class="card-text">
-                                    ${hospital.email ? `<a href="mailto:${hospital.email}" target="_blank" class="text-decoration-none" id="${hospital.name.replace(/\s+/g, '')}Email">
+                                    <a href="mailto:${contact.email}" target="_blank" class="text-decoration-none" id="${contact.name.replace(/\s+/g, '')}Email">
                                         <img src="https://img.icons8.com/?size=20&id=60688&format=png&color=000000" alt="Email Icon">
-                                        &nbsp;${hospital.email}
+                                        &nbsp;${contact.email}
                                     </a>
                                     <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
-                                        onclick="copyToClipboard('${hospital.name.replace(/\s+/g, '')}Email', this)" data-bs-toggle="tooltip"
+                                        onclick="copyToClipboard('${contact.name.replace(/\s+/g, '')}Email', this)" data-bs-toggle="tooltip"
                                         data-bs-placement="top" title="Copy to clipboard">
-                                    <br>` : ''}
-                                    <a href="tel:${hospital.phone}" target="_blank" class="text-decoration-none">
+                                    <br>
+                                    <a href="tel:${contact.phone}" target="_blank" class="text-decoration-none">
                                         <img src="https://img.icons8.com/ios-filled/16/000000/phone.png" alt="Phone Icon">
-                                        &nbsp;${hospital.phone}
+                                        &nbsp;${contact.phone}
                                     </a><br>
-                                    ${hospital.website ? `<a href="${hospital.website}" target="_blank" class="text-decoration-none">
+                                    <a href="${contact.website}" target="_blank" class="text-decoration-none">
                                         <img src="https://img.icons8.com/ios-filled/16/000000/domain.png" alt="Website Icon">
-                                        &nbsp;${hospital.name}
-                                    </a>` : ''}
+                                        &nbsp;${contact.name}
+                                    </a>
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>`;
-            hospitalList.appendChild(card);
+            contactList.appendChild(card);
         });
     </script>
     <script>
