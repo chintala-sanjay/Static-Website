@@ -61,6 +61,11 @@
             z-index: 1000;
         }
 
+        #back-to-top:hover {
+            background-color: #0056b3;
+            transform: scale(1.1);
+        }
+
         #back-to-top.stuck {
             display: block;
         }
@@ -73,7 +78,7 @@
         <div class="row g-4" id="hospital-list">
             <!-- Cards will be dynamically generated here -->
         </div>
-        <button id="back-to-top">Top</button>
+        <button id="back-to-top">↑</button>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -221,7 +226,7 @@
                 window.requestAnimationFrame(scrollToTop);
                 // ScrollTo takes an x and a y coordinate.
                 // Increase the '10' value to get a smoother/slower scroll!
-                window.scrollTo(0, c - c / 10);
+                window.scrollTo(0, c - c / 5);
             }
         };
 
