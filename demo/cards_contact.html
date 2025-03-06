@@ -54,6 +54,17 @@
             margin-bottom: 0.5rem;
         }
 
+        .card-role {
+            font-size: 0.9rem;
+            color: #666;
+            transition: opacity 0.3s;
+            opacity: 0;
+        }
+
+        .card:hover .card-role {
+            opacity: 1;
+        }
+
         .copy-icon {
             cursor: pointer;
             margin-left: 5px;
@@ -189,7 +200,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">${contact.name}</h5>
-                                <p class="card-text">Role: ${contact.role}</p>
+                                <p class="card-text card-role">${contact.role}</p>
                                 <p class="card-text">Designation: ${contact.designation}</p>
                             </div>
                         </div>
