@@ -38,7 +38,7 @@
 
         .card-img-left {
             width: 150px;
-            height: 100%;
+            height: auto;
             object-fit: cover;
             flex-shrink: 0;
         }
@@ -112,7 +112,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script>
-        // Display Cards 
+        // Display Cards
         const hospitals = [
             {
                 name: "G. T. Hospital",
@@ -169,36 +169,42 @@
 
         hospitals.forEach(hospital => {
             const card = document.createElement('div');
-            card.className = 'col-md-3 col-lg-2';
+            card.className = 'col-md-6 col-lg-4';
             card.innerHTML = `
                 <div class="card h-100 shadow-sm">
-                    <img src="${hospital.image}" class="card-img-left" alt="${hospital.name}">
-                    <div class="card-body">
-                        <h5 class="card-title">${hospital.name}</h5>
-                        <p class="card-text">
-                            <a href="${hospital.map}" target="_blank" class="text-decoration-none">
-                                <span><img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png" alt="Map Icon"></span>
-                                &nbsp;${hospital.address}
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            ${hospital.email ? `<a href="mailto:${hospital.email}" target="_blank" class="text-decoration-none" id="${hospital.name.replace(/\s+/g, '')}Email">
-                                <img src="https://img.icons8.com/?size=20&id=60688&format=png&color=000000" alt="Email Icon">
-                                &nbsp;${hospital.email}
-                            </a>
-                            <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
-                                onclick="copyToClipboard('${hospital.name.replace(/\s+/g, '')}Email', this)" data-bs-toggle="tooltip"
-                                data-bs-placement="top" title="Copy to clipboard">
-                            <br>` : ''}
-                            <a href="tel:${hospital.phone}" target="_blank" class="text-decoration-none">
-                                <img src="https://img.icons8.com/ios-filled/16/000000/phone.png" alt="Phone Icon">
-                                &nbsp;${hospital.phone}
-                            </a><br>
-                            ${hospital.website ? `<a href="${hospital.website}" target="_blank" class="text-decoration-none">
-                                <img src="https://img.icons8.com/ios-filled/16/000000/domain.png" alt="Website Icon">
-                                &nbsp;${hospital.name}
-                            </a>` : ''}
-                        </p>
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="${hospital.image}" class="card-img-left" alt="${hospital.name}">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">${hospital.name}</h5>
+                                <p class="card-text">
+                                    <a href="${hospital.map}" target="_blank" class="text-decoration-none">
+                                        <span><img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png" alt="Map Icon"></span>
+                                        &nbsp;${hospital.address}
+                                    </a>
+                                </p>
+                                <p class="card-text">
+                                    ${hospital.email ? `<a href="mailto:${hospital.email}" target="_blank" class="text-decoration-none" id="${hospital.name.replace(/\s+/g, '')}Email">
+                                        <img src="https://img.icons8.com/?size=20&id=60688&format=png&color=000000" alt="Email Icon">
+                                        &nbsp;${hospital.email}
+                                    </a>
+                                    <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
+                                        onclick="copyToClipboard('${hospital.name.replace(/\s+/g, '')}Email', this)" data-bs-toggle="tooltip"
+                                        data-bs-placement="top" title="Copy to clipboard">
+                                    <br>` : ''}
+                                    <a href="tel:${hospital.phone}" target="_blank" class="text-decoration-none">
+                                        <img src="https://img.icons8.com/ios-filled/16/000000/phone.png" alt="Phone Icon">
+                                        &nbsp;${hospital.phone}
+                                    </a><br>
+                                    ${hospital.website ? `<a href="${hospital.website}" target="_blank" class="text-decoration-none">
+                                        <img src="https://img.icons8.com/ios-filled/16/000000/domain.png" alt="Website Icon">
+                                        &nbsp;${hospital.name}
+                                    </a>` : ''}
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>`;
             hospitalList.appendChild(card);
