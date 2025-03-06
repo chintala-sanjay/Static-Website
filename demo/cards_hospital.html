@@ -9,7 +9,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
         body {
-            background-color: #E0F2F7;
+            background: linear-gradient(to right, #216ae838, #3846c2a6);
             color: white;
             margin: 0;
             padding: 0;
@@ -189,13 +189,13 @@
                             <h5 class="card-title">${hospital.name}</h5>
                             <p class="card-text">
                                 <a href="${hospital.map}" target="_blank" class="text-decoration-none">
-                                    <span><img src="https://img.icons8.com/ios-filled/16/000000/map-marker.png" alt="Map Icon"></span>
+                                    <span><img src="https://img.icons8.com/?size=20&id=UZdcMdspEOov&format=png&color=000000" alt="Map Icon"></span>
                                     &nbsp;${hospital.address}
                                 </a>
                             </p>
                             <p class="card-text">
                                 ${hospital.email ? `<a href="mailto:${hospital.email}" target="_blank" class="text-decoration-none" id="${hospital.name.replace(/\s+/g, '')}Email">
-                                    <img src="https://img.icons8.com/?size=20&id=60688&format=png&color=000000" alt="Email Icon">
+                                    <img src="https://img.icons8.com/?size=20&id=yb9uLNmOthyQ&format=png&color=000000" alt="Email Icon">
                                     &nbsp;${hospital.email}
                                 </a>
                                 <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
@@ -204,7 +204,7 @@
                                 <br>` : ''}
 
                                 ${hospital.phone ? `<a href="tel:${hospital.phone}" target="_blank" class="text-decoration-none" id="${hospital.phone.replace(/\s+/g, '')}PhoneNo">
-                                <img src="https://img.icons8.com/ios-filled/16/000000/phone.png" alt="Phone Icon">
+                                <img src="https://img.icons8.com/?size=20&id=45829&format=png&color=000000" alt="Phone Icon">
                                 &nbsp;${hospital.phone}
                                 </a>
                                 <img src="https://img.icons8.com/ios/16/000000/copy.png" alt="Copy Icon" class="copy-icon"
@@ -219,7 +219,7 @@
                                  </a><br>
                                  -->
                                 ${hospital.website ? `<a href="${hospital.website}" target="_blank" class="text-decoration-none">
-                                    <img src="https://img.icons8.com/ios-filled/16/000000/domain.png" alt="Website Icon">
+                                    <img src="https://img.icons8.com/?size=20&id=oZUjyJ1vU9d7&format=png&color=000000" alt="Website Icon">
                                     &nbsp;${hospital.name}
                                 </a>` : ''}
                             </p>
