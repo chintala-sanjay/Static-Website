@@ -266,238 +266,173 @@
     </footer>
 
     <script>
-        let mandalData = {};
-        let defaultVillageInfo = [];
-
-        // Function to load JSON data
-        async function loadData() {
+        // Fetch mandal data from JSON file
+        async function fetchMandalData() {
             try {
-                const [mandalDataResponse, villageDataResponse, defaultDataResponse] = await Promise.all([
-                    fetch('mandal_data.json'),
-                    fetch('village_data.json'),
-                    fetch('default_data.json')
-                ]);
-
-                const mandalDataJson = await mandalDataResponse.json();
-                const villageDataJson = await villageDataResponse.json();
-                const defaultDataJson = await defaultDataResponse.json();
-
-                // Structure mandalData
-                mandalDataJson.forEach(mandalName => {
-                    mandalData[mandalName] = { villages: [] };
-                });
-
-                // Populate villages into mandalData
-                villageDataJson.forEach(item => {
-                    const mandalName = Object.keys(item)[0];
-                    if (mandalData[mandalName]) {
-                        mandalData[mandalName].villages = item[mandalName];
-                    }
-                });
-
-                defaultVillageInfo = defaultDataJson;
-
-                // Now that data is loaded, display default village info
-                displayDefaultVillageInfo();
-                populateDepartments();
-
+                const response = await fetch('mandal_data.json');
+                const data = await response.json();
+                return data;
             } catch (error) {
-                console.error('Error loading JSON:', error);
-                document.getElementById('village-info').textContent = 'Failed to load data.';
+                console.error('Error fetching mandal data:', error);
+                return [];
             }
         }
 
-        // Sample departments and their statuses
-        const departments = [
-            "Agriculture Department",
-            "Animal Husbandry",
-            "Civil Supplies",
-            "Education",
-            "Women and Child Development",
-            "DRDA",
-            "District Water Management Agency",
-            "Zilla Praja Parishad",
-            "BC Corporation",
-            "SC Corporation",
-            "Chief Planning Office",
-            "Health",
-            "Housing",
-            "Welfare Departments",
-            "Engineering",
-            "District Industries Centre",
-            "District Panchayat Office",
-            "District Mineral Foundation Trust",
-        ];
-
-        // Function to generate random department info
-        function generateDepartmentInfo() {
-            const departmentInfo = {};
-            departments.forEach((dept) => {
-                departmentInfo[dept] = {
-                    p1: {
-                        new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
-                            Math.floor(Math.random() * 100)
-                    },
-                    p2: {
-                        new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
-                            Math.floor(Math.random() * 100)
-                    },
-                    p3: {
-                        new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
-                            Math.floor(Math.random() * 100)
-                    },
-                    p4: {
-                        new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
-                            Math.floor(Math.random() * 100)
-                    },
-                };
-            });
-            return departmentInfo;
+        // Fetch village data from JSON file
+        async function fetchVillageData() {
+            try {
+                const response = await fetch('village_data.json');
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                console.error('Error fetching village data:', error);
+                return [];
+            }
         }
 
-        // Function to generate random village info
-        function generateVillageInfo(village) {
-            return {
-                p1: {
-                    new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
-                        Math.floor(Math.random() * 100)
-                },
-                p2: {
-                    new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
-                        Math.floor(Math.random() * 100)
-                },
-                p3: {
-                    new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
-                        Math.floor(Math.random() * 100)
-                },
-                p4: {
-                    new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
-                        Math.floor(Math.random() * 100)
-                },
-            };
-        }
+        // Function to populate the village information card
+        async function populateVillageInfo(mandalName = null) {
+            const villageData = await fetchVillageData();
+            const villageInfo = document.getElementById('village-info');
 
-        // Function to update Population Census
-        function updatePopulationCensus(data) {
-            const populationCensus = document.getElementById("population-census");
-            // Check if data is from a village or default mandal info
-            if (data["Village Name"]) {
-                populationCensus.innerHTML = `
-                    Total Population: ${data.Population},
-                    Male: ${data["Male Population"]},
-                    Female: ${data["Female Population"]},
-                    Literacy Rate: ${data["Literacy Rate (%)"]}%,
-                    Area: ${data["Area (sq. km)"]} sq. km
-                `;
-            } else if (data["Mandal Name"]) {
-                populationCensus.innerHTML = `
-                    Total Population: ${data["Total Population"]},
-                    Male: ${data["Male Population"]},
-                    Female: ${data["Female Population"]},
-                    Literacy Rate: ${data["Literacy Rate (%)"]}%,
-                    Area: ${data["Area (sq. km)"]} sq. km
-                `;
+            if (villageData.length > 0) {
+                let villageListHTML = '';
+                villageData.forEach(mandalData => {
+                    const currentMandalName = Object.keys(mandalData)[0];
+
+                    // If a specific mandal is selected, only display that mandal's villages
+                    if (mandalName && currentMandalName !== mandalName) {
+                        return; // Skip this mandal
+                    }
+
+                    const villages = mandalData[currentMandalName];
+                    villageListHTML += `<p><strong>${currentMandalName} Mandal:</strong></p><ul>`;
+                    villages.forEach(village => {
+                        villageListHTML += `<li>${village["Village Name"]}</li>`;
+                    });
+                    villageListHTML += `</ul>`;
+                });
+                villageInfo.innerHTML = villageListHTML;
             } else {
-                populationCensus.textContent = "No data available.";
+                villageInfo.textContent = 'No village data available.';
             }
         }
 
-        // Function to update Village Info
-        function updateVillageInfo(mandalName) {
-            const villageInfo = document.getElementById("village-info");
 
-            if (!mandalData[mandalName] || !mandalData[mandalName].villages) {
-                villageInfo.textContent = "No village data available for this mandal.";
-                return;
-            }
-
-            villageInfo.innerHTML = mandalData[mandalName].villages
-                .map(
-                    (village) => `
-<div class="village" onclick="updatePopulationCensus(${JSON.stringify(village)})">
-    <h3>${village["Village Name"]}</h3>
-    <div class="popup">
-        ${Object.entries(generateVillageInfo(village))
-                            .map(
-                                ([p, data]) => `
-        <div>
-            <strong>${p}:</strong>
-            <span class="new">New: ${data.new}</span>
-            <span class="in-progress">In Progress: ${data.inprogress}</span>
-            <span class="completed">Completed: ${data.completed}</span>
-        </div>
-        `
-                            )
-                            .join("")}
-    </div>
-</div>
-`
-                )
-                .join("");
-        }
-
-
-        // Function to populate department cards
-        function populateDepartments() {
-            const departmentCard = document.getElementById("department-card");
-            const departmentInfo = generateDepartmentInfo();
-
-            departmentCard.innerHTML = Object.entries(departmentInfo)
-                .map(
-                    ([dept, statuses]) => `
-<div class="department">
-    <h3>${dept}</h3>
-    <div class="popup">
-        ${Object.entries(statuses)
-                            .map(
-                                ([p, data]) => `
-        <div>
-            <strong>${p}:</strong>
-            <span class="new">New: ${data.new}</span>
-            <span class="in-progress">In Progress: ${data.inprogress}</span>
-            <span class="completed">Completed: ${data.completed}</span>
-        </div>
-        `
-                            )
-                            .join("")}
-    </div>
-</div>
-`
-                )
-                .join("");
-        }
-
-        // Function to display default village info
-        function displayDefaultVillageInfo() {
-            const villageInfo = document.getElementById("village-info");
-            const defaultInfo = defaultVillageInfo
-                .map(
-                    (mandal) => `
-<div class="village" onclick="updatePopulationCensus(${JSON.stringify(mandal)})">
-    <h3>${mandal["Mandal Name"]}</h3>
-    <div class="popup">
-        <div><strong>Total Population:</strong> ${mandal["Total Population"]}</div>
-        <div><strong>Male Population:</strong> ${mandal["Male Population"]}</div>
-        <div><strong>Female Population:</strong> ${mandal["Female Population"]}</div>
-        <div><strong>Area:</strong> ${mandal["Area (sq. km)"]} sq. km</div>
-        <div><strong>Literacy Rate:</strong> ${mandal["Literacy Rate (%)"]}%</div>
-    </div>
-</div>
-`
-                )
-                .join("");
-            villageInfo.innerHTML = defaultInfo;
-        }
-
-        // Handle Mandal Click
         function handleMandalClick(mandalName) {
-            console.log('Clicked on mandal:', mandalName);
-            updateVillageInfo(mandalName); // Update village info based on the clicked mandal
+            // Fetch department information based on the clicked mandal
+            fetchDepartmentInfo(mandalName);
+
+            // Populate village info for the clicked mandal
+            populateVillageInfo(mandalName);
         }
 
-        // Load data when the DOM is ready
-        document.addEventListener("DOMContentLoaded", () => {
-            loadData();
+        function fetchDepartmentInfo(mandalName) {
+            // Simulate fetching department data based on mandalName
+            const departmentData = getDepartmentData(mandalName);
+
+            // Update the department content in the department card
+            updateDepartmentContent(departmentData);
+        }
+
+        function getDepartmentData(mandalName) {
+            // Simulate fetching department data from a data source
+            // Replace this with your actual data fetching logic
+            switch (mandalName) {
+                case 'KURUPAM':
+                    return {
+                        title: 'Kurupam Mandal Departments',
+                        content: '<p>Information about departments in Kurupam Mandal.</p>'
+                    };
+                case 'BHAMINI':
+                    return {
+                        title: 'Bhamini Mandal Departments',
+                        content: '<p>Information about departments in Bhamini Mandal.</p>'
+                    };
+                case 'GUMMALAKSHMIPURAM':
+                    return {
+                        title: 'Gummalakshmipuram Mandal Departments',
+                        content: '<p>Information about departments in Gummalakshmipuram Mandal.</p>'
+                    };
+                case 'KOMARADA':
+                    return {
+                        title: 'Komarada Mandal Departments',
+                        content: '<p>Information about departments in Komarada Mandal.</p>'
+                    };
+                case 'GARUGUBILLI':
+                    return {
+                        title: 'Garugubilli Mandal Departments',
+                        content: '<p>Information about departments in Garugubilli Mandal.</p>'
+                    };
+                case 'JIYYAMMAVALASA':
+                    return {
+                        title: 'Jiyyammavalasa Mandal Departments',
+                        content: '<p>Information about departments in Jiyyammavalasa Mandal.</p>'
+                    };
+                case 'SEETHAMPETA':
+                    return {
+                        title: 'Seethampeta Mandal Departments',
+                        content: '<p>Information about departments in Seethampeta Mandal.</p>'
+                    };
+                case 'PALAKONDA':
+                    return {
+                        title: 'Palakonda Mandal Departments',
+                        content: '<p>Information about departments in Palakonda Mandal.</p>'
+                    };
+                case 'VEERAGHATTAM':
+                    return {
+                        title: 'Veeraghattam Mandal Departments',
+                        content: '<p>Information about departments in Veeraghattam Mandal.</p>'
+                    };
+                case 'BALIJIPETA':
+                    return {
+                        title: 'Balijipeta Mandal Departments',
+                        content: '<p>Information about departments in Balijipeta Mandal.</p>'
+                    };
+                case 'SEETHANAGARAM':
+                    return {
+                        title: 'Seethanagaram Mandal Departments',
+                        content: '<p>Information about departments in Seethanagaram Mandal.</p>'
+                    };
+                case 'PARVATHIPURAM':
+                    return {
+                        title: 'Parvathipuram Mandal Departments',
+                        content: '<p>Information about departments in Parvathipuram Mandal.</p>'
+                    };
+                case 'MAKKUVA':
+                    return {
+                        title: 'Makkuva Mandal Departments',
+                        content: '<p>Information about departments in Makkuva Mandal.</p>'
+                    };
+                case 'SALUR':
+                    return {
+                        title: 'Salur Mandal Departments',
+                        content: '<p>Information about departments in Salur Mandal.</p>'
+                    };
+                case 'PACHIPENTA':
+                    return {
+                        title: 'Pachipenta Mandal Departments',
+                        content: '<p>Information about departments in Pachipenta Mandal.</p>'
+                    };
+                default:
+                    return {
+                        title: 'No Data Available',
+                        content: '<p>No information available for this mandal.</p>'
+                    };
+            }
+        }
+
+        function updateDepartmentContent(departmentData) {
+            const departmentCard = document.getElementById('department-card');
+            departmentCard.innerHTML = `
+                <h4 class="text-lg font-semibold">${departmentData.title}</h4>
+                ${departmentData.content}
+            `;
+        }
+
+        // Call populateVillageInfo when the DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            populateVillageInfo(); // Initial population with all mandals
         });
     </script>
 </body>
