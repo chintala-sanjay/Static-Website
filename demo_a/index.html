@@ -267,6 +267,182 @@
     </footer>
 
     <script>
+
+        // Sample departments and their statuses
+        const departments = [
+            "Agriculture Department",
+            "Animal Husbandry",
+            "Civil Supplies",
+            "Education",
+            "Women and Child Development",
+            "DRDA",
+            "District Water Management Agency",
+            "Zilla Praja Parishad",
+            "BC Corporation",
+            "SC Corporation",
+            "Chief Planning Office",
+            "Health",
+            "Housing",
+            "Welfare Departments",
+            "Engineering",
+            "District Industries Centre",
+            "District Panchayat Office",
+            "District Mineral Foundation Trust",
+        ];
+
+        // Function to generate random department info
+        function generateDepartmentInfo() {
+            const departmentInfo = {};
+            departments.forEach((dept) => {
+                departmentInfo[dept] = {
+                    p1: {
+                        new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                            Math.floor(Math.random() * 100)
+                    },
+                    p2: {
+                        new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                            Math.floor(Math.random() * 100)
+                    },
+                    p3: {
+                        new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                            Math.floor(Math.random() * 100)
+                    },
+                    p4: {
+                        new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                            Math.floor(Math.random() * 100)
+                    },
+                };
+            });
+            return departmentInfo;
+        }
+
+        // Function to generate random village info
+        function generateVillageInfo(village) {
+            return {
+                p1: {
+                    new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                        Math.floor(Math.random() * 100)
+                },
+                p2: {
+                    new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                        Math.floor(Math.random() * 100)
+                },
+                p3: {
+                    new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                        Math.floor(Math.random() * 100)
+                },
+                p4: {
+                    new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                        Math.floor(Math.random() * 100)
+                },
+            };
+        }
+
+        // Function to update Population Census
+        function updatePopulationCensus(data) {
+            const populationCensus = document.getElementById("population-census");
+            populationCensus.textContent = `Total Population: ${data.population}, Male: ${data.male}, Female: ${data.female}`;
+        }
+
+        // Function to update Village Info
+        function updateVillageInfo(mandal) {
+            const villageInfo = document.getElementById("village-info");
+            villageInfo.innerHTML = mandalData[mandal].villages
+                .map(
+                    (village) => `
+<div class="village" onclick="updatePopulationCensus(${JSON.stringify(village)})">
+    <h3>${village["Village Name"]}</h3>
+    <div class="popup">
+        ${Object.entries(generateVillageInfo(village))
+                            .map(
+                                ([p, data]) => `
+        <div>
+            <strong>${p}:</strong>
+            <span class="new">New: ${data.new}</span>
+            <span class="in-progress">In Progress: ${data.inprogress}</span>
+            <span class="completed">Completed: ${data.completed}</span>
+        </div>
+        `
+                            )
+                            .join("")}
+    </div>
+</div>
+`
+                )
+                .join("");
+        }
+
+        // Function to populate department cards
+        function populateDepartments() {
+            const departmentCard = document.getElementById("department-card");
+            const departmentInfo = generateDepartmentInfo();
+
+            departmentCard.innerHTML = Object.entries(departmentInfo)
+                .map(
+                    ([dept, statuses]) => `
+<div class="department">
+    <h3>${dept}</h3>
+    <div class="popup">
+        ${Object.entries(statuses)
+                            .map(
+                                ([p, data]) => `
+        <div>
+            <strong>${p}:</strong>
+            <span class="new">New: ${data.new}</span>
+            <span class="in-progress">In Progress: ${data.inprogress}</span>
+            <span class="completed">Completed: ${data.completed}</span>
+        </div>
+        `
+                            )
+                            .join("")}
+    </div>
+</div>
+`
+                )
+                .join("");
+        }
+
+        // Function to display default village info
+        function displayDefaultVillageInfo() {
+            const villageInfo = document.getElementById("village-info");
+            const defaultInfo = defaultVillageInfo
+                .map(
+                    (mandal) => `
+<div class="village" onclick="updatePopulationCensus(${JSON.stringify(mandal)})">
+    <h3>${mandal["Mandal Name"]}</h3>
+    <div class="popup">
+        <div><strong>Total Population:</strong> ${mandal["Total Population"]}</div>
+        <div><strong>Male Population:</strong> ${mandal["Male Population"]}</div>
+        <div><strong>Female Population:</strong> ${mandal["Female Population"]}</div>
+        <div><strong>Area:</strong> ${mandal["Area (sq. km)"]} sq. km</div>
+        <div><strong>Literacy Rate:</strong> ${mandal["Literacy Rate (%)"]}%</div>
+    </div>
+</div>
+`
+                )
+                .join("");
+            villageInfo.innerHTML = defaultInfo;
+        }
+
+        // Simulate clicking on a Mandal or Village (for demonstration)
+        document.addEventListener("DOMContentLoaded", () => {
+            // Display default village info
+            displayDefaultVillageInfo();
+
+            // Populate departments on page load
+            populateDepartments();
+
+            // Simulate clicking on a Mandal
+            const mandals = Object.keys(mandalData);
+            mandals.forEach((mandal) => {
+                setTimeout(() => {
+                    updatePopulationCensus(mandalData[mandal]);
+                    updateVillageInfo(mandal);
+                }, 2000); // Simulate a delay for demonstration
+            });
+        });
+        
+        //TODO: Handle Mandal Click
         function handleMandalClick(mandalName) {
             console.log('Clicked on mandal:', mandalName);
             // Add your logic here to fetch and display village information based on the selected mandal
