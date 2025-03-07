@@ -269,7 +269,7 @@
         // Fetch mandal data from JSON file
         async function fetchMandalData() {
             try {
-                const response = await fetch('mandal_data.json');
+                const response = await fetch('./data/mandal_data.json');
                 const data = await response.json();
                 return data;
             } catch (error) {
@@ -281,7 +281,7 @@
         // Fetch village data from JSON file
         async function fetchVillageData() {
             try {
-                const response = await fetch('village_data.json');
+                const response = await fetch('./data/village_data.json');
                 const data = await response.json();
                 return data;
             } catch (error) {
