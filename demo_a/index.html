@@ -2789,7 +2789,7 @@
                     </div>
                 </div>
 
-                <!-- <div class="village" onclick="updatePopulationCensus({" village=""
+                <div class="village" onclick="updatePopulationCensus({" village=""
                     name":"veeraghattam","population":5200,"male="" population":2500,"female=""
                     population":2700,"area="" (sq.="" km)":10,"literacy="" rate="" (%)":50,"municipal=""
                     corporation":"-"})"="">
@@ -2862,7 +2862,7 @@
                         </div>
 
                     </div>
-                </div> -->
+                </div>
                 </p>
             </div>
             <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow duration-300">
@@ -3435,6 +3435,63 @@
                     }, 2000); // Simulate a delay for demonstration
                 });
             });
+        </script>
+
+        <!-- Village Data -->
+        <script>
+            // Village data handling
+            async function fetchVillageData() {
+                try {
+                    const response = await fetch('./data/village_data.json');
+                    const data = await response.json();
+                    return data;
+                } catch (error) {
+                    console.error('Error fetching village data:', error);
+                    return [];
+                }
+            }
+
+            async function handleMandalClick(mandalName) {
+                const villageData = await fetchVillageData();
+                const villageCardsContainer = document.getElementById('village-info');
+                villageCardsContainer.innerHTML = ''; // Clear existing cards
+
+                // Find the mandal in the data
+                let mandalVillages = null;
+                for (const mandal of villageData) {
+                    if (mandal[mandalName]) {
+                        mandalVillages = mandal[mandalName];
+                        break;
+                    }
+                }
+
+                if (mandalVillages) {
+                    mandalVillages.forEach(village => {
+                        const villageCard = document.createElement('div');
+                        villageCard.className = 'village card';
+                        villageCard.innerHTML = `
+                        <h3>${village["Village Name"]}</h3>
+                        <div class="popup">
+                  ${Object.entries(generateVillageInfo(village))
+                                .map(
+                                    ([p, data]) => `
+                    <div>
+                      <strong>${p}:</strong>
+                      <span class="new">New: ${data.new}</span>
+                      <span class="in-progress">In Progress: ${data.inprogress}</span>
+                      <span class="completed">Completed: ${data.completed}</span>
+                    </div>
+                  `
+                                )
+                                .join("")}
+                </div>
+                    `;
+                        villageCardsContainer.appendChild(villageCard);
+                    });
+                } else {
+                    villageCardsContainer.innerHTML = '<p>No data found for this mandal.</p>';
+                }
+            }
         </script>
 
 
