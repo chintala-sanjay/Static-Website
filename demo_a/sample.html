@@ -719,7 +719,7 @@
             background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1))
         }
 
-        .bg-gray-200 {
+        .bg .bg-gray-200 {
             --tw-bg-opacity: 1;
             background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1))
         }
@@ -813,7 +813,7 @@
 
         .text-gray-700 {
             --tw-text-opacity: 1;
-            color: rgb(55 65 81 / var(--tw-text-opacity, 1))
+            color: rgb(55 65 81 / var (--tw-text-opacity, 1))
         }
 
         .text-green-800 {
@@ -1033,6 +1033,104 @@
             </div>
         </div>
 
+        <!-- Dynamic Department Info and Maps -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 px-4">
+            <!-- Departments -->
+            <div
+                class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow duration-300 department-card">
+                <h3 class="text-xl font-bold mb-4 text-indigo-800">Departments</h3>
+                <div class="department-card" id="department-card">
+                    <p>Department content will be dynamically loaded here.</p>
+                    <!-- dynamic department content -->
+                </div>
+            </div>
+
+            <!-- Maps -->
+            <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow duration-300">
+                <h3 class="text-xl font-bold mb-4 text-indigo-800 text-align-center">Maps</h3>
+                <div class="w-full h-96 overflow-hidden relative">
+                    <svg version="1.1" x="0px" y="0px" id="svg1" viewBox="-100 50 1150 900"
+                        style="enable-background: -100 50 1150 900;" xml:space="preserve">
+                        <!-- Mandal paths and text -->
+                        <!-- KURUPAM -->
+                        <a class="get-mandal" href="#kurupam" onclick="handleMandalClick('KURUPAM')" id="mandal-kurupam"
+                            aria-controls="kurupam" role="tab" data-toggle="tab" title="KURUPAM">
+                            <path class="mandal-path"
+                                d="M597,353 L585,343 L584,333 L593,332 L587,325 L584,322 L578,315 L564,311 L543,303 L539,308 L540,318 L546,326 L537,330 L530,320 L521,309 L514,298 L504,298 L493,302[...]">
+                            </path>
+                            <text font-size="20px;" class="mandal-txt">KURUPAM</text>
+                        </a>
+                        <!-- BHAMINI -->
+                        <a class="get-mandal" href="#bhamini" onclick="handleMandalClick('BHAMINI')" id="mandal-bhamini"
+                            aria-controls="bhamini" role="tab" data-toggle="tab" title="BHAMINI">
+                            <path class="mandal-path"
+                                d="M704,316 L685,305 L675,287 L664,278 L658,262 L666,262 L676,272 L684,268 L681,253 L673,241 L667,235 L660,234 L657,222 L653,214 L652,201 L662,191 L671,186 L681,178[...]">
+                            </path>
+                            <text font-size="16px" class="mandal-txt">BHAMINI</text>
+                        </a>
+                        <!-- GUMMALAKSHMIPURAM -->
+                        <a class="get-mandal" href="#gummalakshmipuram" onclick="handleMandalClick('GUMMALAKSHMIPURAM')"
+                            id="mandal-gummalakshmipuram" aria-controls="gummalakshmipuram" role="tab" data-toggle="tab"
+                            title="GUMMALAKSHMIPURAM">
+                            <path class="mandal-path"
+                                d="M464,243 L455,244 L448,239 L442,233 L435,226 L428,221 L421,218 L415,216 L411,206 L412,199 L407,197 L406,188 L412,181 L419,182 L427,180 L427,170 L429,163 L424,158[...]">
+                            </path>
+                            <text font-size="14px" class="mandal-txt">GUMMALAKSHMIPURAM</text>
+                        </a>
+                        <!-- Add more mandals in a similar manner -->
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- Villages and Population Census -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 px-4">
+            <!-- Villages Card -->
+            <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow duration-300 village-card">
+                <h3 class="text-xl font-bold mb-4 text-yellow-800">Villages</h3>
+                <p class="text-sm text-gray-700 mt-4" id="village-info">List of mandals or villages in the district.</p>
+            </div>
+
+            <!-- Population Census Card -->
+            <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow duration-300">
+                <h3 class="text-xl font-bold mb-4 text-pink-800">Population Census</h3>
+                <div id="population-census" class="space-y-3">
+                    <!-- Total Population -->
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-users text-blue-600"></i>
+                        <span>Total Population: <span id="total-population">9,25,340 (as per 2011 Census)</span></span>
+                    </div>
+                    <!-- Male Population -->
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-male text-blue-600"></i>
+                        <span>Male Population: <span id="male-population">454,000</span></span>
+                    </div>
+                    <!-- Female Population -->
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-f                <div class=" flex items-center space-x-2">
+                            <i class="fas fa-female text-pink-600"></i>
+                            <span>Female Population: <span id="female-population">470,000</span></span>
+                    </div>
+                    <!-- Literacy Rate -->
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-book text-green-600"></i>
+                        <span>Literacy Rate: <span id="literacy-rate">50.9% (approximately)</span></span>
+                    </div>
+                    <!-- Area -->
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-map text-purple-600"></i>
+                        <span>Area: <span id="area">3,659</span> sq. km</span>
+                    </div>
+                    <!-- Municipal Corporation -->
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-building text-orange-600"></i>
+                        <span>Municipal Corporation: <span id="municipal-corporation">Parvathipuram
+                                Municipality</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Modal -->
         <div id="modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
             <div class="bg-white p-6 rounded-lg">
@@ -1041,35 +1139,202 @@
                 <button class="mt-4 bg-red-600 text-white px-4 py-2 rounded" onclick="closeModal()">Close</button>
             </div>
         </div>
-    </div>
 
-    <script>
-        let currentSlide = 0;
-        const slides = document.querySelectorAll('.banner-slide');
+        <script>
+            let currentSlide = 0;
+            const slides = document.querySelectorAll('.banner-slide');
 
-        function showSlide(index) {
-            slides[currentSlide].classList.remove('active');
-            currentSlide = (index + slides.length) % slides.length;
-            slides[currentSlide].classList.add('active');
-        }
+            function showSlide(index) {
+                slides[currentSlide].classList.remove('active');
+                currentSlide = (index + slides.length) % slides.length;
+                slides[currentSlide].classList.add('active');
+            }
 
-        function nextSlide() {
-            showSlide(currentSlide + 1);
-        }
+            function nextSlide() {
+                showSlide(currentSlide + 1);
+            }
 
-        function prevSlide() {
-            showSlide(currentSlide - 1);
-        }
+            function prevSlide() {
+                showSlide(currentSlide - 1);
+            }
 
-        function openModal(title) {
-            document.getElementById('modal-title').innerText = title;
-            document.getElementById('modal').classList.remove('hidden');
-        }
+            function openModal(title) {
+                document.getElementById('modal-title').innerText = title;
+                document.getElementById('modal').classList.remove('hidden');
+            }
 
-        function closeModal() {
-            document.getElementById('modal').classList.add('hidden');
-        }
-    </script>
+            function closeModal() {
+                document.getElementById('modal').classList.add('hidden');
+            }
+
+            // Fetch mandal data from JSON file
+            async function fetchMandalData() {
+                try {
+                    const response = await fetch('./data/mandal_data.json');
+                    const data = await response.json();
+                    return data;
+                } catch (error) {
+                    console.error('Error fetching mandal data:', error);
+                    return [];
+                }
+            }
+
+            // Fetch village data from JSON file
+            async function fetchVillageData() {
+                try {
+                    const response = await fetch('./data/village_data.json');
+                    const data = await response.json();
+                    return data;
+                } catch (error) {
+                    console.error('Error fetching village data:', error);
+                    return [];
+                }
+            }
+
+            // Function to populate the village information card
+            async function populateVillageInfo(mandalName = null) {
+                const villageData = await fetchVillageData();
+                const villageInfo = document.getElementById('village-info');
+
+                if (villageData.length > 0) {
+                    let villageListHTML = '';
+                    villageData.forEach(mandalData => {
+                        const currentMandalName = Object.keys(mandalData)[0];
+
+                        // If a specific mandal is selected, only display that mandal's villages
+                        if (mandalName && currentMandalName !== mandalName) {
+                            return; // Skip this mandal
+                        }
+
+                        const villages = mandalData[currentMandalName];
+                        villageListHTML += `<p><strong>${currentMandalName} Mandal:</strong></p><ul>`;
+                        villages.forEach(village => {
+                            villageListHTML += `<li>${village["Village Name"]}</li>`;
+                        });
+                        villageListHTML += `</ul>`;
+                    });
+                    villageInfo.innerHTML = villageListHTML;
+                } else {
+                    villageInfo.textContent = 'No village data available.';
+                }
+            }
+
+            function handleMandalClick(mandalName) {
+                // Fetch department information based on the clicked mandal
+                fetchDepartmentInfo(mandalName);
+
+                // Populate village info for the clicked mandal
+                populateVillageInfo(mandalName);
+            }
+
+            function fetchDepartmentInfo(mandalName) {
+                // Simulate fetching department data based on mandalName
+                const departmentData = getDepartmentData(mandalName);
+
+                // Update the department content in the department card
+                updateDepartmentContent(departmentData);
+            }
+
+            function getDepartmentData(mandalName) {
+                // Simulate fetching department data from a data source
+                // Replace this with your actual data fetching logic
+                switch (mandalName) {
+                    case 'KURUPAM':
+                        return {
+                            title: 'Kurupam Mandal Departments',
+                            content: '<p>Information about departments in Kurupam Mandal.</p>'
+                        };
+                    case 'BHAMINI':
+                        return {
+                            title: 'Bhamini Mandal Departments',
+                            content: '<p>Information about departments in Bhamini Mandal.</p>'
+                        };
+                    case 'GUMMALAKSHMIPURAM':
+                        return {
+                            title: 'Gummalakshmipuram Mandal Departments',
+                            content: '<p>Information about departments in Gummalakshmipuram Mandal.</p>'
+                        };
+                    case 'KOMARADA':
+                        return {
+                            title: 'Komarada Mandal Departments',
+                            content: '<p>Information about departments in Komarada Mandal.</p>'
+                        };
+                    case 'GARUGUBILLI':
+                        return {
+                            title: 'Garugubilli Mandal Departments',
+                            content: '<p>Information about departments in Garugubilli Mandal.</p>'
+                        };
+                    case 'JIYYAMMAVALASA':
+                        return {
+                            title: 'Jiyyammavalasa Mandal Departments',
+                            content: '<p>Information about departments in Jiyyammavalasa Mandal.</p>'
+                        };
+                    case 'SEETHAMPETA':
+                        return {
+                            title: 'Seethampeta Mandal Departments',
+                            content: '<p>Information about departments in Seethampeta Mandal.</p>'
+                        };
+                    case 'PALAKONDA':
+                        return {
+                            title: 'Palakonda Mandal Departments',
+                            content: '<p>Information about departments in Palakonda Mandal.</p>'
+                        };
+                    case 'VEERAGHATTAM':
+                        return {
+                            title: 'Veeraghattam Mandal Departments',
+                            content: '<p>Information about departments in Veeraghattam Mandal.</p>'
+                        };
+                    case 'BALIJIPETA':
+                        return {
+                            title: 'Balijipeta Mandal Departments',
+                            content: '<p>Information about departments in Balijipeta Mandal.</p>'
+                        };
+                    case 'SEETHANAGARAM':
+                        return {
+                            title: 'Seethanagaram Mandal Departments',
+                            content: '<p>Information about departments in Seethanagaram Mandal.</p>'
+                        };
+                    case 'PARVATHIPURAM':
+                        return {
+                            title: 'Parvathipuram Mandal Departments',
+                            content: '<p>Information about departments in Parvathipuram Mandal.</p>'
+                        };
+                    case 'MAKKUVA':
+                        return {
+                            title: 'Makkuva Mandal Departments',
+                            content: '<p>Information about departments in Makkuva Mandal.</p>'
+                        };
+                    case 'SALUR':
+                        return {
+                            title: 'Salur Mandal Departments',
+                            content: '<p>Information about departments in Salur Mandal.</p>'
+                        };
+                    case 'PACHIPENTA':
+                        return {
+                            title: 'Pachipenta Mandal Departments',
+                            content: '<p>Information about departments in Pachipenta Mandal.</p>'
+                        };
+                    default:
+                        return {
+                            title: 'No Data Available',
+                            content: '<p>No information available for this mandal.</p>'
+                        };
+                }
+            }
+
+            function updateDepartmentContent(departmentData) {
+                const departmentCard = document.getElementById('department-card');
+                departmentCard.innerHTML = `
+                        <h4 class="text-lg font-semibold">${departmentData.title}</h4>
+                        ${departmentData.content}
+                    `;
+            }
+
+            // Call populateVillageInfo when the DOM is loaded
+            document.addEventListener('DOMContentLoaded', () => {
+                populateVillageInfo(); // Initial population with all mandals
+            });
+        </script>
 </body>
 
 </html>
