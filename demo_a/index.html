@@ -3458,12 +3458,13 @@
 
                 // Find the mandal in the data
                 let mandalVillages = null;
-                for (const mandal of villageData) {
-                    if (mandal[mandalName]) {
-                        mandalVillages = mandal[mandalName];
-                        break;
-                    }
-                }
+                // for (const mandal of villageData) {
+                //     if (mandal[mandalName]) {
+                //         mandalVillages = mandal[mandalName];
+                //         break;
+                //     }
+                // }
+                mandalVillages = villageData[mandalData];
 
                 if (mandalVillages) {
                     mandalVillages.forEach(village => {
