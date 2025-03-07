@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parvathipuram District Information</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .mandal-path {
+            fill: #ddd;
+            stroke: #666;
+            stroke-width: 1;
+        }
+
+        .mandal-path:hover {
+            fill: #aed6f1;
+            /* Light blue on hover */
+            cursor: pointer;
+        }
+
+        .mandal-txt {
+            fill: #333;
+            text-anchor: middle;
+            /* Center the text horizontally */
+            dominant-baseline: middle;
+            /* Center the text vertically */
+            pointer-events: none;
+            /* Make the text non-interactive */
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <div class="container mx-auto py-8">
+        <header class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-800">Parvathipuram District Information</h1>
+            <p class="text-gray-600">Explore the details of Parvathipuram district.</p>
+        </header>
+
+        <!-- Department Info and Maps -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 px-4">
+            <!-- Departments -->
+            <div
+                class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow duration-300 department-card">
+                <h3 class="text-xl font-bold mb-4 text-indigo-800">Departments</h3>
+                <div class="department-card" id="department-card">
+                    <p>Department content will be dynamically loaded here.</p>
+                    <!-- dynamic departmentcontent -->
+                </div>
+            </div>
+
+            <!-- Maps-->
+            <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow duration-300">
+                <h3 class="text-xl font-bold mb-4 text-indigo-800 text-align-center">Maps</h3>
+                <div class="w-full h-96 overflow-hidden relative">
+                    <svg version="1.1" x="0px" y="0px" id="svg1" viewBox="-100 50 1150 900"
+                        style="enable-background: -100 50 1150 900;" xml:space="preserve">
+                        <!-- Filter for drop shadow -->
+                        <filter id="dropshadow" x="-2" y="-2" width="200" height="200">
+                            <feOffset result="offOut" in="SourceGraphic" dx="10" dy="10"></feOffset>
+                            <feGaussianBlur result="blurOut" in="offOut" stdDeviation="5"></feGaussianBlur>
+                            <feBlend in="SourceGraphic" in2="blurOut" mode="normal"></feBlend>
+                        </filter>
+
+                        <!-- District: Parvathipuram -->
+                        <!-- transform="matrix(1 0 0 1 465 243)" -->
+                        <a class="get-mandal" href="#kurupam" onclick="handleMandalClick('KURUPAM')" id="mandal-kurupam"
+                            aria-controls="kurupam" role="tab" data-toggle="tab" , title="KURUPAM">
+                            <path class="mandal-path"
+                                d="M597,353 L585,343 L584,333 L593,332 L587,325 L584,322 L578,315 L564,311 L543,303 L539,308 L540,318 L546,326 L537,330 L530,320 L521,309 L514,298 L504,298 L493,302 L487,305 L479,308 L475,312 L470,319 L470,305 L467,293 L465,284 L465,269 L466,255 L466,244 L475,242 L486,241 L502,247 L503,257 L514,259 L530,268 L533,261 L517,255 L520,242 L540,241 L546,234 L551,225 L563,215 L575,211 L584,207 L594,210 L601,214 L608,225 L617,230 L621,214 L631,212 L629,198 L639,204 L641,215 L645,228 L648,237 L651,245 L654,252 L659,258 L661,268 L669,276 L675,288 L681,293 L685,302 L695,308 L703,315 L705,323 L703,338 L702,346 L692,346 L679,346 L671,355 L666,367 L662,377 L652,390 L639,387 L628,382 L614,376 L598,367 Z">
+                            </path>
+                            <text font-size="20px;" class="mandal-txt">KURUPAM</text>
+                        </a>
+                        <!-- transform="matrix(1 0 0 1 704 316)" -->
+                        <a class="get-mandal" href="#bhamini" onclick="handleMandalClick('BHAMINI')" id="mandal-bhamini"
+                            aria-controls="bhamini" role="tab" data-toggle="tab" , title="BHAMINI">
+                            <path class="mandal-path"
+                                d="M704,316 L685,305 L675,287 L664,278 L658,262 L666,262 L676,272 L684,268 L681,253 L673,241 L667,235 L660,234 L657,222 L653,214 L652,201 L662,191 L671,186 L681,178 L690,179 L693,186 L700,196 L706,207 L711,219 L713,227 L712,244 L718,253 L715,264 L721,268 L730,265 L737,275 L736,283 L735,290 L733,298 L736,306 L739,315 L746,319 L753,324 L756,333 L760,343 L766,345 L773,347 L775,354 L779,364 L771,361 L764,361 L769,371 L764,378 L758,381 L752,380 L745,383 L738,381 L735,371 L728,369 L725,373 L718,383 L713,380 L703,377 L697,374 L684,374 L674,371 L681,367 L689,364 L695,362 L700,357 L703,352 L699,345 L692,345 L684,347 L687,341 L699,339 L704,334 L704,326 Z">
+                            </path>
+                            <text font-size="16px" class="mandal-txt">BHAMINI</text>
+                        </a>
+                        <!--  transform="matrix(1 0 0 1 464 243)" -->
+                        <a class="get-mandal" href="#gummalakshmipuram" onclick="handleMandalClick('GUMMALAKSHMIPURAM')"
+                            id="mandal-gummalakshmipuram" aria-controls="gummalakshmipuram" role="tab" data-toggle="tab"
+                            , title="GUMMALAKSHMIPURAM">
+                            <path class="mandal-path"
+                                d="M464,243 L455,244 L448,239 L442,233 L435,226 L428,221 L421,218 L415,216 L411,206 L412,199 L407,197 L406,188 L412,181 L419,182 L427,180 L427,170 L429,163 L424,158 L420,152 L416,140 L412,134 L413,126 L419,122 L424,118 L418,111 L427,109 L430,115 L431,124 L436,130 L442,134 L448,129 L453,135 L456,143 L456,153 L460,160 L455,164 L447,161 L443,166 L445,173 L452,176 L458,179 L465,179 L472,179 L475,172 L476,162 L479,156 L483,149 L488,141 L488,133 L485,125 L487,118 L493,114 L498,121 L498,129 L498,138 L504,136 L511,138 L515,133 L517,126 L518,116 L525,109 L535,106 L535,98 L531,91 L529,85 L528,79 L530,71 L536,68 L543,66 L547,59 L551,53 L552,47 L557,57 L556,64 L558,72 L565,72 L573,75 L575,81 L570,87 L573,93 L578,99 L581,106 L581,112 L581,118 L585,124 L591,127 L599,138 L604,147 L607,153 L610,159 L613,168 L622,169 L629,171 L636,171 L635,179 L628,181 L621,184 L621,191 L625,197 L630,199 L630,205 L630,212 L625,214 L620,217 L621,225 L618,232 L612,230 L608,224 L602,220 L599,215 L592,211 L585,209 L580,212 L574,213 L569,214 L562,217 L556,222 L552,227 L547,233 L545,239 L537,241 L529,241 L522,241 L519,248 L521,254 L527,260 L534,261 L531,269 L525,268 L520,263 L510,261 L504,258 L501,251 L497,245 L491,244 L484,243 L478,243 L472,243 Z">
+                            </path>
+                            <text font-size="14px" class="mandal-txt">GUMMALAKSHMIPURAM</text>
+                        </a>
+                        <!-- transform="matrix(1 0 0 1 417 218)"  -->
+                        <a class="get-mandal" href="#komarada" onclick="handleMandalClick('KOMARADA')"
+                            id="mandal-komarada" aria-controls="komarada" role="tab" data-toggle="tab" ,
+                            title="KOMARADA">
+                            <path class="mandal-path"
+                                d="M318,173 L310,176 L304,183 L304,188 L301,194 L296,191 L293,195 L283,191 L283,200 L287,208 L293,215 L300,220 L301,228 L306,234 L298,238 L293,245 L297,251 L306,257 L314,255 L313,244 L315,235 L317,221 L330,224 L334,241 L345,251 L340,258 L333,251 L325,242 L320,245 L321,258 L330,272 L338,271 L348,271 L342,279 L344,288 L350,293 L358,301 L369,302 L369,313 L361,313 L361,330 L351,338 L360,349 L371,347 L384,346 L385,355 L395,359 L404,364 L415,362 L421,355 L431,355 L440,352 L438,330 L443,318 L435,318 L432,308 L446,303 L455,299 L460,291 L466,288 L465,271 L467,261 L466,244 L455,244 L442,234 L428,221 L415,217 L411,232 L398,228 L391,217 L381,207 L371,201 L371,188 L355,183 L347,185 L338,187 L330,187 L327,177 Z">
+                            </path>
+                            <text font-size="14px" class="mandal-txt">KOMARADA</text>
+                        </a>
+                        <!-- transform="matrix(1 0 0 1 409 382)"  -->
+                        <a class="get-mandal" href="#garugubilli" onclick="handleMandalClick('GARUGUBILLI')"
+                            id="mandal-garugubilli" aria-controls="garugubilli" role="tab" data-toggle="tab" ,
+                            title="GARUGUBILLI">
+                            <path class="mandal-path"
+                                d="M448,458 L431,457 L421,457 L412,447 L411,455 L402,461 L394,453 L385,443 L377,437 L371,430 L379,420 L391,411 L396,417 L396,400 L402,386 L409,382 L412,370 L415,357 L425,355 L436,353 L446,355 L453,363 L449,369 L452,374 L458,380 L465,382 L467,393 L477,390 L483,399 L492,404 L497,411 L504,417 L500,421 L494,427 L483,436 L479,443 L476,450 L473,458 L473,470 L466,478 L456,467 Z">
+                            </path>
+                            <text font-size="14px" class="mandal-txt">GARUGUBILLI</text>
+                        </a>
+                        <!-- transform="matrix(1 0 0 1 501 417)"  -->
+                        <a class="get-mandal" href="#jiyyammavalasa" onclick="handleMandalClick('JIYYAMMAVALASA')"
+                            id="mandal-jiyyammavalasa" aria-controls="jiyyammavalasa" role="tab" data-toggle="tab" ,
+                            title="JIYYAMMAVALASA">
+                            <path class="mandal-path"
+                                d="M439,304 L432,309 L435,317 L443,321 L438,328 L439,341 L436,355 L443,356 L445,363 L450,371 L453,382 L463,384 L467,393 L477,391 L485,401 L496,408 L499,412 L499,423 L509,418 L516,412 L521,409 L527,406 L533,400 L540,396 L548,393 L556,386 L564,382 L573,377 L578,374 L583,372 L588,369 L598,366 L600,354 L591,347 L588,345 L585,336 L595,336 L590,328 L578,316 L568,312 L554,308 L543,303 L539,306 L539,315 L544,325 L537,329 L531,320 L524,312 L516,299 L506,296 L493,303 L482,306 L473,315 L472,302 L472,293 L465,285 L452,299 Z">
+                            </path>
+                            <text font-size="14px" class="mandal-txt">JIYYAMMAVALASA</text>
+                        </a>
+                        <!-- transform="matrix(1 0 0 1 736 371)"  -->
+                        <a class="get-mandal" href="#seethampeta" onclick="handleMandalClick('SEETHAMPETA')"
+                            id="mandal-seethampeta" aria-controls="seethampeta" role="tab" data-toggle="tab" ,
+                            title="SEETHAMPETA">
+                            <path class="mandal-path"
+                                d="M736,371 L728,369 L725,375 L720,382 L712,380 L705,378 L700,376 L693,375 L685,372 L675,371 L681,367 L689,364 L695,362 L700,357 L703,352 L699,345 L692,347 L686,347 L680,347 L673,348 L667,352 L665,358 L663,364 L661,370 L661,377 L658,384 L652,390 L644,387 L638,384 L630,379 L625,377 L617,373 L610,370 L604,369 L598,366 L591,367 L584,369 L579,373 L574,377 L568,380 L563,384 L556,385 L554,391 L558,395 L562,402 L557,407 L552,411 L554,417 L550,422 L547,429 L541,427 L537,432 L538,440 L541,448 L547,452 L553,448 L557,442 L562,436 L568,435 L567,444 L574,448 L577,456 L582,462 L583,469 L588,473 L593,476 L597,471 L603,467 L609,470 L617,471 L623,471 L626,478 L625,484 L626,491 L628,497 L632,502 L646,500 L655,500 L662,499 L668,506 L668,513 L675,511 L681,517 L677,522 L672,525 L675,531 L682,534 L680,543 L682,550 L688,557 L688,568 L698,568 L707,567 L713,562 L714,569 L710,572 L707,578 L712,581 L717,586 L720,593 L724,602 L728,604 L735,602 L744,591 L752,590 L757,594 L768,602 L776,605 L783,602 L784,595 L783,587 L780,580 L775,573 L779,567 L779,560 L774,553 L770,547 L762,534 L763,525 L756,517 L749,508 L740,503 L737,493 L731,489 L726,476 L722,466 L720,453 L720,442 L719,433 L725,427 L731,426 L739,422 L743,416 L740,409 L737,402 L730,398 L727,390 L733,385 L735,379 Z">
+                            </path>
+                            <text font-size="14px" class="mandal-txt">SEETHAMPETA</text>
+                        </a>
+                        <!-- transform="matrix(1 0 0 1 671 554)"  -->
+                        <a class="get-mandal" href="#palakonda" onclick="handleMandalClick('PALAKONDA')"
+                            id="mandal-palakonda" aria-controls="palakonda" role="tab" data-toggle="tab" ,
+                            title="PALAKONDA">
+                            <path class="mandal-path"
+                                d="M590,565 L597,571 L604,575 L613,576 L621,579 L630,578 L635,572 L641,566 L650,565 L654,572 L661,576 L664,568 L669,561 L674,551 L681,546 L682,531 L682,522 L682,511 L672,509 L668,502 L658,497 L638,499 L630,497 L627,487 L630,477 L623,470 L611,470 L605,467 L595,472 L590,478 L584,484 L581,491 L578,502 L580,512 L584,517 L588,526 L586,528 L580,535 L583,544 L590,555 Z">
+                            </path>
+                            <text font-size="14px" class="mandal-txt">PALAKONDA</text>
+                        </a>
+                        <!-- transform="matrix(1 0 0 1 589 564)"  -->
+                        <a class="get-mandal" href="#veeraghattam" onclick="handleMandalClick('VEERAGHATTAM')"
+                            id="mandal-veeraghattam" aria-controls="veeraghattam" role="tab" data-toggle="tab" ,
+                            title="VEERAGHATTAM">
+                            <path class="mandal-path"
+                                d="M476,437 L483,433 L496,423 L510,416 L517,411 L519,401 L536,399 L541,390 L553,389 L561,397 L567,404 L554,409 L553,420 L550,427 L543,433 L537,430 L539,440 L541,448 L550,451 L554,441 L561,436 L570,436 L574,448 L581,458 L584,462 L593,475 L584,488 L581,491 L578,497 L580,512 L590,525 L590,532 L584,528 L583,539 L587,546 L593,553 L590,565 L577,565 L566,562 L554,558 L544,545 L540,531 L534,519 L526,507 L520,497 L510,488 L499,480 L494,464 L482,450 Z">
+                            </path>
+                            <text font-size="14px" class="mandal-txt">VEERAGHATTAM</text>
+                        </a>
+                        <!-- transform="matrix(1 0 0 1 472 464)"  -->
+                        <a class="get-mandal" href="#balijipeta" onclick="handleMandalClick('BALIJIPETA')"
+                            id="mandal-balijipeta" aria-controls="balijipeta" role="tab" data-toggle="tab" ,
+                            title="BALIJIPETA">
+                            <path class="mandal-path"
+                                d="M402,490 L389,499 L405,512 L416,519 L431,524 L446,522 L450,528 L446,539 L433,546 L426,551 L420,559 L414,569 L419,579 L433,580 L432,600 L443,600 L448,609 L458,605 L462,610 L467,612 L473,607 L466,590 L483,596 L486,600 L493,603 L500,596 L510,599 L518,598 L525,602 L537,602 L538,585 L531,579 L522,580 L513,579 L498,576 L490,576 L481,579 L479,586 L480,588 L482,592 L469,588 L459,586 L459,575 L467,569 L472,558 L486,559 L493,545 L496,538 L493,528 L477,526 L480,511 L479,499 L485,488 L487,474 L475,467 L470,472 L465,478 L458,467 L448,460 L435,457 L421,455 L412,468 Z">
+                            </path>
+                            <text font-size="14px" class="mandal-txt">BALIJIPETA</text>
+                        </a>
+                        <!-- transform="matrix(1 0 0 1 403 509)"  -->
+                        <a class="get-mandal" href="#seethanagaram" onclick="handleMandalClick('SEETHANAGARAM')"
+                            id="mandal-seethanagaram" aria-controls="seethanagaram" role="tab" data-toggle="tab" ,
+                            title="SEETHANAGARAM">
+                            <path class="mandal-path"
+                                d="M296,494 L303,500 L310,503 L315,508 L318,517 L321,526 L330,528 L324,537 L328,544 L337,545 L340,537 L345,531 L338,523 L347,523 L355,520 L361,513 L369,514 L371,520 L379,518 L381,533 L372,537 L388,526 L394,518 L394,508 L401,507 L396,499 L402,491 L408,484 L409,476 L413,467 L418,460 L422,453 L413,446 L411,454 L404,460 L396,454 L388,447 L381,439 L378,437 L372,429 L364,433 L355,436 L350,427 L347,426 L337,426 L328,432 L324,439 L318,446 L311,452 L303,446 L294,442 L286,439 L287,449 L291,457 L290,467 L293,474 L297,480 L301,484 L297,480 Z">
+                            </path>
+                            <text font-size="14px" class="mandal-txt">SEETHANAGARAM</text>
+                        </a>
+                        <!-- transform="matrix(1 0 0 1 355 336)"  -->
+                        <a class="get-mandal" href="#parvathipuram" onclick="handleMandalClick('PARVATHIPURAM')"
+                            id="mandal-parvathipuram" aria-controls="parvathipuram" role="tab" data-toggle="tab" ,
+                            title="PARVATHIPURAM">
+                            <path class="mandal-path"
+                                d="M355,336 L347,339 L340,342 L336,336 L330,333 L325,336 L322,342 L314,343 L305,344 L301,349 L300,356 L298,363 L291,363 L285,362 L279,364 L271,367 L263,368 L258,373 L256,379 L254,387 L255,394 L249,398 L243,397 L235,398 L228,396 L222,394 L216,390 L210,391 L211,398 L212,405 L209,408 L209,415 L214,417 L222,420 L230,420 L237,424 L245,425 L255,425 L262,427 L267,432 L270,435 L281,436 L286,440 L294,444 L302,448 L310,451 L318,450 L325,445 L329,438 L334,431 L340,425 L347,427 L353,434 L359,436 L366,433 L374,429 L381,423 L383,418 L390,414 L395,418 L399,412 L400,405 L398,396 L404,387 L410,380 L413,370 L414,360 L407,358 L402,353 L397,361 L389,357 L385,350 L386,343 L376,344 L367,349 L359,347 Z">
+                            </path>
+                            <text font-size="14px" class="mandal-txt">PARVATHIPURAM</text>
+                        </a>
+                        <!-- transform="matrix(1 0 0 1 267 435)"  -->
+                        <a class="get-mandal" href="#makkuva" onclick="handleMandalClick('MAKKUVA')" id="mandal-makkuva"
+                            aria-controls="makkuva" role="tab" data-toggle="tab" , title="PARVATHIPURAM">
+                            <path class="mandal-path"
+                                d="M296,494 L277,515 L267,515 L256,519 L244,524 L236,529 L233,538 L222,541 L209,541 L209,532 L212,521 L220,522 L227,515 L216,517 L205,515 L196,511 L195,499 L189,487 L186,468 L198,465 L199,454 L195,450 L188,443 L182,448 L179,457 L168,467 L158,465 L153,451 L165,451 L169,443 L172,436 L173,434 L165,430 L159,423 L161,416 L162,411 L155,407 L151,414 L138,420 L129,416 L144,404 L151,396 L159,397 L169,397 L178,407 L185,413 L196,414 L196,421 L196,430 L205,434 L205,423 L209,416 L219,418 L230,420 L240,424 L252,426 L261,426 L269,434 L279,436 L287,441 L287,451 L291,458 L290,468 L296,475 L303,480 Z">
+                            </path>
+                            <text font-size="14px" class="mandal-txt">MAKKUVA</text>
+                        </a>
+                        <!-- transform="matrix(1 0 0 1 152 397)"  -->
+                        <a class="get-mandal" href="#salur" onclick="handleMandalClick('SALUR')" id="mandal-salur"
+                            aria-controls="salur" role="tab" data-toggle="tab" , title="SALUR">
+                            <path class="mandal-path"
+                                d="M152,397 L148,391 L144,386 L137,386 L131,390 L125,391 L119,397 L122,400 L122,409 L116,412 L111,420 L107,427 L101,431 L99,439 L96,447 L93,457 L101,456 L106,451 L113,452 L116,458 L124,459 L131,454 L135,449 L143,448 L144,454 L146,460 L147,467 L146,473 L145,479 L143,485 L137,485 L129,494 L124,493 L116,491 L108,490 L102,489 L106,502 L98,508 L98,516 L100,525 L98,532 L96,540 L88,544 L82,547 L74,557 L74,568 L78,577 L82,585 L91,589 L98,593 L104,590 L110,587 L116,582 L121,578 L127,575 L134,573 L142,573 L151,572 L152,579 L148,586 L145,595 L154,595 L158,590 L164,585 L171,584 L180,586 L180,594 L173,600 L173,607 L167,612 L162,615 L158,621 L163,626 L171,629 L178,633 L181,640 L185,648 L193,649 L200,649 L202,642 L202,634 L203,623 L207,616 L212,612 L220,607 L227,605 L233,602 L239,597 L246,598 L254,594 L258,587 L260,579 L265,575 L262,569 L255,567 L248,563 L246,557 L239,553 L233,554 L231,547 L237,541 L240,536 L244,531 L245,524 L238,526 L234,533 L229,539 L221,541 L215,541 L209,538 L210,531 L210,524 L217,521 L227,523 L227,516 L220,515 L213,516 L208,514 L200,514 L196,509 L196,502 L193,496 L190,488 L187,479 L188,472 L193,467 L199,464 L199,456 L196,451 L193,443 L185,444 L181,452 L176,459 L171,463 L165,466 L158,464 L155,458 L155,451 L163,451 L171,450 L174,443 L178,438 L175,431 L167,429 L161,426 L160,418 L162,412 L161,406 L155,405 L152,411 L148,415 L142,415 L135,414 L139,407 Z">
+                            </path>
+                            <text font-size="14px" class="mandal-txt">SALUR</text>
+                        </a>
+                        <!-- transform="matrix(1 0 0 1 148 572)"  -->
+                        <a class="get-mandal" href="#pachipenta" onclick="handleMandalClick('PACHIPENTA')"
+                            id="mandal-pachipenta" aria-controls="pachipenta" role="tab" data-toggle="tab" ,
+                            title="PACHIPENTA">
+                            <path class="mandal-path" title="PACHIPENTA"
+                                d="M192,648 L203,656 L203,665 L199,672 L196,679 L199,686 L206,689 L207,697 L200,702 L196,709 L189,712 L189,720 L188,729 L186,737 L178,739 L169,743 L162,750 L156,756 L149,763 L142,769 L132,766 L122,767 L112,769 L102,769 L92,764 L90,754 L92,744 L95,736 L88,729 L85,719 L94,715 L102,713 L98,705 L92,696 L84,697 L75,700 L71,702 L63,695 L67,692 L72,683 L64,680 L57,673 L54,663 L58,655 L64,648 L68,639 L74,632 L81,625 L85,616 L90,607 L95,599 L101,592 L107,585 L115,581 L124,575 L132,574 L142,572 L152,572 L151,581 L148,589 L152,597 L158,589 L165,582 L173,582 L179,588 L179,594 L173,604 L168,611 L163,616 L162,625 L171,626 L176,632 L180,639 L186,645 L192,648 L199,649 Z">
+                            </path>
+                            <text font-size="14px" class="mandal-txt">PACHIPENTA</text>
+                        </a>
+
+                        <!-- Add more mandals here -->
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- Villages and Population Census -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 px-4">
+            <!-- Villages Card -->
+            <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow duration-300 village-card">
+                <h3 class="text-xl font-bold mb-4 text-yellow-800">Villages</h3>
+                <p class="text-sm text-gray-700 mt-4" id="village-info">List of mandals or villages in the
+                    district.</p>
+            </div>
+
+            <!-- Population Census Card -->
+            <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow duration-300">
+                <h3 class="text-xl font-bold mb-4 text-pink-800">Population Census</h3>
+                <div id="population-census" class="space-y-3">
+                    <!-- Total Population -->
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-users text-blue-600"></i>
+                        <span>Total Population: <span id="total-population">9,25,340 (as per 2011
+                                Census)</span></span>
+                    </div>
+
+                    <!-- Male Population -->
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-male text-blue-600"></i>
+                        <span>Male Population: <span id="male-population">454,000</span></span>
+                    </div>
+
+                    <!-- Female Population -->
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-female text-pink-600"></i>
+                        <span>Female Population: <span id="female-population">470,000</span></span>
+                    </div>
+
+                    <!-- Literacy Rate -->
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-book text-green-600"></i>
+                        <span>Literacy Rate: <span id="literacy-rate">50.9%
+                                (approximately)</span></span>
+                    </div>
+
+                    <!-- Area -->
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-map text-purple-600"></i>
+                        <span>Area: <span id="area">3,659</span> sq. km</span>
+                    </div>
+
+                    <!-- Municipal Corporation -->
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-building text-orange-600"></i>
+                        <span>Municipal Corporation: <span id="municipal-corporation">Parvathipuram
+                                Municipality</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-4 text-gray-500">
+        &copy; 2025 Parvathipuram District Information
+    </footer>
+
+    <script>
+        let mandalData = {};
+        let defaultVillageInfo = [];
+
+        // Function to load JSON data
+        async function loadData() {
+            try {
+                const [mandalDataResponse, villageDataResponse, defaultDataResponse] = await Promise.all([
+                    fetch('mandal_data.json'),
+                    fetch('village_data.json'),
+                    fetch('default_data.json')
+                ]);
+
+                const mandalDataJson = await mandalDataResponse.json();
+                const villageDataJson = await villageDataResponse.json();
+                const defaultDataJson = await defaultDataResponse.json();
+
+                // Structure mandalData
+                mandalDataJson.forEach(mandalName => {
+                    mandalData[mandalName] = { villages: [] };
+                });
+
+                // Populate villages into mandalData
+                villageDataJson.forEach(item => {
+                    const mandalName = Object.keys(item)[0];
+                    if (mandalData[mandalName]) {
+                        mandalData[mandalName].villages = item[mandalName];
+                    }
+                });
+
+                defaultVillageInfo = defaultDataJson;
+
+                // Now that data is loaded, display default village info
+                displayDefaultVillageInfo();
+                populateDepartments();
+
+            } catch (error) {
+                console.error('Error loading JSON:', error);
+                document.getElementById('village-info').textContent = 'Failed to load data.';
+            }
+        }
+
+        // Sample departments and their statuses
+        const departments = [
+            "Agriculture Department",
+            "Animal Husbandry",
+            "Civil Supplies",
+            "Education",
+            "Women and Child Development",
+            "DRDA",
+            "District Water Management Agency",
+            "Zilla Praja Parishad",
+            "BC Corporation",
+            "SC Corporation",
+            "Chief Planning Office",
+            "Health",
+            "Housing",
+            "Welfare Departments",
+            "Engineering",
+            "District Industries Centre",
+            "District Panchayat Office",
+            "District Mineral Foundation Trust",
+        ];
+
+        // Function to generate random department info
+        function generateDepartmentInfo() {
+            const departmentInfo = {};
+            departments.forEach((dept) => {
+                departmentInfo[dept] = {
+                    p1: {
+                        new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                            Math.floor(Math.random() * 100)
+                    },
+                    p2: {
+                        new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                            Math.floor(Math.random() * 100)
+                    },
+                    p3: {
+                        new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                            Math.floor(Math.random() * 100)
+                    },
+                    p4: {
+                        new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                            Math.floor(Math.random() * 100)
+                    },
+                };
+            });
+            return departmentInfo;
+        }
+
+        // Function to generate random village info
+        function generateVillageInfo(village) {
+            return {
+                p1: {
+                    new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                        Math.floor(Math.random() * 100)
+                },
+                p2: {
+                    new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                        Math.floor(Math.random() * 100)
+                },
+                p3: {
+                    new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                        Math.floor(Math.random() * 100)
+                },
+                p4: {
+                    new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                        Math.floor(Math.random() * 100)
+                },
+            };
+        }
+
+        // Function to update Population Census
+        function updatePopulationCensus(data) {
+            const populationCensus = document.getElementById("population-census");
+            // Check if data is from a village or default mandal info
+            if (data["Village Name"]) {
+                populationCensus.innerHTML = `
+                    Total Population: ${data.Population},
+                    Male: ${data["Male Population"]},
+                    Female: ${data["Female Population"]},
+                    Literacy Rate: ${data["Literacy Rate (%)"]}%,
+                    Area: ${data["Area (sq. km)"]} sq. km
+                `;
+            } else if (data["Mandal Name"]) {
+                populationCensus.innerHTML = `
+                    Total Population: ${data["Total Population"]},
+                    Male: ${data["Male Population"]},
+                    Female: ${data["Female Population"]},
+                    Literacy Rate: ${data["Literacy Rate (%)"]}%,
+                    Area: ${data["Area (sq. km)"]} sq. km
+                `;
+            } else {
+                populationCensus.textContent = "No data available.";
+            }
+        }
+
+        // Function to update Village Info
+        function updateVillageInfo(mandalName) {
+            const villageInfo = document.getElementById("village-info");
+
+            if (!mandalData[mandalName] || !mandalData[mandalName].villages) {
+                villageInfo.textContent = "No village data available for this mandal.";
+                return;
+            }
+
+            villageInfo.innerHTML = mandalData[mandalName].villages
+                .map(
+                    (village) => `
+<div class="village" onclick="updatePopulationCensus(${JSON.stringify(village)})">
+    <h3>${village["Village Name"]}</h3>
+    <div class="popup">
+        ${Object.entries(generateVillageInfo(village))
+                            .map(
+                                ([p, data]) => `
+        <div>
+            <strong>${p}:</strong>
+            <span class="new">New: ${data.new}</span>
+            <span class="in-progress">In Progress: ${data.inprogress}</span>
+            <span class="completed">Completed: ${data.completed}</span>
+        </div>
+        `
+                            )
+                            .join("")}
+    </div>
+</div>
+`
+                )
+                .join("");
+        }
+
+
+        // Function to populate department cards
+        function populateDepartments() {
+            const departmentCard = document.getElementById("department-card");
+            const departmentInfo = generateDepartmentInfo();
+
+            departmentCard.innerHTML = Object.entries(departmentInfo)
+                .map(
+                    ([dept, statuses]) => `
+<div class="department">
+    <h3>${dept}</h3>
+    <div class="popup">
+        ${Object.entries(statuses)
+                            .map(
+                                ([p, data]) => `
+        <div>
+            <strong>${p}:</strong>
+            <span class="new">New: ${data.new}</span>
+            <span class="in-progress">In Progress: ${data.inprogress}</span>
+            <span class="completed">Completed: ${data.completed}</span>
+        </div>
+        `
+                            )
+                            .join("")}
+    </div>
+</div>
+`
+                )
+                .join("");
+        }
+
+        // Function to display default village info
+        function displayDefaultVillageInfo() {
+            const villageInfo = document.getElementById("village-info");
+            const defaultInfo = defaultVillageInfo
+                .map(
+                    (mandal) => `
+<div class="village" onclick="updatePopulationCensus(${JSON.stringify(mandal)})">
+    <h3>${mandal["Mandal Name"]}</h3>
+    <div class="popup">
+        <div><strong>Total Population:</strong> ${mandal["Total Population"]}</div>
+        <div><strong>Male Population:</strong> ${mandal["Male Population"]}</div>
+        <div><strong>Female Population:</strong> ${mandal["Female Population"]}</div>
+        <div><strong>Area:</strong> ${mandal["Area (sq. km)"]} sq. km</div>
+        <div><strong>Literacy Rate:</strong> ${mandal["Literacy Rate (%)"]}%</div>
+    </div>
+</div>
+`
+                )
+                .join("");
+            villageInfo.innerHTML = defaultInfo;
+        }
+
+        // Handle Mandal Click
+        function handleMandalClick(mandalName) {
+            console.log('Clicked on mandal:', mandalName);
+            updateVillageInfo(mandalName); // Update village info based on the clicked mandal
+        }
+
+        // Load data when the DOM is ready
+        document.addEventListener("DOMContentLoaded", () => {
+            loadData();
+        });
+    </script>
+</body>
+
+</html>

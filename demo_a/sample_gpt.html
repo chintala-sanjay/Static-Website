@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parvathipuram District Information</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .mandal-path {
+            fill: #ddd;
+            stroke: #666;
+            stroke-width: 1;
+        }
+
+        .mandal-path:hover {
+            fill: #aed6f1;
+            /* Light blue on hover */
+            cursor: pointer;
+        }
+
+        .mandal-txt {
+            fill: #333;
+            text-anchor: middle;
+            /* Center the text horizontally */
+            dominant-baseline: middle;
+            /* Center the text vertically */
+            pointer-events: none;
+            /* Make the text non-interactive */
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <div class="container mx-auto py-8">
+        <header class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-800">Parvathipuram District Information</h1>
+            <p class="text-gray-600">Explore the details of Parvathipuram district.</p>
+        </header>
+
+        <!-- Department Info and Maps -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 px-4">
+            <!-- Departments -->
+            <div
+                class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow duration-300 department-card">
+                <h3 class="text-xl font-bold mb-4 text-indigo-800">Departments</h3>
+                <div class="department-card" id="department-card">
+                    <p>Department content will be dynamically loaded here.</p>
+                    <!-- dynamic department content -->
+                </div>
+            </div>
+
+            <!-- Maps-->
+            <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow duration-300">
+                <h3 class="text-xl font-bold mb-4 text-indigo-800 text-align-center">Maps</h3>
+                <div class="w-full h-96 overflow-hidden relative">
+                    <svg version="1.1" x="0px" y="0px" id="svg1" viewBox="-100 50 1150 900"
+                        style="enable-background: -100 50 1150 900;" xml:space="preserve">
+                        <!-- Add SVG paths for mandals here -->
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- Villages and Population Census -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 px-4">
+            <!-- Villages Card -->
+            <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow duration-300 village-card">
+                <h3 class="text-xl font-bold mb-4 text-yellow-800">Villages</h3>
+                <p class="text-sm text-gray-700 mt-4" id="village-info">List of mandals or villages in the
+                    district.</p>
+            </div>
+
+            <!-- Population Census Card -->
+            <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow duration-300">
+                <h3 class="text-xl font-bold mb-4 text-pink-800">Population Census</h3>
+                <div id="population-census" class="space-y-3">
+                    <!-- Total Population -->
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-users text-blue-600"></i>
+                        <span>Total Population: <span id="total-population">9,25,340 (as per 2011
+                                Census)</span></span>
+                    </div>
+
+                    <!-- Male Population -->
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-male text-blue-600"></i>
+                        <span>Male Population: <span id="male-population">454,000</span></span>
+                    </div>
+
+                    <!-- Female Population -->
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-female text-pink-600"></i>
+                        <span>Female Population: <span id="female-population">470,000</span></span>
+                    </div>
+
+                    <!-- Literacy Rate -->
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-book text-green-600"></i>
+                        <span>Literacy Rate: <span id="literacy-rate">50.9%
+                                (approximately)</span></span>
+                    </div>
+
+                    <!-- Area -->
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-map text-purple-600"></i>
+                        <span>Area: <span id="area">3,659</span> sq. km</span>
+                    </div>
+
+                    <!-- Municipal Corporation -->
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-building text-orange-600"></i>
+                        <span>Municipal Corporation: <span id="municipal-corporation">Parvathipuram
+                                Municipality</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-4 text-gray-500">
+        &copy; 2025 Parvathipuram District Information
+    </footer>
+
+    <script>
+        // Sample departments and their statuses
+        const departments = [
+            "Agriculture Department",
+            "Animal Husbandry",
+            "Civil Supplies",
+            "Education",
+            "Women and Child Development",
+            "DRDA",
+            "District Water Management Agency",
+            "Zilla Praja Parishad",
+            "BC Corporation",
+            "SC Corporation",
+            "Chief Planning Office",
+            "Health",
+            "Housing",
+            "Welfare Departments",
+            "Engineering",
+            "District Industries Centre",
+            "District Panchayat Office",
+            "District Mineral Foundation Trust",
+        ];
+
+        // Function to generate random department info
+        function generateDepartmentInfo() {
+            const departmentInfo = {};
+            departments.forEach((dept) => {
+                departmentInfo[dept] = {
+                    p1: {
+                        new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                            Math.floor(Math.random() * 100)
+                    },
+                    p2: {
+                        new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                            Math.floor(Math.random() * 100)
+                    },
+                    p3: {
+                        new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                            Math.floor(Math.random() * 100)
+                    },
+                    p4: {
+                        new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                            Math.floor(Math.random() * 100)
+                    },
+                };
+            });
+            return departmentInfo;
+        }
+
+        // Function to generate random village info
+        function generateVillageInfo(village) {
+            return {
+                p1: {
+                    new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                        Math.floor(Math.random() * 100)
+                },
+                p2: {
+                    new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                        Math.floor(Math.random() * 100)
+                },
+                p3: {
+                    new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                        Math.floor(Math.random() * 100)
+                },
+                p4: {
+                    new: Math.floor(Math.random() * 100), inprogress: Math.floor(Math.random() * 100), completed:
+                        Math.floor(Math.random() * 100)
+                },
+            };
+        }
+
+        // Function to update Population Census
+        function updatePopulationCensus(data) {
+            document.getElementById("total-population").textContent = data.population;
+            document.getElementById("male-population").textContent = data.male;
+            document.getElementById("female-population").textContent = data.female;
+            document.getElementById("literacy-rate").textContent = data.literacyRate;
+            document.getElementById("area").textContent = data.area;
+            document.getElementById("municipal-corporation").textContent = data.municipalCorporation;
+        }
+
+        // Function to update Village Info
+        function updateVillageInfo(mandal) {
+            const villageInfo = document.getElementById("village-info");
+            const villages = mandalData.find(m => Object.keys(m)[0] === mandal)[mandal];
+
+            villageInfo.innerHTML = villages
+                .map(
+                    (village) => `
+<div class="village" onclick="updatePopulationCensus(${JSON.stringify({
+                        population: village["Population"],
+                        male: village["Male Population"],
+                        female: village["Female Population"],
+                        literacyRate: village["Literacy Rate (%)"],
+                        area: village["Area (sq. km)"],
+                        municipalCorporation: village["Municipal Corporation"]
+                    })})">
+    <h3>${village["Village Name"]}</h3>
+</div>`
+                )
+                .join("");
+        }
+
+        // Function to populate department cards
+        function populateDepartments() {
+            const departmentCard = document.getElementById("department-card");
+            const departmentInfo = generateDepartmentInfo();
+
+            departmentCard.innerHTML = Object.entries(departmentInfo)
+                .map(
+                    ([dept, statuses]) => `
+<div class="department">
+    <h3>${dept}</h3>
+    <div class="popup">
+        ${Object.entries(statuses)
+                            .map(
+                                ([p, data]) => `
+        <div>
+            <strong>${p}:</strong>
+            <span class="new">New: ${data.new}</span>
+            <span class="in-progress">In Progress: ${data.inprogress}</span>
+            <span class="completed">Completed: ${data.completed}</span>
+        </div>
+        `
+                            )
+                            .join("")}
+    </div>
+</div>`
+                )
+                .join("");
+        }
+
+        // Function to display default village info
+        function displayDefaultVillageInfo() {
+            const villageInfo = document.getElementById("village-info");
+            const defaultInfo = defaultVillageInfo
+                .map(
+                    (mandal) => `
+<div class="village" onclick="updatePopulationCensus(${JSON.stringify({
+                        population: mandal["Total Population"],
+                        male: mandal["Male Population"],
+                        female: mandal["Female Population"],
+                        literacyRate: mandal["Literacy Rate (%)"],
+                        area: mandal["Area (sq. km)"],
+                        municipalCorporation: mandal["Municipal Corporation"]
+                    })})">
+    <h3>${mandal["Mandal Name"]}</h3>
+</div>`
+                )
+                .join("");
+            villageInfo.innerHTML = defaultInfo;
+        }
+
+        // Simulate clicking on a Mandal or Village (for demonstration)
+        document.addEventListener("DOMContentLoaded", () => {
+            // Display default village info
+            displayDefaultVillageInfo();
+
+            // Populate departments on page load
+            populateDepartments();
+        });
+
+        // Handle Mandal Click
+        function handleMandalClick(mandalName) {
+            console.log('Clicked on mandal:', mandalName);
+            updateVillageInfo(mandalName);
+        }
+
+        // Sample data for demonstration
+        const defaultVillageInfo = [
+            {
+                "Mandal Name": "Balijipeta",
+                "Total Population": 50000,
+                "Male Population": 25000,
+                "Female Population": 25000,
+                "Area (sq. km)": 200,
+                "Literacy Rate (%)": 70
+            },
+            // Add more default data as needed
+        ];
+
+        const mandalData = [
+            {
+                "Balijipeta": [
+                    {
+                        "Village Name": "Ajjada",
+                        "Population": 2507,
+                        "Male Population": 1250,
+                        "Female Population": 1257,
+                        "Area (sq. km)": 5.2,
+                        "Literacy Rate (%)": 55,
+                        "Municipal Corporation": "-"
+                    },
+                    // Add more villages as needed
+                ]
+            },
+            // Add more mandals as needed
+        ];
+    </script>
+</body>
+
+</html>
