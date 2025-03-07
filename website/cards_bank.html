@@ -386,7 +386,8 @@
             card.className = 'col-md-6 col-lg-4';
             card.innerHTML = `
                     <div class="card h-100 shadow-sm">
-                        <img src="${bank.image}" class="card-img-top" alt="${bank.name}" onclick="showModal('${bank.name}', '${bank.image}', '${bank.address}', '${bank.email || ''}', '${bank.phone || ''}', '${bank.website}', '${JSON.stringify(bank.links)}')">
+                        <img src="${bank.image}" class="card-img-top" alt="${bank.name}" data-bs-toggle="modal" data-bs-target="#bankModal"
+                            onclick="showModal('${bank.name}', '${bank.image}', '${bank.address}', '${bank.email || ''}', '${bank.phone || ''}', '${bank.website}', '${JSON.stringify(bank.links)}')">
                         <div class="card-body">
                             <h5 class="card-title">${bank.name}</h5>
                             <div class="contact-item">
@@ -423,8 +424,7 @@
             });
             document.getElementById('modalLinks').innerHTML = linksHTML;
 
-            const modal = new bootstrap.Modal(document.getElementById('bankModal'));
-            modal.show();
+            // No need to manually show the modal, it's handled by data-bs-toggle and data-bs-target attributes
         }
 
         // Copy Functionality
