@@ -1,0 +1,4724 @@
+[
+    {
+        "Balijipeta": [
+            {
+                "Village Name": "Ajjada",
+                "Population": 2507,
+                "Male Population": 1250,
+                "Female Population": 1257,
+                "Area (sq. km)": 5.2,
+                "Literacy Rate (%)": 55,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Ampavilli",
+                "Population": 2141,
+                "Male Population": 1070,
+                "Female Population": 1071,
+                "Area (sq. km)": 4.8,
+                "Literacy Rate (%)": 52,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Arasada",
+                "Population": 3019,
+                "Male Population": 1510,
+                "Female Population": 1509,
+                "Area (sq. km)": 6.1,
+                "Literacy Rate (%)": 54.5,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Badevalasa",
+                "Population": 219,
+                "Male Population": 110,
+                "Female Population": 109,
+                "Area (sq. km)": 1.2,
+                "Literacy Rate (%)": 48,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Barli",
+                "Population": 2241,
+                "Male Population": 1120,
+                "Female Population": 1121,
+                "Area (sq. km)": 4.5,
+                "Literacy Rate (%)": 50,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bhairipuram",
+                "Population": 416,
+                "Male Population": 210,
+                "Female Population": 206,
+                "Area (sq. km)": 2,
+                "Literacy Rate (%)": 47,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chakarapalle",
+                "Population": 994,
+                "Male Population": 500,
+                "Female Population": 494,
+                "Area (sq. km)": 3,
+                "Literacy Rate (%)": 49,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chellimpeta",
+                "Population": 398,
+                "Male Population": 200,
+                "Female Population": 198,
+                "Area (sq. km)": 1.5,
+                "Literacy Rate (%)": 46,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chilkalapalle",
+                "Population": 2952,
+                "Male Population": 1480,
+                "Female Population": 1472,
+                "Area (sq. km)": 5.5,
+                "Literacy Rate (%)": 53,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Galavilli",
+                "Population": 4787,
+                "Male Population": 2390,
+                "Female Population": 2397,
+                "Area (sq. km)": 7,
+                "Literacy Rate (%)": 56,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gangada",
+                "Population": 3183,
+                "Male Population": 1590,
+                "Female Population": 1593,
+                "Area (sq. km)": 6,
+                "Literacy Rate (%)": 55,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gowripuram",
+                "Population": 500,
+                "Male Population": 250,
+                "Female Population": 250,
+                "Area (sq. km)": 2.5,
+                "Literacy Rate (%)": 50,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Janardhanapuram",
+                "Population": 406,
+                "Male Population": 200,
+                "Female Population": 206,
+                "Area (sq. km)": 1.8,
+                "Literacy Rate (%)": 48,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kondapuram",
+                "Population": 205,
+                "Male Population": 100,
+                "Female Population": 105,
+                "Area (sq. km)": 1,
+                "Literacy Rate (%)": 45,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Mirthivalasa",
+                "Population": 1841,
+                "Male Population": 920,
+                "Female Population": 921,
+                "Area (sq. km)": 4,
+                "Literacy Rate (%)": 51,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Muragadam",
+                "Population": 512,
+                "Male Population": 260,
+                "Female Population": 252,
+                "Area (sq. km)": 2.2,
+                "Literacy Rate (%)": 47.5,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Narannaiduvalasa",
+                "Population": 1408,
+                "Male Population": 700,
+                "Female Population": 708,
+                "Area (sq. km)": 3.5,
+                "Literacy Rate (%)": 50.5,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Narayanapuram",
+                "Population": 4490,
+                "Male Population": 2240,
+                "Female Population": 2250,
+                "Area (sq. km)": 6.5,
+                "Literacy Rate (%)": 55.5,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Nookalavada",
+                "Population": 1814,
+                "Male Population": 910,
+                "Female Population": 904,
+                "Area (sq. km)": 4.2,
+                "Literacy Rate (%)": 52.5,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Padamayavalasa",
+                "Population": 883,
+                "Male Population": 440,
+                "Female Population": 443,
+                "Area (sq. km)": 2.8,
+                "Literacy Rate (%)": 49.5,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Palagara",
+                "Population": 6926,
+                "Male Population": 3460,
+                "Female Population": 3466,
+                "Area (sq. km)": 8,
+                "Literacy Rate (%)": 57,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Panukuvalasa",
+                "Population": 1128,
+                "Male Population": 560,
+                "Female Population": 568,
+                "Area (sq. km)": 3,
+                "Literacy Rate (%)": 50,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedapenki",
+                "Population": 5932,
+                "Male Population": 2960,
+                "Female Population": 2972,
+                "Area (sq. km)": 7.5,
+                "Literacy Rate (%)": 56.5,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Peddimpeta",
+                "Population": 1250,
+                "Male Population": 620,
+                "Female Population": 630,
+                "Area (sq. km)": 3.2,
+                "Literacy Rate (%)": 51,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Sivarampuram",
+                "Population": 780,
+                "Male Population": 390,
+                "Female Population": 390,
+                "Area (sq. km)": 2,
+                "Literacy Rate (%)": 48.5,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Sri Rangaraja Puram",
+                "Population": 277,
+                "Male Population": 140,
+                "Female Population": 137,
+                "Area (sq. km)": 1,
+                "Literacy Rate (%)": 46.5,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Subhadra",
+                "Population": 1136,
+                "Male Population": 570,
+                "Female Population": 566,
+                "Area (sq. km)": 3,
+                "Literacy Rate (%)": 50.5,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Tumarada",
+                "Population": 2072,
+                "Male Population": 1030,
+                "Female Population": 1042,
+                "Area (sq. km)": 4.5,
+                "Literacy Rate (%)": 52,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Vantaram",
+                "Population": 2033,
+                "Male Population": 1010,
+                "Female Population": 1023,
+                "Area (sq. km)": 4,
+                "Literacy Rate (%)": 51.5,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Vengalarayapuram",
+                "Population": 828,
+                "Male Population": 410,
+                "Female Population": 418,
+                "Area (sq. km)": 2.5,
+                "Literacy Rate (%)": 49,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Vengapuram",
+                "Population": 2486,
+                "Male Population": 1240,
+                "Female Population": 1246,
+                "Area (sq. km)": 5,
+                "Literacy Rate (%)": 53.5,
+                "Municipal Corporation": "-"
+            }
+        ]
+    },
+    {
+        "Bhamini": [
+            {
+                "Village Name": "Bhamini",
+                "Total Population": "~7500",
+                "Male Population": "~3,650",
+                "Female Population": "~3,850",
+                "Village Area (sq. km)": "~12",
+                "Literacy Rate (%)": "~55%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedduru",
+                "Total Population": "~4,300",
+                "Male Population": "~2,050",
+                "Female Population": "~2,250",
+                "Village Area (sq. km)": "~9",
+                "Literacy Rate (%)": "~50%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Sivini",
+                "Total Population": "~3,900",
+                "Male Population": "~1,900",
+                "Female Population": "~2,000",
+                "Village Area (sq. km)": "~8",
+                "Literacy Rate (%)": "~49%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Ghanasara",
+                "Total Population": "~3,600",
+                "Male Population": "~1,750",
+                "Female Population": "~1,850",
+                "Village Area (sq. km)": "~7.5",
+                "Literacy Rate (%)": "~48%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kondachilaka",
+                "Total Population": "~3,400",
+                "Male Population": "~1,650",
+                "Female Population": "~1,750",
+                "Village Area (sq. km)": "~7",
+                "Literacy Rate (%)": "~47%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jiyyammavalasa",
+                "Total Population": "~3,100",
+                "Male Population": "~1,500",
+                "Female Population": "~1,600",
+                "Village Area (sq. km)": "~6.5",
+                "Literacy Rate (%)": "~46%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gumpa",
+                "Total Population": "~2,800",
+                "Male Population": "~1,350",
+                "Female Population": "~1,450",
+                "Village Area (sq. km)": "~6",
+                "Literacy Rate (%)": "~45%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Laxmipuram",
+                "Total Population": "~2,600",
+                "Male Population": "~1,250",
+                "Female Population": "~1,350",
+                "Village Area (sq. km)": "~5.8",
+                "Literacy Rate (%)": "~44%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gummakota",
+                "Total Population": "~2,400",
+                "Male Population": "~1,150",
+                "Female Population": "~1,250",
+                "Village Area (sq. km)": "~5.5",
+                "Literacy Rate (%)": "~42%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Rayandoravalasa",
+                "Total Population": "~2,200",
+                "Male Population": "~1,050",
+                "Female Population": "~1,150",
+                "Village Area (sq. km)": "~5.2",
+                "Literacy Rate (%)": "~41%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gollapeta",
+                "Total Population": "~2,100",
+                "Male Population": "~1,000",
+                "Female Population": "~1,100",
+                "Village Area (sq. km)": "~5.0",
+                "Literacy Rate (%)": "~40%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Ananthapuram",
+                "Total Population": "~2,000",
+                "Male Population": "~950",
+                "Female Population": "~1,050",
+                "Village Area (sq. km)": "~4.8",
+                "Literacy Rate (%)": "~39%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Venkatapuram",
+                "Total Population": "~1,900",
+                "Male Population": "~900",
+                "Female Population": "~1,000",
+                "Village Area (sq. km)": "~4.5",
+                "Literacy Rate (%)": "~38%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Thotavalasa",
+                "Total Population": "~1,800",
+                "Male Population": "~850",
+                "Female Population": "~950",
+                "Village Area (sq. km)": "~4.2",
+                "Literacy Rate (%)": "~37%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Rajupeta",
+                "Total Population": "~1,700",
+                "Male Population": "~800",
+                "Female Population": "~900",
+                "Village Area (sq. km)": "~4.0",
+                "Literacy Rate (%)": "~36%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Parapuram",
+                "Total Population": "~1,600",
+                "Male Population": "~750",
+                "Female Population": "~850",
+                "Village Area (sq. km)": "~3.8",
+                "Literacy Rate (%)": "~35%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kondampeta",
+                "Total Population": "~1,500",
+                "Male Population": "~720",
+                "Female Population": "~780",
+                "Village Area (sq. km)": "~3.5",
+                "Literacy Rate (%)": "~34%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Nandigam",
+                "Total Population": "~1,400",
+                "Male Population": "~670",
+                "Female Population": "~730",
+                "Village Area (sq. km)": "~3.2",
+                "Literacy Rate (%)": "~33%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dudduvalasa",
+                "Total Population": "~1,300",
+                "Male Population": "~620",
+                "Female Population": "~680",
+                "Village Area (sq. km)": "~3.0",
+                "Literacy Rate (%)": "~32%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Naguru",
+                "Total Population": "~1,200",
+                "Male Population": "~570",
+                "Female Population": "~630",
+                "Village Area (sq. km)": "~2.8",
+                "Literacy Rate (%)": "~31%",
+                "Municipal Corporation": "-"
+            }
+        ]
+    },
+    {
+        "Garugubilli": [
+            {
+                "Village Name": "Garugubilli",
+                "Total Population": "~7500",
+                "Male Population": "~3,700",
+                "Female Population": "~3,800",
+                "Village Area (sq. km)": "~14",
+                "Literacy Rate (%)": "~62%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dannanapeta",
+                "Total Population": "~4,800",
+                "Male Population": "~2,350",
+                "Female Population": "~2,450",
+                "Village Area (sq. km)": "~10.5",
+                "Literacy Rate (%)": "~58%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jamalapadu",
+                "Total Population": "~4,200",
+                "Male Population": "~2,000",
+                "Female Population": "~2,200",
+                "Village Area (sq. km)": "~9.5",
+                "Literacy Rate (%)": "~56%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Maddipeta",
+                "Total Population": "~3,900",
+                "Male Population": "~1,900",
+                "Female Population": "~2,000",
+                "Village Area (sq. km)": "~8.8",
+                "Literacy Rate (%)": "~54%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gajapathinagaram",
+                "Total Population": "~3,600",
+                "Male Population": "~1,750",
+                "Female Population": "~1,850",
+                "Village Area (sq. km)": "~8.2",
+                "Literacy Rate (%)": "~52%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Devupalli",
+                "Total Population": "~3,300",
+                "Male Population": "~1,600",
+                "Female Population": "~1,700",
+                "Village Area (sq. km)": "~7.5",
+                "Literacy Rate (%)": "~50%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jagannadhapuram",
+                "Total Population": "~3,100",
+                "Male Population": "~1,500",
+                "Female Population": "~1,600",
+                "Village Area (sq. km)": "~7.2",
+                "Literacy Rate (%)": "~49%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Sivini",
+                "Total Population": "~2,900",
+                "Male Population": "~1,400",
+                "Female Population": "~1,500",
+                "Village Area (sq. km)": "~7.0",
+                "Literacy Rate (%)": "~48%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Venkampeta",
+                "Total Population": "~2,800",
+                "Male Population": "~1,350",
+                "Female Population": "~1,450",
+                "Village Area (sq. km)": "~6.8",
+                "Literacy Rate (%)": "~47%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Rajulapeta",
+                "Total Population": "~2,700",
+                "Male Population": "~1,300",
+                "Female Population": "~1,400",
+                "Village Area (sq. km)": "~6.5",
+                "Literacy Rate (%)": "~46%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Lakshmipuram",
+                "Total Population": "~2,500",
+                "Male Population": "~1,200",
+                "Female Population": "~1,300",
+                "Village Area (sq. km)": "~6.2",
+                "Literacy Rate (%)": "~45%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gudipeta",
+                "Total Population": "~2,400",
+                "Male Population": "~1,150",
+                "Female Population": "~1,250",
+                "Village Area (sq. km)": "~6.0",
+                "Literacy Rate (%)": "~44%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Sivarampuram",
+                "Total Population": "~2,200",
+                "Male Population": "~1,050",
+                "Female Population": "~1,150",
+                "Village Area (sq. km)": "~5.8",
+                "Literacy Rate (%)": "~43%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jampala",
+                "Total Population": "~2,100",
+                "Male Population": "~1,000",
+                "Female Population": "~1,100",
+                "Village Area (sq. km)": "~5.5",
+                "Literacy Rate (%)": "~42%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedduru",
+                "Total Population": "~2,000",
+                "Male Population": "~950",
+                "Female Population": "~1,050",
+                "Village Area (sq. km)": "~5.2",
+                "Literacy Rate (%)": "~41%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kondaparthi",
+                "Total Population": "~1,900",
+                "Male Population": "~900",
+                "Female Population": "~1,000",
+                "Village Area (sq. km)": "~5.0",
+                "Literacy Rate (%)": "~40%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Nagulapeta",
+                "Total Population": "~1,800",
+                "Male Population": "~850",
+                "Female Population": "~950",
+                "Village Area (sq. km)": "~4.8",
+                "Literacy Rate (%)": "~39%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gollapeta",
+                "Total Population": "~1,700",
+                "Male Population": "~800",
+                "Female Population": "~900",
+                "Village Area (sq. km)": "~4.5",
+                "Literacy Rate (%)": "~38%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kottavalasa",
+                "Total Population": "~1,600",
+                "Male Population": "~750",
+                "Female Population": "~850",
+                "Village Area (sq. km)": "~4.2",
+                "Literacy Rate (%)": "~37%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bhyripuram",
+                "Total Population": "~1,500",
+                "Male Population": "~720",
+                "Female Population": "~780",
+                "Village Area (sq. km)": "~4.0",
+                "Literacy Rate (%)": "~36%",
+                "Municipal Corporation": "-"
+            }
+        ]
+    },
+    {
+        "Gummalakshmipuram": [
+            {
+                "Village Name": "Gummalakshmipuram",
+                "Total Population": "~7500",
+                "Male Population": "~3,600",
+                "Female Population": "~3,900",
+                "Village Area (sq. km)": "~12",
+                "Literacy Rate (%)": "~55%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Veeraghattam",
+                "Total Population": "~5,200",
+                "Male Population": "~2,500",
+                "Female Population": "~2,700",
+                "Village Area (sq. km)": "~10",
+                "Literacy Rate (%)": "~50%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kedaripuram",
+                "Total Population": "~4,800",
+                "Male Population": "~2,300",
+                "Female Population": "~2,500",
+                "Village Area (sq. km)": "~9.5",
+                "Literacy Rate (%)": "~48%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedduru",
+                "Total Population": "~4,300",
+                "Male Population": "~2,050",
+                "Female Population": "~2,250",
+                "Village Area (sq. km)": "~9",
+                "Literacy Rate (%)": "~47%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kottu",
+                "Total Population": "~3,900",
+                "Male Population": "~1,900",
+                "Female Population": "~2,000",
+                "Village Area (sq. km)": "~8.5",
+                "Literacy Rate (%)": "~46%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gummidiguda",
+                "Total Population": "~3,600",
+                "Male Population": "~1,750",
+                "Female Population": "~1,850",
+                "Village Area (sq. km)": "~8",
+                "Literacy Rate (%)": "~45%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kurukutti",
+                "Total Population": "~3,400",
+                "Male Population": "~1,650",
+                "Female Population": "~1,750",
+                "Village Area (sq. km)": "~7.5",
+                "Literacy Rate (%)": "~44%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Thotapalli",
+                "Total Population": "~3,100",
+                "Male Population": "~1,500",
+                "Female Population": "~1,600",
+                "Village Area (sq. km)": "~7",
+                "Literacy Rate (%)": "~43%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Rellivalasa",
+                "Total Population": "~2,900",
+                "Male Population": "~1,400",
+                "Female Population": "~1,500",
+                "Village Area (sq. km)": "~6.5",
+                "Literacy Rate (%)": "~42%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedamerangi",
+                "Total Population": "~2,800",
+                "Male Population": "~1,350",
+                "Female Population": "~1,450",
+                "Village Area (sq. km)": "~6.2",
+                "Literacy Rate (%)": "~41%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bodapadu",
+                "Total Population": "~2,600",
+                "Male Population": "~1,250",
+                "Female Population": "~1,350",
+                "Village Area (sq. km)": "~6.0",
+                "Literacy Rate (%)": "~40%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gorada",
+                "Total Population": "~2,500",
+                "Male Population": "~1,200",
+                "Female Population": "~1,300",
+                "Village Area (sq. km)": "~5.8",
+                "Literacy Rate (%)": "~39%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Nandigam",
+                "Total Population": "~2,300",
+                "Male Population": "~1,100",
+                "Female Population": "~1,200",
+                "Village Area (sq. km)": "~5.5",
+                "Literacy Rate (%)": "~38%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jamalangudi",
+                "Total Population": "~2,100",
+                "Male Population": "~1,000",
+                "Female Population": "~1,100",
+                "Village Area (sq. km)": "~5.2",
+                "Literacy Rate (%)": "~37%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dharampuram",
+                "Total Population": "~2,000",
+                "Male Population": "~950",
+                "Female Population": "~1,050",
+                "Village Area (sq. km)": "~5.0",
+                "Literacy Rate (%)": "~36%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kollivalasa",
+                "Total Population": "~1,900",
+                "Male Population": "~900",
+                "Female Population": "~1,000",
+                "Village Area (sq. km)": "~4.8",
+                "Literacy Rate (%)": "~35%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Laxmipuram",
+                "Total Population": "~1,800",
+                "Male Population": "~850",
+                "Female Population": "~950",
+                "Village Area (sq. km)": "~4.5",
+                "Literacy Rate (%)": "~34%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kovvadalavalasa",
+                "Total Population": "~1,700",
+                "Male Population": "~800",
+                "Female Population": "~900",
+                "Village Area (sq. km)": "~4.2",
+                "Literacy Rate (%)": "~33%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Palaivalasa",
+                "Total Population": "~1,600",
+                "Male Population": "~750",
+                "Female Population": "~850",
+                "Village Area (sq. km)": "~4.0",
+                "Literacy Rate (%)": "~32%",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Govindapuram",
+                "Total Population": "~1,500",
+                "Male Population": "~720",
+                "Female Population": "~780",
+                "Village Area (sq. km)": "~3.8",
+                "Literacy Rate (%)": "~31%",
+                "Municipal Corporation": "-"
+            }
+        ]
+    },
+    {
+        "Jiyyammavalasa": [
+            {
+                "Village Name": "Akkandoravalasa",
+                "Population": 183,
+                "Male Population": 87,
+                "Female Population": 96,
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 89,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Alamanda",
+                "Population": 1134,
+                "Male Population": 565,
+                "Female Population": 569,
+                "Area (sq. km)": "1224 Hectacres",
+                "Literacy Rate (%)": 54,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Ankavaram",
+                "Population": 914,
+                "Male Population": 461,
+                "Female Population": 453,
+                "Area (sq. km)": "264 hectares",
+                "Literacy Rate (%)": 45.56,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Arnada",
+                "Population": 1418,
+                "Male Population": 693,
+                "Female Population": 725,
+                "Area (sq. km)": "845 hectares",
+                "Literacy Rate (%)": 57.9,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Balleru",
+                "Population": 232,
+                "Male Population": 117,
+                "Female Population": 115,
+                "Area (sq. km)": "58 houses",
+                "Literacy Rate (%)": 30.17,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Basangi",
+                "Population": 942,
+                "Male Population": 461,
+                "Female Population": 481,
+                "Area (sq. km)": "246 houses",
+                "Literacy Rate (%)": 61.66,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Batlabhadra",
+                "Population": 497,
+                "Male Population": 245,
+                "Female Population": 252,
+                "Area (sq. km)": "263 hectares",
+                "Literacy Rate (%)": 56.54,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bitrapadu",
+                "Population": 954,
+                "Male Population": 495,
+                "Female Population": 459,
+                "Area (sq. km)": "169 hectares",
+                "Literacy Rate (%)": 57.55,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bommika",
+                "Population": 1087,
+                "Male Population": 325,
+                "Female Population": 305,
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.6207,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bommika Jagannadhapuram",
+                "Population": 1185,
+                "Male Population": 280,
+                "Female Population": 240,
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.6902,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chandrasekharajapuram",
+                "Population": 348,
+                "Male Population": 73,
+                "Female Population": 13,
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.4026,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chinabuddidi",
+                "Population": 772,
+                "Male Population": 169,
+                "Female Population": 137,
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.535,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chinadodija",
+                "Population": 306,
+                "Male Population": 107,
+                "Female Population": 112,
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.3692,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chinamerangi",
+                "Population": 4073,
+                "Male Population": 713,
+                "Female Population": 418,
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.6425,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chintalabelagam",
+                "Population": 745,
+                "Male Population": 194,
+                "Female Population": 169,
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.6677,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dakshini",
+                "Population": 276,
+                "Male Population": 109,
+                "Female Population": 100,
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.4431,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dangabadra",
+                "Population": 964,
+                "Male Population": 283,
+                "Female Population": 241,
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.5329,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gadabavalasa",
+                "Population": 70,
+                "Male Population": 21,
+                "Female Population": 7,
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.7419,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gadisingupuram",
+                "Population": 856,
+                "Male Population": 139,
+                "Female Population": 309,
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.6025,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gavarampeta",
+                "Population": 1205,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.6446,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Geddatiruvada",
+                "Population": 1342,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.5131,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gorli",
+                "Population": 377,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.3902,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gowripuram",
+                "Population": 430,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.6247,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Itika",
+                "Population": 1229,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.5468,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jiyyammavalasa",
+                "Population": 3655,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.634,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jogirajupeta",
+                "Population": 253,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.4955,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Joguladumma",
+                "Population": 751,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.5712,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kannapudora Valasa",
+                "Population": 1929,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.6035,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kidigesu",
+                "Population": 169,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.3182,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kondachilakam",
+                "Population": 332,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.5153,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kondanidagallu",
+                "Population": 471,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.2755,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kudama",
+                "Population": 2186,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.658,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kundaratiruvada",
+                "Population": 1155,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.4905,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kutampandrasingi",
+                "Population": 105,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.4302,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Lakshmipuram",
+                "Population": 533,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.6936,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Lovagangarajapuram",
+                "Population": 221,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.4829,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Maruwada",
+                "Population": 525,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.8191,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Mokasualluwada",
+                "Population": 1380,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.5084,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Mokhasaharipuram",
+                "Population": 173,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.6516,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Parajapadu",
+                "Population": 1473,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.6359,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedabuddidi",
+                "Population": 1914,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.561,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedadodija",
+                "Population": 314,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.5279,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedamerangi",
+                "Population": 2412,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.6177,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedatolumanda",
+                "Population": 979,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.4879,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pippalabadra",
+                "Population": 1121,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.5811,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Rajayyapeta",
+                "Population": 257,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.5975,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Ravada",
+                "Population": 315,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.585,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Sikhabadi",
+                "Population": 1535,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.6232,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Singanapuram",
+                "Population": 863,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.6268,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Subadramma Valasa",
+                "Population": 312,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.5616,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Talladumma",
+                "Population": 748,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.6409,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Tamarikandijammu",
+                "Population": 600,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.6874,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Tumbali",
+                "Population": 2039,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.5856,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Tummalavalasa",
+                "Population": 608,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.4927,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Turakanaiduvalasa",
+                "Population": 1493,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": 0.5911,
+                "Municipal Corporation": "-"
+            }
+        ]
+    },
+    {
+        "Komarada": [
+            {
+                "Village Name": "Alluwada",
+                "Population": 259,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Ankullavalasa",
+                "Population": 110,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Artham",
+                "Population": 873,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Baddidi",
+                "Population": 121,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Banjukuppa",
+                "Population": 416,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bedda",
+                "Population": 122,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Binnidi",
+                "Population": 246,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Cheedipalle",
+                "Population": 164,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chekkavalasa",
+                "Population": 303,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chinakherjala",
+                "Population": 512,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chinasekha",
+                "Population": 39,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chollapadam",
+                "Population": 800,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dalaipeta",
+                "Population": 1494,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dangabhadra",
+                "Population": 146,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Darsingi",
+                "Population": 73,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Derupadu",
+                "Population": 123,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Devukona",
+                "Population": 519,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Devunigumpa",
+                "Population": 193,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Duggi",
+                "Population": 945,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gangareguvalasa",
+                "Population": 2041,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gorlemma",
+                "Population": 364,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Guddam",
+                "Population": 127,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gujjabadi",
+                "Population": 158,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gumada",
+                "Population": 1273,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gumadangi",
+                "Population": 146,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gunadateelesu",
+                "Population": 483,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gunanupuram",
+                "Population": 1788,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jakuru",
+                "Population": 300,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jala",
+                "Population": 164,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jeemesu",
+                "Population": 42,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Joppangi",
+                "Population": 201,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kallikota",
+                "Population": 1966,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kambavalasa",
+                "Population": 1912,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kandivalasa",
+                "Population": 439,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kemiseela",
+                "Population": 1510,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kodulagumpa",
+                "Population": 468,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Komarada",
+                "Population": 5551,
+                "Male Population": 2462,
+                "Female Population": 3089,
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Komatlapeta",
+                "Population": 182,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kona",
+                "Population": 142,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Konavalasa",
+                "Population": 141,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Koriseela",
+                "Population": 365,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kosu",
+                "Population": 50,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kotipam",
+                "Population": 1215,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kottu",
+                "Population": 1108,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kummarigunta",
+                "Population": 816,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kuneru",
+                "Population": 1131,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kuntesu",
+                "Population": 501,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Labasu",
+                "Population": 258,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Ladda",
+                "Population": 216,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Area (sq. km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            }
+        ]
+    },
+    {
+        "Kothavalsa": [
+            {
+                "Village Name": "Abiri",
+                "Population": 377,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Antijola",
+                "Population": 354,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Arikakoridi",
+                "Population": 162,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Barthangi",
+                "Population": 75,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bhallukota",
+                "Population": 145,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bheempuram",
+                "Population": 136,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Biyyalavalasa",
+                "Population": 277,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bore",
+                "Population": 80,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bothili",
+                "Population": 306,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chappagottili",
+                "Population": 312,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chinarayudupeta @ Dabbaliguda",
+                "Population": 39,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chinthalakoridi",
+                "Population": 136,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dandusura",
+                "Population": 319,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dharmalalaxmipuram",
+                "Population": 1745,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dhulikuppa",
+                "Population": 242,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dimitiguda",
+                "Population": 35,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dokulaguda",
+                "Population": 119,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dommidi",
+                "Population": 341,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dongalabaramani",
+                "Population": 330,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Durubili",
+                "Population": 251,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gadali",
+                "Population": 34,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gangannadora Valasa",
+                "Population": 158,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gollavalasa",
+                "Population": 430,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gorjapadu",
+                "Population": 445,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gotikuppa",
+                "Population": 65,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gotivada",
+                "Population": 320,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gujjuvai",
+                "Population": 577,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gumma",
+                "Population": 1311,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gummidiguda",
+                "Population": 433,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Ichapuram",
+                "Population": 336,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jarada",
+                "Population": 754,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jumbiri",
+                "Population": 1690,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kairada",
+                "Population": 252,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kakili",
+                "Population": 606,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kakithada",
+                "Population": 352,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Keedavai",
+                "Population": 360,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kirisingi @ Pellivalasa",
+                "Population": 278,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kitchada",
+                "Population": 1275,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kolisa",
+                "Population": 444,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": null,
+                "Literacy Rate (%)": null,
+                "Municipal Corporation": null
+            }
+        ]
+    },
+    {
+        "Kurupam": [
+            {
+                "Village Name": "Ardhannapalem",
+                "Population": 2390,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 63.81,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Balighattam",
+                "Population": 2054,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 62.48,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Cheedivalasa",
+                "Population": 885,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 59.08,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Cheepuruvalasa",
+                "Population": 3181,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 62.46,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chinaraopalle",
+                "Population": 835,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 62.25,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chinnipalem",
+                "Population": 799,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 68.52,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chintalapalem",
+                "Population": 6522,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 66.84,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dathi",
+                "Population": 1170,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 68.78,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Denderu",
+                "Population": 1290,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 63.26,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Devada",
+                "Population": 1751,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 60.45,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Ganisettipalem",
+                "Population": 1142,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 57.12,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gulivindada",
+                "Population": 1243,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 56.48,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kantakapalle",
+                "Population": 2773,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 64.24,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Katakapalle",
+                "Population": 1837,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 54.1,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Mindivalasa Ramachandrapuram",
+                "Population": 3957,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 61.9,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Musiram",
+                "Population": 1507,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 57.11,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Narapam",
+                "Population": 257,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 48.68,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Nimmalapalem",
+                "Population": 1192,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 67.11,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedaraopalle",
+                "Population": 305,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 62.32,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Ramalingapuram",
+                "Population": 1621,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 52.69,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Rayapurajupeta",
+                "Population": 312,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 57.69,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Relli",
+                "Population": 2418,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 59.18,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Santhapalem",
+                "Population": 1555,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 62.82,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Sundarayyapeta",
+                "Population": 494,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 60.69,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Uttarapalle",
+                "Population": 1547,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 66.05,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Veerabhadra Puram",
+                "Population": 6310,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (sq km)": "-",
+                "Literacy Rate (%)": 62.72,
+                "Municipal Corporation": "-"
+            }
+        ]
+    },
+    {
+        "Makkuva": [
+            {
+                "Village Name": "Alagaruvu",
+                "Population": 350,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Anasabhadra",
+                "Population": 614,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bangaruvalasa",
+                "Population": 809,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bantumakkuva",
+                "Population": 440,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Battivalasa",
+                "Population": 209,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Belugonda",
+                "Population": 24,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Biramasi",
+                "Population": 31,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chappabutcham Peta",
+                "Population": 1082,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chemudu",
+                "Population": 1755,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dabbagadda",
+                "Population": 947,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Duggeru",
+                "Population": 695,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gopalapuram",
+                "Population": 893,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Guntabhadra",
+                "Population": 537,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kannampeta",
+                "Population": 1328,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kasipatnam",
+                "Population": 1007,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Khaviripalle",
+                "Population": 1658,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Khavirivalasa",
+                "Population": 74,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kona",
+                "Population": 1241,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kondabutcham Peta",
+                "Population": 754,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kondarejeru",
+                "Population": 906,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Koyyanapeta",
+                "Population": 1393,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Lovarkhandi",
+                "Population": 282,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Makkuva",
+                "Population": 8272,
+                "Male Population": 4047,
+                "Female Population": 4225,
+                "Village Area": "-",
+                "Literacy Rate": 0.6333,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Markondaputti",
+                "Population": 2172,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Mendangi",
+                "Population": 663,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Mukavalasa",
+                "Population": 271,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Mulakkayavalasa",
+                "Population": 1689,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Mulavalasa",
+                "Population": 608,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Nagulladabba Gadda",
+                "Population": 547,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Nanda",
+                "Population": 752,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Nandakottula Ghasila",
+                "Population": 115,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Narayanarama Chan Draraju Puram",
+                "Population": 17,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Panasabhadra",
+                "Population": 599,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Papayyavalasa",
+                "Population": 813,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Payakapadu",
+                "Population": 523,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedaghasila",
+                "Population": 631,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedavootagadda",
+                "Population": 285,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Sambara",
+                "Population": 4134,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Santeswaram",
+                "Population": 442,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Sanyasirajupuram @ Maripivalasa",
+                "Population": 463,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Saraivalasa",
+                "Population": 768,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Seebillipedavalasa",
+                "Population": 1156,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Sirlam",
+                "Population": 1738,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Thotavalasa",
+                "Population": 513,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Turumamidi",
+                "Population": 1361,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Venkampeta",
+                "Population": 1547,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Venkatabhyripuram",
+                "Population": 1819,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Vijayarampuram",
+                "Population": 215,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Yerrasamanthula Valasa",
+                "Population": 1364,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            }
+        ]
+    },
+    {
+        "Mentada": [
+            {
+                "Village Name": "Aguru",
+                "Population": 1373,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.3621,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Amarayavalasa",
+                "Population": 601,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.4742,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Andra",
+                "Population": 1876,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.4077,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Badevalasa",
+                "Population": 1382,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.436,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Butchirajupeta",
+                "Population": 330,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.3584,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Challapeta",
+                "Population": 1789,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.5604,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chinamedapalle",
+                "Population": 268,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.5671,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chintalavalasa",
+                "Population": 491,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.4636,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gajamguddivalasa",
+                "Population": 226,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.1323,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gurlatammaraju Peta",
+                "Population": 3235,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.4518,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gurramma Valasa",
+                "Population": 314,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.5563,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Iddanavalasa",
+                "Population": 1000,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.5273,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Ippalavalasa",
+                "Population": 1755,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.4755,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jakkuva",
+                "Population": 2788,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.374,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jayathi",
+                "Population": 2585,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.4435,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Khailam",
+                "Population": 804,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.4591,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kompangi",
+                "Population": 1339,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.4945,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kondalingalavalasa",
+                "Population": 1212,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.3755,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kuneru",
+                "Population": 347,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.3417,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kuntinavalasa",
+                "Population": 3119,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.4221,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Lothugedda",
+                "Population": 1789,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.4253,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Meesalapeta",
+                "Population": 727,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.5633,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Mentada",
+                "Population": 4977,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.5765,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Mirthivalasa",
+                "Population": 176,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.0405,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Nikkalavalasa",
+                "Population": 242,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.1455,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedachamalapalle",
+                "Population": 817,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.5021,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedamedapalle",
+                "Population": 4150,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.4527,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pittada",
+                "Population": 1896,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.4835,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Poram",
+                "Population": 3251,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.4877,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Poramlova",
+                "Population": 29,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.3333,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Puligummi",
+                "Population": 56,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.3846,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Rabanda",
+                "Population": 598,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.5129,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Seelavalasa",
+                "Population": 21,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.1333,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Thimuruvalasa",
+                "Population": 104,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Uddangi",
+                "Population": 740,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.4252,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Vankasomidi",
+                "Population": 49,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.5714,
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Vonija",
+                "Population": 399,
+                "Male Population": null,
+                "Female Population": null,
+                "Village Area": null,
+                "Literacy Rate": 0.4181,
+                "Municipal Corporation": "-"
+            }
+        ]
+    },
+    {
+        "Pachipenta": [
+            {
+                "Village Name": "Adaripadu",
+                "Total Population": 138,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Ajuru",
+                "Total Population": 259,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Aluru",
+                "Total Population": 96,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bobbilivalasa",
+                "Total Population": 265,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Borramamidi",
+                "Total Population": 456,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chakirevuvalasa",
+                "Total Population": 193,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Cherukupalle",
+                "Total Population": 424,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chittelaba",
+                "Total Population": 1022,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chittipuram",
+                "Total Population": 153,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Garellavalasa",
+                "Total Population": 866,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gavarampeta",
+                "Total Population": 528,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gotturu",
+                "Total Population": 501,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Guruvinaidupeta",
+                "Total Population": 2761,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kankanapalle",
+                "Total Population": 237,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Karrivalasa",
+                "Total Population": 1824,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Katarikota",
+                "Total Population": 778,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kerangi",
+                "Total Population": 260,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kesali",
+                "Total Population": 1104,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kondaluddandi",
+                "Total Population": 348,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kondamosuru",
+                "Total Population": 246,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kondataduru",
+                "Total Population": 362,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kotikipenta",
+                "Total Population": 925,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kottavalasa",
+                "Total Population": 1163,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kudumuru",
+                "Total Population": 408,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kumbivalasa",
+                "Total Population": 181,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kunambandavalasa",
+                "Total Population": 260,
+                "Male Population": 787,
+                "Female Population": 798,
+                "Village Area": 50,
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kuntambadevalasa",
+                "Total Population": 435,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Mathumuru",
+                "Total Population": 1498,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Meliakanchuru",
+                "Total Population": 251,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Mirthivalasa",
+                "Total Population": 639,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Moduga",
+                "Total Population": 434,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Mosuru",
+                "Total Population": 2536,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Nanda",
+                "Total Population": 629,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pachipenta",
+                "Total Population": 7738,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Padmapuram",
+                "Total Population": 1611,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Panasapeddikona",
+                "Total Population": 1977,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Panchali",
+                "Total Population": 3992,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Panukuvalasa",
+                "Total Population": 2471,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Parthapuram",
+                "Total Population": 711,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedakanchuru",
+                "Total Population": 545,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Peddavalasa",
+                "Total Population": 1081,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pudi",
+                "Total Population": 559,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Saraivalasa",
+                "Total Population": 730,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Sathabi",
+                "Total Population": 378,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Taduru",
+                "Total Population": 471,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Tangalam",
+                "Total Population": 182,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Thotavalasa",
+                "Total Population": 317,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Tumaravilli",
+                "Total Population": 635,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Turaipadu",
+                "Total Population": 120,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Vetaganivalasa",
+                "Total Population": 535,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Viswanadhapuram",
+                "Total Population": 2000,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            }
+        ]
+    },
+    {
+        "Parvathipuram": [
+            {
+                "Village Name": "Adaru",
+                "Total Population": 806,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Addapuseela",
+                "Total Population": 3411,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Adduruvalasa",
+                "Total Population": 151,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Antivalasa",
+                "Total Population": 839,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Appandoravalasa",
+                "Total Population": 1044,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Balagudaba",
+                "Total Population": 2786,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bandaluppi",
+                "Total Population": 2703,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Buduruvada",
+                "Total Population": 630,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chalamvalasa",
+                "Total Population": 411,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chandalangi",
+                "Total Population": 292,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chinabondapalle",
+                "Total Population": 2398,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Doggavanimulaga",
+                "Total Population": 491,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dokiseela",
+                "Total Population": 1734,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Donkalakotha Patnam",
+                "Total Population": 939,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gangamambapuram",
+                "Total Population": 69,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gangapuram",
+                "Total Population": 657,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gochekka",
+                "Total Population": 872,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gopalapuram",
+                "Total Population": 1045,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Haripuram Karadavalasa",
+                "Total Population": 656,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jagannadharaja Puram",
+                "Total Population": 66,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jamadala",
+                "Total Population": 1696,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jammadivalasa",
+                "Total Population": 530,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kavitibhadra",
+                "Total Population": 421,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kore",
+                "Total Population": 511,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Krishnapalle",
+                "Total Population": 2488,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Lakshminarayanapuram",
+                "Total Population": 1942,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Lakshmipuram",
+                "Total Population": 42,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Latchirajupeta",
+                "Total Population": 392,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Mulaga",
+                "Total Population": 2028,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Narsipuram",
+                "Total Population": 6016,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Nissankapuram",
+                "Total Population": 78,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedabondapalle",
+                "Total Population": 4193,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedamariki",
+                "Total Population": 900,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Puligummi",
+                "Total Population": 757,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Putturu",
+                "Total Population": 1554,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Radhampeta",
+                "Total Population": 79,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Ravikonabatti Valasa",
+                "Total Population": 560,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Sangamvalasa",
+                "Total Population": 3792,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Srirangarajapuram",
+                "Total Population": 838,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Sudigam",
+                "Total Population": 1775,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Tadangivalasa",
+                "Total Population": 71,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Tallaburidi",
+                "Total Population": 3334,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Tonki",
+                "Total Population": 247,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Venkampeta",
+                "Total Population": 2755,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Venkataraidupeta",
+                "Total Population": 547,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Viswambarapuram",
+                "Total Population": 248,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": null
+            }
+        ]
+    },
+    {
+        "Salur": [
+            {
+                "Village Name": "Annamrajuvalasa",
+                "Total Population": 167,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Antivalasa",
+                "Total Population": 412,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Baguvalasa",
+                "Total Population": 1548,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bandapai",
+                "Total Population": 65,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Barnaguda",
+                "Total Population": 10,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bhavanipuram",
+                "Total Population": 140,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Borabanda",
+                "Total Population": 2252,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Butalakarrivalasa",
+                "Total Population": 89,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chandrappavalasa",
+                "Total Population": 506,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chemidipatipolam",
+                "Total Population": 371,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chinavootagedda",
+                "Total Population": 500,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chintamala",
+                "Total Population": 482,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chora",
+                "Total Population": 275,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dagaravalasa",
+                "Total Population": 602,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dattivalasa",
+                "Total Population": 464,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Devubutchamma Peta",
+                "Total Population": 469,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Diguvamendangi",
+                "Total Population": 579,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Diguvasembi",
+                "Total Population": 190,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Doliyamba",
+                "Total Population": 217,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Donkalavelaga Valasa",
+                "Total Population": 300,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dugdasagaram",
+                "Total Population": 683,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area": "-",
+                "Literacy Rate": "-",
+                "Municipal Corporation": null
+            }
+        ]
+    },
+    {
+        "Seethanagaram": [
+            {
+                "Village Name": "Antipeta",
+                "Population": 1255,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Baggamdhoravalasa",
+                "Population": 1010,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bakkupeta",
+                "Population": 843,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Ballakrishnapuram",
+                "Population": 940,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Buddipeta",
+                "Population": 742,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Burja",
+                "Population": 3527,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chinabhogila",
+                "Population": 2860,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chinankalam",
+                "Population": 478,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chinnarayudupeta",
+                "Population": 276,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dayanidhipuram",
+                "Population": 650,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gadelavalasa",
+                "Population": 1714,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Geddaluppi",
+                "Population": 1561,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gutchimi",
+                "Population": 2070,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Ippalavalasa",
+                "Population": 1146,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jagannadhapuram",
+                "Population": 75,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Janthirayapuram",
+                "Population": 211,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Janumulluvalasa",
+                "Population": 1628,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jogimpeta",
+                "Population": 1652,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "K.Seetharampuram",
+                "Population": 1167,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kasapeta",
+                "Population": 1273,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Kothavalasa",
+                "Population": 613,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Krishnarayapuram",
+                "Population": 1557,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Lakshmipuram",
+                "Population": 3225,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Latchayyapeta",
+                "Population": 2380,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Maripivalasa",
+                "Population": 1049,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Neelakantapuram",
+                "Population": 409,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Nidagallu",
+                "Population": 3701,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Panukupeta",
+                "Population": 1074,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Papammavalasa",
+                "Population": 773,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedabhogila",
+                "Population": 6733,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Pedankalam",
+                "Population": 1132,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Punubutchampeta",
+                "Population": 477,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "R.Venkampeta",
+                "Population": 1463,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Ramavaram",
+                "Population": 1476,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Rangampeta",
+                "Population": 1059,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Repativalasa",
+                "Population": 227,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Seetharampuram",
+                "Population": 230,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Sumitrapuram",
+                "Population": 842,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Surammapeta",
+                "Population": 983,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            }
+        ]
+    },
+    {
+        "Veeraghattam": [
+            {
+                "Village Name": "Adaru",
+                "Population": 1055,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bitiwada",
+                "Population": 2979,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Bodlapadu",
+                "Population": 794,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Buruga",
+                "Population": 469,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chalivendri",
+                "Population": 2401,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chebiyyam Valasa",
+                "Population": 214,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chidimi",
+                "Population": 1584,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chidimidari",
+                "Population": 180,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chinagora",
+                "Population": 1112,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Chittipudivalasa",
+                "Population": 1173,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Dasumantha Puram",
+                "Population": 1496,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Deppivalasa",
+                "Population": 305,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Gadagamma",
+                "Population": 930,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Hussain Puram",
+                "Population": 2171,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            },
+            {
+                "Village Name": "Jirayathi Gopalapuram",
+                "Population": 420,
+                "Male Population": "-",
+                "Female Population": "-",
+                "Village Area (km²)": "-",
+                "Literacy Rate (%)": "-",
+                "Municipal Corporation": "-"
+            }
+        ]
+    }
+]
