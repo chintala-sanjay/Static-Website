@@ -269,7 +269,7 @@
                     <p id="modalEmail"></p>
                     <p id="modalPhone"></p>
                     <p id="modalWebsite"></p>
-                    <p id="modalLinks"></p>
+                    <div id="modalLinks"></div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -410,21 +410,28 @@
         });
 
         function showModal(name, image, address, email, phone, website, links) {
-            document.getElementById('modalTitle').innerText = name;
-            document.getElementById('modalImage').src = image;
-            document.getElementById('modalAddress').innerHTML = `<strong>Address:</strong> ${address}`;
-            document.getElementById('modalEmail').innerHTML = email ? `<strong>Email:</strong> ${email}` : '';
-            document.getElementById('modalPhone').innerHTML = phone ? `<strong>Phone:</strong> ${phone}` : '';
-            document.getElementById('modalWebsite').innerHTML = website ? `<strong>Website:</strong> <a href="${website}" target="_blank">${website}</a>` : '';
+            const modalTitle = document.getElementById('modalTitle');
+            const modalImage = document.getElementById('modalImage');
+            const modalAddress = document.getElementById('modalAddress');
+            const modalEmail = document.getElementById('modalEmail');
+            const modalPhone = document.getElementById('modalPhone');
+            const modalWebsite = document.getElementById('modalWebsite');
+            const modalLinks = document.getElementById('modalLinks');
+
+            modalTitle.innerText = name;
+            modalImage.src = image;
+            modalImage.alt = name; // Add alt attribute for accessibility
+            modalAddress.innerHTML = `<strong>Address:</strong> ${address}`;
+            modalEmail.innerHTML = email ? `<strong>Email:</strong> ${email}` : '';
+            modalPhone.innerHTML = phone ? `<strong>Phone:</strong> ${phone}` : '';
+            modalWebsite.innerHTML = website ? `<strong>Website:</strong> <a href="${website}" target="_blank">${website}</a>` : '';
 
             const linksArray = JSON.parse(links);
             let linksHTML = '';
             linksArray.forEach(link => {
                 linksHTML += `<p><a href="${link.url}" target="_blank">${link.title}</a></p>`;
             });
-            document.getElementById('modalLinks').innerHTML = linksHTML;
-
-            // No need to manually show the modal, it's handled by data-bs-toggle and data-bs-target attributes
+            modalLinks.innerHTML = linksHTML;
         }
 
         // Copy Functionality
