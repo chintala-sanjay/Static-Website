@@ -25,7 +25,6 @@
             /* Semi-transparent white */
             border-radius: 15px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            cursor: pointer;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             overflow: hidden;
             /* Ensure content doesn't overflow */
@@ -41,6 +40,8 @@
             height: 200px;
             object-fit: cover;
             border-radius: 15px 15px 0 0;
+            cursor: pointer;
+            /* Make the image clickable */
         }
 
         .card-body {
@@ -380,8 +381,8 @@
                 const card = document.createElement('div');
                 card.className = 'col-md-6 col-lg-4';
                 card.innerHTML = `
-            <div class="card h-100 shadow-sm" onclick="showHospitalDetails('${hospital.name}')">
-                <img src="${hospital.image}" class="card-img-top" alt="${hospital.name}">
+            <div class="card h-100 shadow-sm">
+                <img src="${hospital.image}" class="card-img-top" alt="${hospital.name}" onclick="showHospitalDetails('${hospital.name}')">
                 <div class="card-body">
                     <h5 class="card-title">${hospital.name}</h5>
                     <p class="card-text">
