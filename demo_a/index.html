@@ -8150,15 +8150,15 @@
 
             async function handleMandalClick(mandalName) {
                 const villageData = village_data;
-                console.log(villageData);
+                // console.log(villageData);
                 const villageCardsContainer = document.getElementById('village-info');
                 villageCardsContainer.innerHTML = ''; // Clear existing cards
 
                 // Find the mandal in the data
                 let mandalVillages = null;
                
-                mandalVillages = villageData.mandalData;
-                console.log(mandalVillages);
+                mandalVillages = villageData[mandalData];
+                // console.log(mandalVillages);
 
                 if (mandalVillages) {
                     mandalVillages.forEach(village => {
